@@ -29,10 +29,11 @@ export default function Influencers(props) {
         <P>
           Yoseph Hadad is an Arab Israeli social activist. He served in the IDF
           and was injured during the 2006 Israeli-Lebanon war. He later founded
-          "Together, Vouch For Each Other", an initiative to build bridges
-          between Jews and Arabs in Israel. During operation "Iron Swords"
-          Yoseph has conducted a massive campaign in favor of Israel and he even
-          spoke on big media outlets such as CNN and Sky News.
+          &quot;Together, Vouch For Each Other&quot;, an initiative to build
+          bridges between Jews and Arabs in Israel. During operation &quot;Iron
+          Swords&quot; Yoseph has conducted a massive campaign in favor of
+          Israel and he even spoke on big media outlets such as CNN and Sky
+          News.
         </P>
         <A href="https://twitter.com/YosephHaddad">Yoseph Hadad On Twitter</A>
       </PersonCard>
