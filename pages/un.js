@@ -3,6 +3,8 @@ import Fact from "@/components/fact/Fact";
 import React from "react";
 import H1 from "@/components/typography/H1";
 import P from "@/components/typography/P";
+import H2 from "@/components/typography/H2";
+import EmbedYoutube from "@/components/embed_youtube/EmbedYoutube";
 
 export default function UN(props) {
   return (
@@ -28,6 +30,11 @@ export default function UN(props) {
         content="In the years 2015-2022 The UN has passed 140 resolutions against Israel and only 68 resolutions to all the countries in the world
             together, Including North Korea, Syria, Russia, China, etc."
       />
+      <H2 className="mt-6 mb-4">Videos</H2>
+      <EmbedYoutube embedId="c2NaiX-hvVQ" className="mb-3" />
+      <EmbedYoutube embedId="35eEljsSQfc" className="mb-3" />
+      <EmbedYoutube embedId="9NogqQ4EPDs" className="mb-3" />
+      <EmbedYoutube embedId="GoFPJ-ekYfs" className="mb-3" />
     </Template>
   );
 }
