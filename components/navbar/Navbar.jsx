@@ -16,7 +16,7 @@ export default function Navbar(props) {
         <Image
           src="/swords.svg"
           alt=""
-          className="dark:invert"
+          className=""
           width={24}
           height={24}
           priority

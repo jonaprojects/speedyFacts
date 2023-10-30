@@ -6,11 +6,24 @@ import P from "@/components/typography/P";
 import H2 from "@/components/typography/H2";
 import EmbedYoutube from "@/components/embed_youtube/EmbedYoutube";
 import { Tweet } from "react-twitter-widgets";
+import Image from "next/image";
 
 export default function UN(props) {
   return (
     <Template>
-      <H1 className="mt-6">The UN</H1>
+      <div className="flex gap-3 md:gap-5 items-center ">
+        <H1 className="mt-6">The UN</H1>
+        <div className="relative w-8 h-8 mt-4 xl:w-12 xl:h-12">
+          <Image
+            src="/share.svg"
+            alt=""
+            fill
+            className=""
+            priority
+          />
+        </div>
+      </div>
+
       <P className="mb-5">
         The UN is known for its biased approach to Israel and the dark regimes
         who have hijacked the organization. However, Many people still
