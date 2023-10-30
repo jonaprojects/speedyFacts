@@ -8,6 +8,7 @@ import Container from "@/components/container/Container";
 import Template from "@/components/Template/Template";
 import TopicGrid from "@/components/topic_grid/TopicGrid";
 import Hero from "@/components/hero/Hero";
+
 /* 
  <Image
               src="/vercel.svg"

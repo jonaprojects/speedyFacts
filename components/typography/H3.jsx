@@ -1,13 +1,13 @@
 import React from "react";
 
-export default function P(props) {
+export default function H3(props) {
   return (
-    <p
-      className={`text-slate-500 md:text-lg text-sm  ${
+    <h1
+      className={`font-bold text-lg xl:text-xl mb-2 ${
         props.className ? props.className : ""
       }`}
     >
       {props.children}
-    </p>
+    </h1>
   );
 }
