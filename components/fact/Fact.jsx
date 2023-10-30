@@ -22,7 +22,7 @@ export default function Fact(props) {
         priority
         onClick={copyToClipboard}
       />
-      <div className=" px-3 py-7 text-slate-500 text-sm md:text-base">
+      <div className=" px-3 py-10 text-slate-500 text-sm md:text-base">
         {props.content}
       </div>
     </Card>

@@ -12,13 +12,13 @@ export default function TopicGrid() {
         name="Hamas Leaders"
         onClick={() => router.push("/hamasLeaders")}
       ></Topic>
-      <Topic name={`Palestine History`}></Topic>
+      <Topic name={`Palestine History`} onClick={() => router.push("/palestine_history")}></Topic>
       <Topic
         name="Hospital Blast"
         onClick={() => router.push("/hospital_blast")}
       ></Topic>
       <Topic name="Kidnapped" onClick={() => router.push("/kidnapped")}></Topic>
-      <Topic name="Fake news"></Topic>
+      <Topic name="Fake news" onClick={() => router.push("/fake_news")}></Topic>
     </section>
   );
 }

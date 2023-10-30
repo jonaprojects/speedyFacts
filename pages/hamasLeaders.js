@@ -16,7 +16,7 @@ export default function HamasLeaders(props) {
       <Fact
         className="mb-2"
         content="Yahya Sinwar is Hamas Chief in Gaza Strip. He's known as 'The Butcher Of Khan Yunis' 
-        for Khan Yunis for torturing and murdering many palestinians that were suspected
+         for torturing and murdering many palestinians that were suspected
         to be collaborating with Israel. In the aftermath it became clear that many of the victims weren't working with Israel.
         "
       />
