@@ -12,7 +12,7 @@ export default function Navbar(props) {
       className={`w-full ${openSans.className} bg-sky-500 text-white py-3 px-2`}
     >
       <ul className="flex gap-2">
-        <li className="">Speedy Facts</li>
+        <li className="font-bold">Speedy Facts</li>
         <Image
           src="/swords.svg"
           alt=""

@@ -10,7 +10,7 @@ const openSans = Open_Sans({ subsets: ["latin"] });
 
 export default function Template(props){
     return (
-        <div className={`${inter.className}`}>
+        <div className={` ${inter.className}`}>
 
         <Navbar/>
         <Container>

@@ -5,6 +5,7 @@ import H1 from "@/components/typography/H1";
 import P from "@/components/typography/P";
 import H2 from "@/components/typography/H2";
 import EmbedYoutube from "@/components/embed_youtube/EmbedYoutube";
+import { Tweet } from "react-twitter-widgets";
 
 export default function UN(props) {
   return (
@@ -35,6 +36,8 @@ export default function UN(props) {
       <EmbedYoutube embedId="35eEljsSQfc" className="mb-3" />
       <EmbedYoutube embedId="9NogqQ4EPDs" className="mb-3" />
       <EmbedYoutube embedId="GoFPJ-ekYfs" className="mb-3" />
+      <H2 className="mt-6 mb-4">Tweets</H2>
+      <Tweet tweetId="1718012770367479870" />
     </Template>
   );
 }
