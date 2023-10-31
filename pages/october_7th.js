@@ -12,7 +12,7 @@ export default function PalestineHistory(props) {
       <H1 className="mt-6">October 7th</H1>
       <P className="mb-5">
         In October 7t, 2023, thousands of Hamas terrorists infiltrated Israel
-        and mass murdered approximately 1500 Israelis. During the attack
+        and murdered more than 1400 Israelis and kidnapped at least 240. During the attack
         they&apos;ve committed severe crimes against humanity, butchering
         everything that crosses their path. Despite overwhelming evidence, many
         prefer to deny these atrocities.

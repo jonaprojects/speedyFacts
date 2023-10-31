@@ -43,10 +43,10 @@ export default function Influencers(props) {
         <P>
           Noa Tishby is an Israeli actress, producer, writer and a social
           activist. She She often speaks in favor of Israel in events around the
-          world and even in the UN's General Assembly. In recognition of her
-          extensive advocacy work, Noa was appointed as Israel's first-ever
-          Special Envoy for Combatting Antisemitism and the Delegitimization of
-          Israel, a position she held until 2023.
+          world and even in the UN&apos;s General Assembly. In recognition of
+          her extensive advocacy work, Noa was appointed as Israel&apos;s
+          first-ever Special Envoy for Combatting Antisemitism and the
+          Delegitimization of Israel, a position she held until 2023.
         </P>
         <A href="https://x.com/noatishby?s=20">Noa Tishby On Twitter</A>
         <A href="https://www.instagram.com/noatishby/">
