@@ -49,9 +49,26 @@ export default function Influencers(props) {
           Delegitimization of Israel, a position she held until 2023.
         </P>
         <A href="https://x.com/noatishby?s=20">Noa Tishby On Twitter</A>
+        <br />
         <A href="https://www.instagram.com/noatishby/">
-          <br />
           Noa Tishby On Instagram
+        </A>
+      </PersonCard>
+      <PersonCard src="/henMazzig.jpg" className="mt-2">
+        <H3 className="">Hen Mazzig</H3>
+        <P>
+          Han Mazzig is an Israeli writer, public speaker and activist from
+          Tel-Aviv. Hen is a prominent digital influencer; over 100 million
+          users have interacted with his content, while his Instagram has a
+          higher engagement rate than Kim Kardashian, Cristiano Rinaldo, and
+          Nike.In 2019, Mazzig co-founded the Tel Aviv Institue, a non-profit
+          dedicated to using data-driven social media strategies to stand up for
+          Jewish people and other minorities online.
+        </P>
+        <A href="https://twitter.com/HenMazzig">Hen Mazzig On On Twitter</A>
+        <br />
+        <A href="https://www.instagram.com/henmazzig/">
+          Hen Mazzig On Instagram
         </A>
       </PersonCard>
     </Template>
