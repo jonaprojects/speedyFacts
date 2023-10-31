@@ -4,6 +4,8 @@ import P from "@/components/typography/P";
 import Template from "@/components/Template/Template";
 import Fact from "@/components/fact/Fact";
 import SubHeader from "@/components/typography/SubHeader";
+import EmbedYoutube from "@/components/embed_youtube/EmbedYoutube";
+import H2 from "@/components/typography/H2";
 
 export default function HamasLeaders(props) {
   return (
@@ -17,10 +19,27 @@ export default function HamasLeaders(props) {
       <Fact
         className="mb-2"
         content="Yahya Sinwar is Hamas Chief in Gaza Strip. He's known as 'The Butcher Of Khan Yunis' 
-         for torturing and murdering many palestinians that were suspected
-        to be collaborating with Israel. In the aftermath it became clear that many of the victims weren't working with Israel.
+         for brutally torturing and executing many palestinians that were suspected
+        to be collaborating with Israel. In the aftermath it became clear that many of his victims weren't working with Israel.
         "
       />
+      <Fact
+        className="mb-2"
+        content="Ismail Haniyeh is a senior member of Hamas leadership. 
+        During his long years as a senior Hamas official, Haniyeh, who was elected head of the organization's political bureau in 2017, 
+        has accumulated an impressive fortune. He has lived in Qatar since 2019.
+        His exact net worth is unknown, but today is estimated to be at least $5 million."
+      />
+
+      <Fact
+        className="mb-2"
+        content="More than half of the residents of Gaza live in severe poverty, but
+        already in 2012, there were reports of some 600 millionaires living in
+        Gaza, who made their fortunes thanks to the hundreds of underground
+        tunnels along the border between the Gaza Strip and Egypt. Drugs and weapons are often smuggled in these tunnels."
+      />
+      <H2 className="mt-6 mb-3">Videos</H2>
+      <EmbedYoutube embedId="Yg4VqiW0dyo" />
     </Template>
   );
 }

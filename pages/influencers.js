@@ -15,13 +15,14 @@ import Image from "next/image";
 
 import SubHeader from "@/components/typography/SubHeader";
 import PersonCard from "@/components/person_card/PersonCard";
+
 export default function Influencers(props) {
   return (
     <Template>
       <H1 className="mt-6">Influencers</H1>
       <SubHeader className="mb-5">
         Notable influencers who help spread the truth in social media. They are
-        the spearhead of the war against misinformation online.
+        the spearhead of the war against misinformation regarding Israel online.
       </SubHeader>
 
       <PersonCard src="/yosephHadad.jpg">
@@ -36,6 +37,22 @@ export default function Influencers(props) {
           News.
         </P>
         <A href="https://twitter.com/YosephHaddad">Yoseph Hadad On Twitter</A>
+      </PersonCard>
+      <PersonCard src="/NoaTishby.jpg" className="mt-2">
+        <H3 className="">Noa Tishby</H3>
+        <P>
+          Noa Tishby is an Israeli actress, producer, writer and a social
+          activist. She She often speaks in favor of Israel in events around the
+          world and even in the UN's General Assembly. In recognition of her
+          extensive advocacy work, Noa was appointed as Israel's first-ever
+          Special Envoy for Combatting Antisemitism and the Delegitimization of
+          Israel, a position she held until 2023.
+        </P>
+        <A href="https://x.com/noatishby?s=20">Noa Tishby On Twitter</A>
+        <A href="https://www.instagram.com/noatishby/">
+          <br />
+          Noa Tishby On Instagram
+        </A>
       </PersonCard>
     </Template>
   );
