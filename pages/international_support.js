@@ -6,6 +6,7 @@ import Template from "@/components/Template/Template";
 import Fact from "@/components/fact/Fact";
 import EmbedYoutube from "@/components/embed_youtube/EmbedYoutube";
 import { Tweet } from "react-twitter-widgets";
+import H2 from "@/components/typography/H2";
 
 export default function InternationalSupport(props) {
   return (
@@ -23,6 +24,7 @@ export default function InternationalSupport(props) {
       />
       <Tweet tweetId="1714895569334735124" />
       <Tweet tweetId="1714728191040815130" />
+
     </Template>
   );
 }
