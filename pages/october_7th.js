@@ -6,6 +6,8 @@ import Fact from "@/components/fact/Fact";
 import EmbedYoutube from "@/components/embed_youtube/EmbedYoutube";
 import { Tweet } from "react-twitter-widgets";
 import H2 from "@/components/typography/H2";
+import A from "@/components/typography/A";
+import Alert from "@/components/alerts/alert/Alert";
 
 export default function PalestineHistory(props) {
   return (
@@ -54,7 +56,7 @@ export default function PalestineHistory(props) {
          breaking into homes, massacring the residents of the kibbutz and wiping out entire families. Several kibbutz members were abducted and taken to Gaza. During the chaos, Shlomo Ron, an 85-year-old resident, cleverly acted as if he lived alone,
          successfully misleading the attackers and thereby safeguarding his wife, children, and grandchildren who were hidden in his home."
       />
-      <H2 className="mb-3 mt-6">Terrorists Confessions</H2>
+      <H2 className="mb-3 mt-6 lg:mt-8">Terrorists Confessions</H2>
       <Fact
         className="mb-2"
         content={`"...Two (terrorists) entered a house. The front door was closed. We heard voices from the inside. Two more went in. One was lying near the door ... I don't know if he was dead, there was blood near him.
@@ -77,7 +79,28 @@ export default function PalestineHistory(props) {
         They took out a young girl, about 15 or 16. The young girl stood and took a selfie with her. Some said to shoot her. Others said kidnap her."
         -Shadi Mohammad Almajdalai, captured Hamas terrorist`}
       />
-      <EmbedYoutube embedId="HnLq0DjErIA" />
+      <H2 className="mt-6 lg:mt-8 mb-3">Videos</H2>
+      <EmbedYoutube embedId="HnLq0DjErIA" className="mb-2" />
+      <EmbedYoutube embedId="fqW8madte_I" className="mb-2" />
+      <EmbedYoutube embedId="cnnnyejCL6c" className="mb-2" />
+      <EmbedYoutube embedId="OSdQL2ze6Gc" className="mb-2" />
+      <EmbedYoutube embedId="T4XiTRkg9s8" />
+
+      <H2 className="mt-6 lg:mt-8 mb-3">Graphic Content</H2>
+
+      <P>
+        Many deny the atrocities that Hamas has committed in October 7th. They
+        claim that there is absolutely no evidence for it. However, there is a
+        vast amount of footage online, mostly on Telegram.
+      </P>
+
+      <Alert
+        title="Warning!"
+        content="The following links lead to you to raw Graphic content."
+      />
+      <A href="https://hamasisisis.co/"> https://hamasisisis.co/ </A>
+      <br />
+      <A href="https://oct7map.com/"> https://oct7map.com/ </A>
     </Template>
   );
 }

@@ -20,7 +20,7 @@ export default function InternationalSupport(props) {
       </SubHeader>
       <Fact
         className="mb-2"
-        content="Shows of support from world leaders around the free world."
+        content="Here there will be shows of support from world leaders around the free world."
       />
       <Tweet tweetId="1714895569334735124" />
       <Tweet tweetId="1714728191040815130" />
