@@ -8,6 +8,7 @@ import { Tweet } from "react-twitter-widgets";
 import H2 from "@/components/typography/H2";
 import A from "@/components/typography/A";
 import Alert from "@/components/alerts/alert/Alert";
+import H3 from "@/components/typography/H3";
 
 export default function PalestineHistory(props) {
   return (
@@ -84,11 +85,12 @@ export default function PalestineHistory(props) {
       <EmbedYoutube embedId="fqW8madte_I" className="mb-2" />
       <EmbedYoutube embedId="cnnnyejCL6c" className="mb-2" />
       <EmbedYoutube embedId="OSdQL2ze6Gc" className="mb-2" />
-      <EmbedYoutube embedId="T4XiTRkg9s8" />
+      <EmbedYoutube embedId="T4XiTRkg9s8" className="mb-2" />
+      <EmbedYoutube embedId="QT22MMb1sW8" />
 
       <H2 className="mt-6 lg:mt-8 mb-3">Graphic Content</H2>
 
-      <P>
+      <P className="mb-3">
         Many deny the atrocities that Hamas has committed in October 7th. They
         claim that there is absolutely no evidence for it. However, there is a
         vast amount of footage online, mostly on Telegram.
@@ -96,11 +98,44 @@ export default function PalestineHistory(props) {
 
       <Alert
         title="Warning!"
-        content="The following links lead to you to raw Graphic content."
+        content="The following links lead to you to raw graphic content."
       />
       <A href="https://hamasisisis.co/"> https://hamasisisis.co/ </A>
       <br />
       <A href="https://oct7map.com/"> https://oct7map.com/ </A>
+
+      <H2 className="mt-6 mb-3">Articles</H2>
+      <H3>Hamas Didn&rsquo;t Spare Muslims</H3>
+      <ul style={{ listStyle: "initial" }}>
+        <li>
+          <A href="https://www.timesofisrael.com/in-rahat-a-bedouin-community-mourns-its-october-7-losses-away-from-the-public-eye/">
+            <i>
+              &quot;In Rahat, a Bedouin community mourns its October 7 losses
+              away from the public eye&quot;
+            </i>
+            , Times Of Israel.
+          </A>
+        </li>
+        <li>
+          <A href="https://www.nytimes.com/2023/10/13/world/middleeast/arab-israeli-hamas-attacks.html">
+            <i>
+              &quot;Arab Citizens of Israel Were Not Spared in the Hamas-Led
+              Massacres&quot;
+            </i>
+            , New York Times.
+          </A>
+        </li>
+        <li>
+          <A href="https://nypost.com/2023/10/13/hamas-targeted-bedouins-during-weekend-attack-community-member-says/">
+            <i>
+              &quot;Bedouins once sympathetic to Palestinian cause seek
+              &rsquo;vengeance&rsquo; after being targeted during Hamas&rsquo;s
+              assault on Israel, member says&quot;
+            </i>
+            , New York Times.
+          </A>
+        </li>
+      </ul>
     </Template>
   );
 }
