@@ -7,7 +7,7 @@ export default function Card(props) {
   }
   return (
     <div
-      className={` ${paddingClass} relative bg-white shadow-lg rounded-lg ${
+      className={` ${paddingClass} relative bg-white shadow-lg rounded-lg break-words ${
         props.className ? props.className : ""
       }`}
     >
