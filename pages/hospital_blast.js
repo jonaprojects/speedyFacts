@@ -18,10 +18,16 @@ export default function HospitalBombing(props) {
       </SubHeader>
       <Fact
         className="mb-2"
-        content="
-        Evidence and facts about the incidence
-        "
+        content={`"Eight weapons and explosive experts who reviewed CNN's 
+        footage of the scene agreed that the small crater size and widespread
+        surface damage were inconsistent with an aircraft bomb, which would have 
+        destroyed most things at the point of impact. Many said that the evidence 
+        pointed to the possibility that a rocket was responsible for the explosion." -CNN`}
       />
+      <Fact
+        className="mb-2"
+        content={`"UK intelligence services have concluded that the deadly blast at al-Ahli Arab hospital in Gaza was caused by a rocket fired by a Palestinian militant group rather than by an
+         Israeli airstrike, Rishi Sunak has told MPs." - The Guardian`}      />
       <H2 className="mt-6 mb-3">Recordings & Proofs</H2>
       <EmbedYoutube embedId="3qy_RjHL7-8" className="mb-2" />
       <EmbedYoutube embedId="THV_OuzC9jM" />

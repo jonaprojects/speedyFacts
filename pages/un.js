@@ -13,9 +13,11 @@ export default function UN(props) {
     <Template>
       <div className="flex gap-3 md:gap-5 items-center ">
         <H1 className="mt-6">The UN</H1>
-        <div className="relative w-8 h-8 mt-4 xl:w-12 xl:h-12">
+        {/*
+             <div className="relative w-8 h-8 mt-4 xl:w-12 xl:h-12">
           <Image src="/share.svg" alt="" fill className="" priority />
         </div>
+            */}
       </div>
 
       <P className="mb-5">

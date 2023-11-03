@@ -18,13 +18,10 @@ export default function InternationalSupport(props) {
         October 7th massacre. Among the countries are the US, Britain,
         Guatemala, France and Ukraine.
       </SubHeader>
-      <Fact
-        className="mb-2"
-        content="Here there will be shows of support from world leaders around the free world."
-      />
+      <H2 className="mb-3 mt-6">Tweets</H2>
       <Tweet tweetId="1714895569334735124" />
       <Tweet tweetId="1714728191040815130" />
-
+      <Tweet tweetId="1716836960268898586" />
     </Template>
   );
 }
