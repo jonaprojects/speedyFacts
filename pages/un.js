@@ -27,7 +27,7 @@ export default function UN(props) {
       </P>
       <Fact
         className="mb-2"
-        content="In the years 2015-2022 The UN has passed 140 resolutions against Israel and only 68 resolutions to all the countries in the world
+        content="In the years 2015-2022 The UN has passed 140 resolutions against Israel and only 68 resolutions on all the countries in the world
             together, including Afghanistan (The Taliban), North Korea, Syria, Russia, and China."
       />
 
@@ -35,7 +35,7 @@ export default function UN(props) {
         className="mb-2"
         content="Some of the worst women's rights violators are members of the 
         women's rights committee of the UN, such as Afghanistan (The Taliban), 
-        Chad, Congo and Somalia. These countries have a say on the decisions regardings women's rights around the world. "
+        Chad, Congo and Somalia. These countries have a say on the decisions regarding women's rights around the world. "
       />
       <H2 className="mt-6 mb-4">Videos</H2>
       <EmbedYoutube embedId="c2NaiX-hvVQ" className="mb-3" />
