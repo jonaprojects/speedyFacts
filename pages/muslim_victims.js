@@ -23,7 +23,12 @@ export default function MuslimVictimsAndHeroes(props) {
       <Fact
         className="mb-2"
         content={`
-
+        Suheib Abu Amer Al Razem, a Palestinian from East Jerusalem who worked as a bus driver
+        at the Nova Festival on October 7 was captured by Hamas terrorists. The terrorists interrogated Abu Amer, 
+        and asked for the whereabouts of the Israeli soldiers. In the documented footage, they realize he is a Palestinian and some even call to let him go. 
+        However, he was found dead at the scene several days after the massacre by the Israeli security forces.
+        Abed Razem, Suheib's brother, told Israeli press few days later verified that Hamas called their 
+        family and announced they captured Suheib, and that he couldn't sleep since he saw the footage.
       `}
       />
       <H2 className="mt-6 mb-3">Videos</H2>
