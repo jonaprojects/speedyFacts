@@ -1,0 +1,4 @@
+.copied {
+  transform: rotate(360deg);
+  transition: transform 0.3s ease-in-out;
+}

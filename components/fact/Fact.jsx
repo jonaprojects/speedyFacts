@@ -1,13 +1,18 @@
 import { useState } from "react";
 import Card from "../card/Card";
 import Image from "next/image";
+import classes from "./Fact.module.css";
 
 export default function Fact(props) {
   const [copied, setCopied] = useState(false);
 
+  async function resetCopiedState() {
+    setCopied(false);
+  }
   const copyToClipboard = () => {
     navigator.clipboard.writeText(props.content);
     setCopied(true);
+    setTimeout(() => setCopied(false), 300);
   };
   return (
     <Card padding="none" className={props.className}>
@@ -15,7 +20,7 @@ export default function Fact(props) {
         src="/copy.svg"
         alt=""
         className={`absolute top-1 right-1 md:top-2 md:right-2 cursor-pointer 
-            transition duration-300 ease-in-out hover:bg-slate-200 p-1 box-content rounded-full
+             p-1 box-content rounded-full hover:bg-slate-200 ${copied && classes.copied}
         }`}
         width={24}
         height={24}
