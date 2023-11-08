@@ -46,6 +46,7 @@ export default function Kidnapped(props) {
       <EmbedYoutube embedId="QJuL__lXAjA" className="mb-2" />
       <EmbedYoutube embedId="7Y9fHUOhTMY" className="mb-2" />
       <EmbedYoutube embedId="pbez-juyHbQ" className="mb-2" />
+      <EmbedYoutube embedId="40LZFCIKoBc" className="mb-2" />
 
       <H2 className="mt-6 mb-3">Hostages</H2>
       <H2 className="mt-6 mb-3">Tweets</H2>

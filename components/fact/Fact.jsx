@@ -12,7 +12,7 @@ export default function Fact(props) {
   return (
     <Card padding="none" className={props.className}>
       <Image
-        src="/clipboard.svg"
+        src="/copy.svg"
         alt=""
         className={`absolute top-1 right-1 md:top-2 md:right-2 cursor-pointer 
             transition duration-300 ease-in-out hover:bg-slate-200 p-1 box-content rounded-full

@@ -77,7 +77,7 @@ export default function PalestineHistory(props) {
       <Fact
         className="mb-2"
         content={`"As soon as I entered the village (Be'eri), I saw two people on motorcycle. They took a woman about 60 or 65 years old on the motorcycle to Gaza (...) Saliman and Karam killed that woman from the village.
-        They took out a young girl, about 15 or 16. The young girl stood and took a selfie with her. Some said to shoot her. Others said kidnap her."
+        They took out a young girl, about 15 or 16. The young girl stood and they took a selfie with her. Some said to shoot her. Others said kidnap her."
         -Shadi Mohammad Almajdalai, captured Hamas terrorist`}
       />
       <H2 className="mt-6 lg:mt-8 mb-3">Videos</H2>
@@ -86,8 +86,13 @@ export default function PalestineHistory(props) {
       <EmbedYoutube embedId="cnnnyejCL6c" className="mb-2" />
       <EmbedYoutube embedId="OSdQL2ze6Gc" className="mb-2" />
       <EmbedYoutube embedId="T4XiTRkg9s8" className="mb-2" />
-      <EmbedYoutube embedId="QT22MMb1sW8" />
+      <EmbedYoutube embedId="QT22MMb1sW8" className="mb-2" />
+      <EmbedYoutube embedId="Taab_3a3124" className="mb-2" />
+      <EmbedYoutube embedId="15_1D860Frg" className="mb-2" />
+      <EmbedYoutube embedId="bH74lnxHMiU" className="" />
 
+      
+      
       <H2 className="mt-6 lg:mt-8 mb-3">Graphic Content</H2>
 
       <P className="mb-3">
