@@ -23,7 +23,7 @@ export default function IsraeliHeroes(props) {
       <H2 className="mt-6 mb-3">Videos</H2>
       <EmbedYoutube embedId="_zXT-jtNnO4" className="mb-2" />
       <EmbedYoutube embedId="ICFiHMY48KY" className="mb-2" />
-
+      <EmbedYoutube embedId="AjQ6T6y93yo" className="mb-2" />
     </Template>
   );
 }

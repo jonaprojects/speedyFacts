@@ -7,6 +7,9 @@ import H2 from "@/components/typography/H2";
 import EmbedYoutube from "@/components/embed_youtube/EmbedYoutube";
 import { Tweet } from "react-twitter-widgets";
 import Image from "next/image";
+import { Document, Page, pdfjs } from "react-pdf";
+import A from "@/components/typography/A";
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 export default function UN(props) {
   return (
@@ -37,14 +40,19 @@ export default function UN(props) {
         women's rights committee of the UN, such as Afghanistan (The Taliban), 
         Chad, Congo and Somalia. These countries have a say on the decisions regarding women's rights around the world. "
       />
-      <H2 className="mt-6 mb-4">Videos</H2>
+      <H2 className="mt-6 mb-3">Videos</H2>
       <EmbedYoutube embedId="c2NaiX-hvVQ" className="mb-3" />
       <EmbedYoutube embedId="35eEljsSQfc" className="mb-3" />
       <EmbedYoutube embedId="9NogqQ4EPDs" className="mb-3" />
       <EmbedYoutube embedId="GoFPJ-ekYfs" className="mb-3" />
       <EmbedYoutube embedId="hIXCM_OKeBs" className="mb-3" />
-      <H2 className="mt-6 mb-4">Tweets</H2>
+      <H2 className="mt-6 mb-3">Tweets</H2>
       <Tweet tweetId="1718012770367479870" />
+      <H2 className="mt-6 mb-3">Documents</H2>
+
+      <A href="https://unwatch.org/wp-content/uploads/2023/11/UNW_119___UNRWA_Report_2023_November__2023-11-05__web.pdf">
+        UNRWA Officials Exposed, official report by UN-WATCH from November 2023.
+      </A>
     </Template>
   );
 }

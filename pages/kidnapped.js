@@ -8,11 +8,13 @@ import H2 from "@/components/typography/H2";
 import H3 from "@/components/typography/H3";
 import { Tweet } from "react-twitter-widgets";
 import EmbedYoutube from "@/components/embed_youtube/EmbedYoutube";
+import ArticleLink from "@/components/typography/ArticleLink";
+import A from "@/components/typography/A";
 
 export default function Kidnapped(props) {
   return (
     <Template>
-      <H1 className="mt-6">The Kidnapped</H1>
+      <H1 className="mt-6">The Hostages</H1>
       <SubHeader className="mb-5">
         In October 7th, at least 240 people were kidnapped to Gaza by the terror
         organization Hamas. Among the kidnapped are babies, children, women and
@@ -70,6 +72,34 @@ export default function Kidnapped(props) {
           className="object-fit md:w-1/3"
         />
       </div>
+      <H2 className="mt-6 mb-3">Sources</H2>
+      <H3>Hostages lists</H3>
+      <ul style={{ listStyle: "initial" }}>
+        <li>
+          <ArticleLink
+            title="List of the hostages"
+            href="https://kan.org.il/lobby/kidnapped/"
+            source="Kan 11"
+          />
+        </li>
+        <li>
+          <ArticleLink
+            title="Bring Them Home - Full List of the hostages"
+            href="https://stories.bringthemhomenow.net/"
+            source="Hostages And Missing Families Forum"
+          />
+        </li>
+        <li>
+          <ArticleLink
+            title="We're Waiting For You!"
+            href="https://bringthemhome.mako.co.il/"
+            source="Mako.co.il"
+          />
+        </li>
+      </ul>
+      <H3 className="mt-4 mb-2">Articles</H3>
+
+      <A href="https://kan.org.il/content/kan/kan-actual/p-11894/news-item/581493/"></A>
     </Template>
   );
 }
