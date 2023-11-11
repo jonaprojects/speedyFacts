@@ -37,6 +37,10 @@ export default function Influencers(props) {
           News.
         </P>
         <A href="https://twitter.com/YosephHaddad">Yoseph Hadad On Twitter</A>
+        <br/>
+        <A href="ttps://www.instagram.com/yosephhaddad/">
+          Yoseph Hadad On Instagram
+        </A>
       </PersonCard>
       <PersonCard src="/NoaTishby.jpg" className="mt-2">
         <H3 className="">Noa Tishby</H3>

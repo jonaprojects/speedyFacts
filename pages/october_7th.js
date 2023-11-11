@@ -91,7 +91,8 @@ export default function PalestineHistory(props) {
       <EmbedYoutube embedId="15_1D860Frg" className="mb-2" />
       <EmbedYoutube embedId="bH74lnxHMiU" className="mb-2" />
       <EmbedYoutube embedId="q74wXfhgUbw" className="mb-2" />
-      <EmbedYoutube embedId="DWOqNnLsjN8" className="" />
+      <EmbedYoutube embedId="DWOqNnLsjN8" className="mb-2" />
+      <EmbedYoutube embedId="yPK4DUNDlQ0" className="" />
 
       <H2 className="mt-6 lg:mt-8 mb-3">Graphic Content</H2>
 
