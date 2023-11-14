@@ -22,11 +22,11 @@ export default function FakeNews(props) {
       <EmbedYoutube embedId="Kvc2T5d40ag" className="mb-2" />
       <EmbedYoutube embedId="nNCzb8w2LjM" className="mb-2" />
       <EmbedYoutube embedId="kaK4muqkRBE" className="mb-2" />
+      <EmbedYoutube embedId="iHeb9weNAfs" className="mb-2" />
 
-      
-      
       <H2 className="mt-6 mb-3">Tweets</H2>
       <Tweet tweetId="1720425819305070821" />
+      <Tweet tweetId="1723784623828676945" />
     </Template>
   );
 }

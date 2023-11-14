@@ -18,6 +18,22 @@ export default function InternationalSupport(props) {
         October 7th massacre. Among the countries are the US, Britain,
         Guatemala, France and Ukraine.
       </SubHeader>
+      <H2>Pro-Israeli Protests</H2>
+      <p className="font-bold">Iranians Stand With Israel</p>
+      <div className="md:flex md:gap-3">
+        <img
+          src="/IraniansStandWithIsrael1.jpg"
+          alt="Teddy Bears for the kidnapped kids, LA."
+          className="object-fit md:w-1/3 md:mb-0 mb-3"
+        />
+        <img
+          src="/IraniansStandWithIsrael3.jpg"
+          alt="Teddy Bears for the kidnapped kids, LA."
+          className="object-fit md:w-1/3"
+        />
+      </div>
+      <H2 className="mt-6 mb-3">Videos</H2>
+      <EmbedYoutube embedId="5BeIhKVWawk" />
       <H2 className="mb-3 mt-6">Tweets</H2>
       <Tweet tweetId="1714895569334735124" />
       <Tweet tweetId="1714728191040815130" />
