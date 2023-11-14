@@ -6,6 +6,7 @@ import Fact from "@/components/fact/Fact";
 import SubHeader from "@/components/typography/SubHeader";
 import H2 from "@/components/typography/H2";
 import A from "@/components/typography/A";
+import ArticleLink from "@/components/typography/ArticleLink";
 
 export default function FakeNews(props) {
   return (
@@ -34,22 +35,31 @@ export default function FakeNews(props) {
       aftermath are fake, according to Cyabra, an Israeli analysis firm." -The Guardian`}
       />
       <H2 className="mt-6 mb-3">Sources</H2>
-      <A href="https://www.cnbc.com/2023/10/10/elon-musk-warned-about-misinformation-violent-content-on-x-by-eu.html">
-        <i>
-          {" "}
-          &quot;Europe gives Elon Musk 24 hours to respond about Israel-Hamas
-          war misinformation and violence on X&quot;{" "}
-        </i>{" "}
-        -CNBC
-      </A>
-      <br />
-      <A href="https://www.theguardian.com/technology/2023/oct/09/x-twitter-elon-musk-disinformation-israel-hamas">
-        <i>
-          &quot;X criticised for enabling spread of Israel-Hamas
-          disinformation&quot;
-        </i>{" "}
-        - The Guardian
-      </A>
+      <ul style={{ listStyle: "initial" }}>
+        <li>
+          <ArticleLink
+            title="Europe gives Elon Musk 24 hours to respond about Israel-Hamas
+      war misinformation and violence on X."
+            href="https://www.cnbc.com/2023/10/10/elon-musk-warned-about-misinformation-violent-content-on-x-by-eu.html"
+            source="CNBC"
+          />
+        </li>
+        <li>
+          <ArticleLink
+            title="X criticised for enabling spread of Israel-Hamas
+        disinformation"
+            href="https://www.theguardian.com/technology/2023/oct/09/x-twitter-elon-musk-disinformation-israel-hamas"
+            source="The Guardian"
+          />
+        </li>
+        <li>
+          <ArticleLink
+            title="Fact Check: Fake audio added to CNN video of Israel-Hamas war coverage"
+            href="https://www.reuters.com/fact-check/fake-audio-added-cnn-video-israel-hamas-war-coverage-2023-10-11/"
+            source="Reuters"
+          />
+        </li>
+      </ul>
     </Template>
   );
 }

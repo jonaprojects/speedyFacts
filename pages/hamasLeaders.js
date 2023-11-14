@@ -7,6 +7,7 @@ import SubHeader from "@/components/typography/SubHeader";
 import EmbedYoutube from "@/components/embed_youtube/EmbedYoutube";
 import H2 from "@/components/typography/H2";
 import A from "@/components/typography/A";
+import ArticleLink from "@/components/typography/ArticleLink";
 
 export default function HamasLeaders(props) {
   return (
@@ -47,13 +48,50 @@ export default function HamasLeaders(props) {
       It is currently estimated at about $5 billion.
       `}
       />
+      <H2 className="mt-6 mb-3">Pictures</H2>
+      <img
+        src="/HaladMashalQatar.jpg"
+        alt="Teddy Bears for the kidnapped kids, LA."
+        className="object-fit md:w-1/2"
+      />
+      <p className="text-sm	mb-4 text-slate-500">
+        Khaled Mashal in a gym in Qatar
+      </p>
+      <img
+        src="/HaladMashalTennis.jpg"
+        alt="Teddy Bears for the kidnapped kids, LA."
+        className="object-fit md:w-1/2 mb-2"
+      />
+      <p className="text-sm	mb-4 text-slate-500">
+        Khaled Mashal plays tennis in Qatar
+      </p>
+      <img
+        src="/HaniyehSonQatar.jpg"
+        alt="Teddy Bears for the kidnapped kids, LA."
+        className="object-fit md:w-1/2 mb-2"
+      />
+      <p className="text-sm	mb-4 text-slate-500">
+        One of Isamail Haniyeh&apos;s sons in a luxury hotel in Qatar.
+      </p>
       <H2 className="mt-6 mb-3">Videos</H2>
       <EmbedYoutube embedId="Yg4VqiW0dyo" />
       <H2 className="mt-6 mb-3">Further Reading</H2>
-      <A href="https://en.globes.co.il/en/article-poor-gaza-rich-hamas-1001461154">
-        {" "}
-        &quot;Poor Gaza, Rich Hamas&quot; - Globes
-      </A>
+      <ul style={{ listStyle: "initial" }}>
+        <li>
+          <ArticleLink
+            title="Poor Gaza, Rich Hamas"
+            href="https://en.globes.co.il/en/article-poor-gaza-rich-hamas-1001461154"
+            source="Globes"
+          />
+        </li>
+        <li>
+          <ArticleLink
+            title="Hamas leaders worth staggering $11B revel in luxury — while Gaza’s people suffer"
+            href="https://nypost.com/2023/11/07/news/hamas-leaders-worth-11bn-live-luxury-lives-in-qatar/"
+            source="New York Post"
+          />
+        </li>
+      </ul>
     </Template>
   );
 }
