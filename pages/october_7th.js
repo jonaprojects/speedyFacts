@@ -95,19 +95,17 @@ export default function PalestineHistory(props) {
       <EmbedYoutube embedId="yPK4DUNDlQ0" className="mb-2" />
       <EmbedYoutube embedId="HVlfElxoutE" className="mb-2" />
       <EmbedYoutube embedId="Dcm57pszXKw" className="" />
-
       <H2 className="mt-6 lg:mt-8 mb-3">Tweets</H2>
       <Tweet tweetId="1716477619061887235" />
       <Tweet tweetId="1723777827030315213" />
-
+      <Tweet tweetId="1725304302627885483" />
+      <Tweet tweetId="1723834745815978229" />
       <H2 className="mt-6 lg:mt-8 mb-3">Graphic Content</H2>
-
       <P className="mb-3">
         Many deny the atrocities that Hamas has committed in October 7th. They
         claim that there is absolutely no evidence for it. However, there is a
         vast amount of footage online, mostly on Telegram.
       </P>
-
       <Alert
         title="Warning!"
         content="The following links lead to you to raw graphic content."
@@ -115,7 +113,6 @@ export default function PalestineHistory(props) {
       <A href="https://hamasisisis.co/"> https://hamasisisis.co/ </A>
       <br />
       <A href="https://oct7map.com/"> https://oct7map.com/ </A>
-
       <H2 className="mt-6 mb-3">Articles</H2>
       <H3>Hamas Didn&rsquo;t Spare Muslims</H3>
       <ul style={{ listStyle: "initial" }}>

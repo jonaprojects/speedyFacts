@@ -37,6 +37,7 @@ export default function MuslimVictimsAndHeroes(props) {
       <EmbedYoutube embedId="HxvQAFAY4fU" className="mb-2" />
       <EmbedYoutube embedId="9SvKJzdNY5Y" className="mb-2" />
       <EmbedYoutube embedId="YncV6G0j6i0" className="mb-2" />
+      <EmbedYoutube embedId="HTlDhclRcIA" className="mb-2" />
       <H2 className="mt-6 mb-3">Tweets</H2>
       <Tweet tweetId="1719639458092376171" />
       <H2 className="mt-6 mb-3">Sources</H2>

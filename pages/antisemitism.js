@@ -14,7 +14,6 @@ export default function Antisemitism(props) {
   return (
     <Template>
       <H1 className="mt-6">Antisemitism</H1>
-
       <SubHeader className="mb-5">
         Following the October 7th Attack and Israel&apos;s retaliation of Gaza,
         antisemitism has become extremely prevalent in Europe. Many racist and
@@ -51,7 +50,6 @@ export default function Antisemitism(props) {
       />
       <H2 className="mt-8 mb-3">Videos</H2>
       <EmbedYoutube embedId="norywOQStcY" />
-
       <H2 className="mt-8 mb-3">Tweets</H2>
       <Tweet tweetId="1723819227398779064" />
       <Tweet tweetId="1723470687384252659" />
@@ -59,7 +57,9 @@ export default function Antisemitism(props) {
       <Tweet tweetId="1723445182597611908" />
       <Tweet tweetId="1723406016828580211" />
       <Tweet tweetId="1723789427137196260" />
-
+      <Tweet tweetId="1725512505701638529" />
+      <Tweet tweetId="1723926158818021881" />
+      <Tweet tweetId="1725190131349373104" />
       <H2 className="mt-6 mb-3">Sources</H2>
       <ul style={{ listStyle: "initial" }}>
         <li>
@@ -91,7 +91,6 @@ export default function Antisemitism(props) {
           />
         </li>
       </ul>
-
       <ArticleLink
         title="Wave of Antisemitism Has European Jews Wondering if They Will Ever Be Safe"
         href="https://www.wsj.com/world/europe/israel-hamas-war-sparks-wave-of-antisemitism-in-europe-fef6ee9d"
