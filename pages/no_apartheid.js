@@ -49,7 +49,6 @@ export default function NoApartheid(props) {
       />
       <H2 className="mt-6 mb-3">Videos</H2>
       <EmbedYoutube embedId="IxLtaPo-wfw" className="mb-2" />
-      <EmbedYoutube embedId="IxLtaPo-wfw" className="mb-2" />
       <EmbedYoutube embedId="yEm3OHMPp0g" className="mb-2" />
       <EmbedYoutube embedId="sksCvn6YZrs" className="mb-2" />
       <EmbedYoutube embedId="6o1-i_tn1AA" className="mb-2" />
