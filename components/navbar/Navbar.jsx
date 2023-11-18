@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { Inter, Open_Sans } from "next/font/google";
+import Link from "next/link";
 // Custom components
 
 const inter = Inter({ subsets: ["latin"] });
@@ -12,7 +13,9 @@ export default function Navbar(props) {
       className={`w-full ${openSans.className} bg-sky-500 text-white py-3 px-2`}
     >
       <ul className="flex gap-2">
-        <li className="font-bold">Speedy Facts</li>
+        <li className="font-bold">
+          <Link href="/">Speedy Facts</Link>
+        </li>
         <Image
           src="/swords.svg"
           alt=""
