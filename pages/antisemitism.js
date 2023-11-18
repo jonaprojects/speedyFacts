@@ -60,6 +60,7 @@ export default function Antisemitism(props) {
       <Tweet tweetId="1725512505701638529" />
       <Tweet tweetId="1723926158818021881" />
       <Tweet tweetId="1725190131349373104" />
+      
       <H2 className="mt-6 mb-3">Sources</H2>
       <ul style={{ listStyle: "initial" }}>
         <li>

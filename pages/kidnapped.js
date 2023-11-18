@@ -49,7 +49,8 @@ export default function Kidnapped(props) {
       <EmbedYoutube embedId="7Y9fHUOhTMY" className="mb-2" />
       <EmbedYoutube embedId="pbez-juyHbQ" className="mb-2" />
       <EmbedYoutube embedId="40LZFCIKoBc" className="mb-2" />
-
+      <EmbedYoutube embedId="XGub-s4Jr6w" className="mb-2" />
+      
       <H2 className="mt-6 mb-3">Hostages</H2>
       <H2 className="mt-6 mb-3">Tweets</H2>
       <Tweet tweetId="1711524024226845039" />
@@ -98,7 +99,6 @@ export default function Kidnapped(props) {
         </li>
       </ul>
       <H3 className="mt-4 mb-2">Articles</H3>
-
       <A href="https://kan.org.il/content/kan/kan-actual/p-11894/news-item/581493/"></A>
     </Template>
   );
