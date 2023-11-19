@@ -7,6 +7,7 @@ import SubHeader from "@/components/typography/SubHeader";
 import H2 from "@/components/typography/H2";
 import A from "@/components/typography/A";
 import ArticleLink from "@/components/typography/ArticleLink";
+import { Tweet } from "react-twitter-widgets";
 
 export default function FakeNews(props) {
   return (
@@ -34,6 +35,10 @@ export default function FakeNews(props) {
       participating in online conversations about the Hamas attacks and their
       aftermath are fake, according to Cyabra, an Israeli analysis firm." -The Guardian`}
       />
+      <H2 className="mt-6 mb-3">Tweets</H2>
+      <Tweet tweetId="1726281924791173530" />
+      <Tweet tweetId="1715527433930076402" />
+
       <H2 className="mt-6 mb-3">Sources</H2>
       <ul style={{ listStyle: "initial" }}>
         <li>
