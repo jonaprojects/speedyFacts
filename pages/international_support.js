@@ -40,7 +40,6 @@ export default function InternationalSupport(props) {
       <Tweet tweetId="1716836960268898586" />
       <Tweet tweetId="1726167783048901115" />
 
-      https://x.com/piersmorgan/status/?s=20
     </Template>
   );
 }
