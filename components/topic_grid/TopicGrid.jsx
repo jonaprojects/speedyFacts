@@ -53,6 +53,10 @@ export default function TopicGrid() {
         name="International Support"
         onClick={() => router.push("/international_support")}
       ></Topic>
+            <Topic
+        name="Jews In Muslim Countries"
+        onClick={() => router.push("/jews_in_muslim_countries")}
+      ></Topic>
       <Topic
         name="Influencers"
         onClick={() => router.push("/influencers")}
