@@ -8,12 +8,10 @@ export default function Hero() {
        xl:pt-7 xl:pb-12 "
     >
       <div>
-        <H1>
-          What Fact Are You Looking For?
-        </H1>
+        <H1 className="font-extrabold">What Fact Are You Looking For?</H1>
         <p className="text-slate-500 md:text-xl">
-          Choose a topic and get argument-winning facts! Expose the hypocrisy of
-          the liars by revealing the truth.
+          Choose a topic and get argument-winning facts and evidence! 
+          We're here to provide you with reliable and accurate information.
         </p>
       </div>
     </section>

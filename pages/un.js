@@ -22,7 +22,6 @@ export default function UN(props) {
         </div>
             */}
       </div>
-
       <P className="mb-5">
         The UN is known for its biased approach to Israel and the dark regimes
         who have hijacked the organization. However, Many people still
@@ -33,7 +32,6 @@ export default function UN(props) {
         content="In the years 2015-2022 The UN has passed 140 resolutions against Israel and only 68 resolutions on all the countries in the world
             together, including Afghanistan (The Taliban), North Korea, Syria, Russia, and China."
       />
-
       <Fact
         className="mb-2"
         content="Some of the worst women's rights violators are members of the 
@@ -48,8 +46,8 @@ export default function UN(props) {
       <EmbedYoutube embedId="hIXCM_OKeBs" className="mb-3" />
       <H2 className="mt-6 mb-3">Tweets</H2>
       <Tweet tweetId="1718012770367479870" />
+      <Tweet tweetId="1726626835117805689" />
       <H2 className="mt-6 mb-3">Documents</H2>
-
       <A href="https://unwatch.org/wp-content/uploads/2023/11/UNW_119___UNRWA_Report_2023_November__2023-11-05__web.pdf">
         UNRWA Officials Exposed, official report by UN-WATCH from November 2023.
       </A>

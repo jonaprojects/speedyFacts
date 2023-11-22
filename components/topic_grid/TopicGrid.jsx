@@ -19,10 +19,7 @@ export default function TopicGrid() {
         name={`Palestine History`}
         onClick={() => router.push("/palestine_history")}
       ></Topic>
-      <Topic
-        name="Hospital Blast"
-        onClick={() => router.push("/hospital_blast")}
-      ></Topic>
+
       <Topic name="Kidnapped" onClick={() => router.push("/kidnapped")}></Topic>
       <Topic
         name="Hamas VS Gaza"
@@ -41,25 +38,49 @@ export default function TopicGrid() {
         onClick={() => router.push("/antisemitism")}
       ></Topic>
       <Topic
+        name="IDF Humanity"
+        onClick={() => router.push("/idf_humanity")}
+      ></Topic>
+      <Topic
         name="No Apartheid"
         onClick={() => router.push("/no_apartheid")}
       ></Topic>
       <Topic
-        name="Israeli Heroes"
-        onClick={() => router.push("/israeli_heroes")}
+        name="The West Is Next"
+        onClick={() => router.push("/the_west_is_next")}
+      ></Topic>
+      <Topic
+        name="Not Innocent"
+        onClick={() => router.push("/not_innocent")}
+      ></Topic>
+      <Topic
+        name="West Bank Terrorism"
+        onClick={() => router.push("/west_bank_terror")}
+      ></Topic>
+      <Topic
+        name="Hospital Blast"
+        onClick={() => router.push("/hospital_blast")}
+      ></Topic>
+      <Topic
+        name="Animal Abuse"
+        onClick={() => router.push("/palestine_animal_abuse")}
       ></Topic>
       <Topic name="Fake news" onClick={() => router.push("/fake_news")}></Topic>
       <Topic
         name="International Support"
         onClick={() => router.push("/international_support")}
       ></Topic>
-            <Topic
+      <Topic
         name="Jews In Muslim Countries"
         onClick={() => router.push("/jews_in_muslim_countries")}
       ></Topic>
       <Topic
         name="Influencers"
         onClick={() => router.push("/influencers")}
+      ></Topic>
+      <Topic
+        name="Israeli Heroes"
+        onClick={() => router.push("/israeli_heroes")}
       ></Topic>
     </section>
   );

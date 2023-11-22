@@ -6,6 +6,7 @@ import Fact from "@/components/fact/Fact";
 import EmbedYoutube from "@/components/embed_youtube/EmbedYoutube";
 import H2 from "@/components/typography/H2";
 import A from "@/components/typography/A";
+import ArticleLink from "@/components/typography/ArticleLink";
 
 export default function PalestineHistory(props) {
   return (
@@ -52,6 +53,12 @@ export default function PalestineHistory(props) {
       <A href="https://www.jewishvirtuallibrary.org/origin-of-quot-palestine-quot">
         Origins Of Palestine - Jewish Virtual Library
       </A>
+      <br />
+      <ArticleLink
+        title="Archaeology in Israel: Ancient Jewish Coins"
+        href="https://www.jewishvirtuallibrary.org/ancient-jewish-coins"
+        source="Jewish Virtual Library"
+      />
     </Template>
   );
 }

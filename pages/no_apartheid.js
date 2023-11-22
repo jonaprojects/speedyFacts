@@ -39,7 +39,6 @@ export default function NoApartheid(props) {
       in Israel are Arab."
         className="mb-2"
       />
-
       <Fact
         content="Equality is rooted deep in the very document that dictates
       the essence of the Jewish country. According to Israel’s Declaration of
@@ -52,6 +51,7 @@ export default function NoApartheid(props) {
       <EmbedYoutube embedId="yEm3OHMPp0g" className="mb-2" />
       <EmbedYoutube embedId="sksCvn6YZrs" className="mb-2" />
       <EmbedYoutube embedId="6o1-i_tn1AA" className="mb-2" />
+      <EmbedYoutube embedId="i_MfnpuafBg" className="mb-2" />
       <H2 className="mb-3 mt-6">Tweets</H2>
       <Tweet tweetId="1724486686971723992" />
       <Tweet tweetId="1725468560766468358" />

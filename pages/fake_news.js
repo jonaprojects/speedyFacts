@@ -38,7 +38,8 @@ export default function FakeNews(props) {
       <H2 className="mt-6 mb-3">Tweets</H2>
       <Tweet tweetId="1726281924791173530" />
       <Tweet tweetId="1715527433930076402" />
-
+      <Tweet tweetId="1726921459082117209" />
+      <Tweet tweetId="1726366860164165733" />
       <H2 className="mt-6 mb-3">Sources</H2>
       <ul style={{ listStyle: "initial" }}>
         <li>

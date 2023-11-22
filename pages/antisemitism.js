@@ -24,7 +24,7 @@ export default function Antisemitism(props) {
       </SubHeader>
       <img
         src="/CleanJews.jpg"
-        alt="Teddy Bears for the kidnapped kids, LA."
+        alt="Pro Palestinian protester calling for the extermination of Jews."
         className="object-fit mt-6 mb-3"
       />
       <H2 className="mt-8 mb-2">Facts</H2>
