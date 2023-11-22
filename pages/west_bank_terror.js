@@ -52,8 +52,8 @@ export default function WestBankTerrorism(props) {
       />
       <small className="text-sm text-slate-500">
         Flash90 / Palestinian student supporters of Hamas in Gaza wave the
-        movement's flag during a rally at Birzeit University, near the West Bank
-        city of Ramallah.
+        movement&apos;s flag during a rally at Birzeit University, near the West
+        Bank city of Ramallah.
       </small>
       <H2 className="mt-6 mb-3">Videos</H2>
 
