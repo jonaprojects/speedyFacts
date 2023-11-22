@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import H1 from "@/components/typography/H1";
 import P from "@/components/typography/P";
 import Template from "@/components/Template/Template";
@@ -9,8 +9,25 @@ import H2 from "@/components/typography/H2";
 import A from "@/components/typography/A";
 import Alert from "@/components/alerts/alert/Alert";
 import H3 from "@/components/typography/H3";
+import Modal, { ModalLink } from "@/components/modal/Modal";
+import { useRouter } from "next/router";
 
 export default function PalestineHistory(props) {
+  const [warningModalOpen, setWarningModalOpen] = useState(false);
+  const router = useRouter();
+
+  const openModal = useCallback(() => {
+    setWarningModalOpen(true);
+  }, []);
+
+  const closeModal = useCallback(() => {
+    setWarningModalOpen(false);
+  }, []);
+
+  useEffect(() => {
+    openModal();
+  }, []);
+
   return (
     <Template>
       <H1 className="mt-6">October 7th</H1>
@@ -150,6 +167,21 @@ export default function PalestineHistory(props) {
           </A>
         </li>
       </ul>
+      <Modal
+        isOpen={warningModalOpen}
+        openModal={openModal}
+        closeModal={closeModal}
+        primaryText="I understand"
+        secondaryText="Go Back"
+        primaryAction={closeModal}
+        secondaryAction={() => router.push("/")}
+      >
+        <h1 className="text-3xl md:text-5xl font-bold">Warning!</h1>
+        <p className="md:text-xl text-slate-500 mt-4">
+          This page contains Graphic description and imagery, including extreme
+          violance and death. Viewer discresion advised.
+        </p>
+      </Modal>
     </Template>
   );
 }

@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { createPortal } from "react-dom";
+import PrimaryButton from "../buttons/PrimaryButton";
+import SecondaryButton from "../buttons/SecondaryButton";
 
 const Modal = (props) => {
   // A modal is closed by default
@@ -27,7 +29,7 @@ const Modal = (props) => {
         onClick={handleOverlayClick}
       >
         <div
-          className="bg-slate-800 max-w-2xl p-7 rounded-lg shadow-lg relative"
+          className="bg-white max-w-2xl p-7 rounded-lg shadow-lg relative"
           onClick={handleModalClick}
         >
           <span
@@ -38,14 +40,12 @@ const Modal = (props) => {
           </span>
           {props.children}
           <div name="options" className="mt-6 flex flex-row gap-3">
-            <button onClick={props.closeModal}>Close</button>
-            <button
-              onClick={() => {
-                window.location.href = randomElement(PROJECTS_URLS);
-              }}
-            >
-              Surprise Me
-            </button>
+            <SecondaryButton onClick={props.secondaryAction}>
+              {props.secondaryText}
+            </SecondaryButton>
+            <PrimaryButton onClick={props.primaryAction}>
+              {props.primaryText}
+            </PrimaryButton>
           </div>
         </div>
       </div>
