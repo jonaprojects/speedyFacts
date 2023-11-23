@@ -25,7 +25,7 @@ export default function PalestineAnimalAbuse(props) {
 
   useEffect(() => {
     openModal();
-  }, []);
+  }, [openModal]);
 
   return (
     <Template>
