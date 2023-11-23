@@ -28,7 +28,7 @@ export default function SearchBar(props) {
 
   const handleOnBlur = (event) => {
     setIsFocused(false);
-    //setShowSuggestions(false);
+    setShowSuggestions(false);
   };
   const handleOnChange = (event) => {
     setText(event.target.value);
@@ -38,6 +38,7 @@ export default function SearchBar(props) {
   };
 
   const onSearchHandler = () => {
+    setShowSuggestions(false);
     if (suggestions && suggestions.length > 0) {
       let best_suggestion = suggestions[0].toLowerCase();
       console.log(`best suggestion is ${best_suggestion}`);
