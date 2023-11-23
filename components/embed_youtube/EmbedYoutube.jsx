@@ -3,7 +3,7 @@ import classes from "./EmbedYoutube.module.css";
 export default function EmbedYoutube(props) {
   return (
     <div
-      className={`${classes["video-container"]} ${
+      className={`${props.adjustSize ? classes["video-container"] : ""} ${
         props.className ? props.className : ""
       }`}
     >

@@ -8,7 +8,7 @@ import EmbedYoutube from "@/components/embed_youtube/EmbedYoutube";
 import { Tweet } from "react-twitter-widgets";
 import H2 from "@/components/typography/H2";
 import ArticleLink from "@/components/typography/ArticleLink";
-
+import Video from "@/components/video/Video";
 export default function WestBankTerrorism(props) {
   return (
     <Template>
@@ -56,7 +56,6 @@ export default function WestBankTerrorism(props) {
         Bank city of Ramallah.
       </small>
       <H2 className="mt-6 mb-3">Videos</H2>
-
       <H2 className="mb-3 mt-6">Tweets</H2>
       <H2 className="mb-3 mt-6">Articles</H2>
       <ArticleLink

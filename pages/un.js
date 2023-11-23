@@ -9,6 +9,7 @@ import { Tweet } from "react-twitter-widgets";
 import Image from "next/image";
 import { Document, Page, pdfjs } from "react-pdf";
 import A from "@/components/typography/A";
+import Video from "@/components/video/Video";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 export default function UN(props) {
@@ -39,11 +40,12 @@ export default function UN(props) {
         Chad, Congo and Somalia. These countries have a say on the decisions regarding women's rights around the world. "
       />
       <H2 className="mt-6 mb-3">Videos</H2>
-      <EmbedYoutube embedId="c2NaiX-hvVQ" className="mb-3" />
-      <EmbedYoutube embedId="35eEljsSQfc" className="mb-3" />
-      <EmbedYoutube embedId="9NogqQ4EPDs" className="mb-3" />
-      <EmbedYoutube embedId="GoFPJ-ekYfs" className="mb-3" />
-      <EmbedYoutube embedId="hIXCM_OKeBs" className="mb-3" />
+      <Video embedId="c2NaiX-hvVQ" className="mb-3" />
+      <Video embedId="c2NaiX-hvVQ" className="mb-3" />
+      <Video embedId="35eEljsSQfc" className="mb-3" />
+      <Video embedId="9NogqQ4EPDs" className="mb-3" />
+      <Video embedId="GoFPJ-ekYfs" className="mb-3" />
+      <Video embedId="hIXCM_OKeBs" className="mb-3" />
       <H2 className="mt-6 mb-3">Tweets</H2>
       <Tweet tweetId="1718012770367479870" />
       <Tweet tweetId="1726626835117805689" />

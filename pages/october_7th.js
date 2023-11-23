@@ -11,6 +11,7 @@ import Alert from "@/components/alerts/alert/Alert";
 import H3 from "@/components/typography/H3";
 import Modal, { ModalLink } from "@/components/modal/Modal";
 import { useRouter } from "next/router";
+import Video from "@/components/video/Video";
 
 export default function PalestineHistory(props) {
   const [warningModalOpen, setWarningModalOpen] = useState(false);
@@ -98,22 +99,22 @@ export default function PalestineHistory(props) {
         -Shadi Mohammad Almajdalai, captured Hamas terrorist`}
       />
       <H2 className="mt-6 lg:mt-8 mb-3">Videos</H2>
-      <EmbedYoutube embedId="HnLq0DjErIA" className="mb-2" />
-      <EmbedYoutube embedId="fqW8madte_I" className="mb-2" />
-      <EmbedYoutube embedId="cnnnyejCL6c" className="mb-2" />
-      <EmbedYoutube embedId="OSdQL2ze6Gc" className="mb-2" />
-      <EmbedYoutube embedId="wAFDI63yvNQ" className="mb-2" />
-      <EmbedYoutube embedId="T4XiTRkg9s8" className="mb-2" />
-      <EmbedYoutube embedId="QT22MMb1sW8" className="mb-2" />
-      <EmbedYoutube embedId="Taab_3a3124" className="mb-2" />
-      <EmbedYoutube embedId="15_1D860Frg" className="mb-2" />
-      <EmbedYoutube embedId="bH74lnxHMiU" className="mb-2" />
-      <EmbedYoutube embedId="q74wXfhgUbw" className="mb-2" />
-      <EmbedYoutube embedId="DWOqNnLsjN8" className="mb-2" />
-      <EmbedYoutube embedId="yPK4DUNDlQ0" className="mb-2" />
-      <EmbedYoutube embedId="HVlfElxoutE" className="mb-2" />
-      <EmbedYoutube embedId="Dcm57pszXKw" className="" />
-      <EmbedYoutube embedId="lNMtik3DRSg" className="" />
+      <Video embedId="HnLq0DjErIA" className="mb-2" />
+      <Video embedId="fqW8madte_I" className="mb-2" />
+      <Video embedId="cnnnyejCL6c" className="mb-2" />
+      <Video embedId="OSdQL2ze6Gc" className="mb-2" />
+      <Video embedId="wAFDI63yvNQ" className="mb-2" />
+      <Video embedId="T4XiTRkg9s8" className="mb-2" />
+      <Video embedId="QT22MMb1sW8" className="mb-2" />
+      <Video embedId="Taab_3a3124" className="mb-2" />
+      <Video embedId="15_1D860Frg" className="mb-2" />
+      <Video embedId="bH74lnxHMiU" className="mb-2" />
+      <Video embedId="q74wXfhgUbw" className="mb-2" />
+      <Video embedId="DWOqNnLsjN8" className="mb-2" />
+      <Video embedId="yPK4DUNDlQ0" className="mb-2" />
+      <Video embedId="HVlfElxoutE" className="mb-2" />
+      <Video embedId="Dcm57pszXKw" className="" />
+      <Video embedId="lNMtik3DRSg" className="" />
       <H2 className="mt-6 lg:mt-8 mb-3">Tweets</H2>
       <Tweet tweetId="1716477619061887235" />
       <Tweet tweetId="1723777827030315213" />
