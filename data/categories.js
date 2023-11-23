@@ -39,7 +39,6 @@ export const CATEGORIES_AND_PATHS = {
   "jews in muslim countries": "/jews_in_muslim_countries",
   "israeli heroes": "/israeli_heroes",
   "animal abuse": "/palestine_animal_abuse",
-  "west bank terrorism": "/west_bank_terrorism",
   "international support": "/international_support",
   "idf humanity": "/idf_humanity",
   "hospital blast": "/hospital_blast",
