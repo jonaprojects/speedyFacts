@@ -1,27 +1,32 @@
 import { CATEGORIES } from "@/data/categories";
 import categories_json from "../../data/categories_keywords.json";
+import P from "../typography/P";
 
 export default function rankSearchResult(text) {
-  // Rank the search results to find the most relevant
-  let clean_text = text.trim().toLowerCase();
-  // do some pre checks
-  if (clean_text === "") {
-    return null;
-  }
-  let categories_ranks = arrayToDictionary(CATEGORIES);
+  try {
+    // Rank the search results to find the most relevant
+    let clean_text = text.trim().toLowerCase();
+    // do some pre checks
+    if (clean_text === "") {
+      return null;
+    }
+    let categories_ranks = arrayToDictionary(CATEGORIES);
 
-  // calculate all the ranks of the categories
-  for (const [category, rank] of Object.entries(categories_ranks)) {
-    let keywords = categories_json[category].map((keyword) =>
-      keyword.toLowerCase()
-    );
-    // modify the rank
-    let newRank = calcCategoryRank(keywords, clean_text);
-    categories_ranks[category] = newRank;
-  }
+    // calculate all the ranks of the categories
+    for (const [category, rank] of Object.entries(categories_ranks)) {
+      let keywords = categories_json[category].map((keyword) =>
+        keyword.toLowerCase()
+      );
+      // modify the rank
+      let newRank = calcCategoryRank(keywords, clean_text);
+      categories_ranks[category] = newRank;
+    }
 
-  // return only the top 5
-  return getTopCategories(categories_ranks);
+    // return only the top 5
+    return getTopCategories(categories_ranks);
+  } catch {
+    return null; // If something went wrong, return null
+  }
 }
 
 export function calcCategoryRank(keywords, text) {

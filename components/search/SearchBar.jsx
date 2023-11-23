@@ -28,7 +28,7 @@ export default function SearchBar(props) {
 
   const handleOnBlur = (event) => {
     setIsFocused(false);
-    setShowSuggestions(false);
+    //setShowSuggestions(false);
   };
   const handleOnChange = (event) => {
     setText(event.target.value);
