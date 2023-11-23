@@ -2,6 +2,7 @@ import React from "react";
 import H1 from "../typography/H1";
 import SearchBar from "../search/SearchBar";
 import SearchSuggestionsList from "../search/SuggestionList";
+
 export default function Hero() {
   return (
     <section

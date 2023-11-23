@@ -2,27 +2,51 @@ import React, { useState } from "react";
 import PrimaryButton from "../buttons/PrimaryButton";
 import Image from "next/image";
 import SuggestionsList from "./SuggestionList";
+import rankSearchResult from "./rank_categories";
+import { CATEGORIES_AND_PATHS } from "@/data/categories";
+import { useRouter } from "next/router";
+import P from "../typography/P";
+
 export default function SearchBar(props) {
+  const router = useRouter();
   const [isFocused, setIsFocused] = useState(false);
   const [text, setText] = useState(false);
   const [showSuggestions, setShowSuggestions] = useState(false);
+  const [suggestions, setSuggestions] = useState(null);
+  const [showNoResults, setShowNoResults] = useState(false);
+  var top_categories = null;
 
   const handleKeyDown = (event) => {
     if (isFocused && event.key === "Enter") {
+      onSearchHandler();
     }
   };
-  
+
   const handleOnFocus = (event) => {
     setIsFocused(true);
-    setShowSuggestions(true);
-  }
+  };
 
   const handleOnBlur = (event) => {
     setIsFocused(false);
     setShowSuggestions(false);
-  }
+  };
   const handleOnChange = (event) => {
-    setText(event.value);
+    setText(event.target.value);
+    setSuggestions(rankSearchResult(event.target.value));
+    setShowSuggestions(true);
+    setShowNoResults(false);
+  };
+
+  const onSearchHandler = () => {
+    if (suggestions && suggestions.length > 0) {
+      let best_suggestion = suggestions[0].toLowerCase();
+      console.log(`best suggestion is ${best_suggestion}`);
+      let path = CATEGORIES_AND_PATHS[best_suggestion];
+      console.log(`the path is ${path}`);
+      router.push(path);
+    } else {
+      setShowNoResults(true);
+    }
   };
   return (
     <>
@@ -37,7 +61,7 @@ export default function SearchBar(props) {
             onKeyDown={handleKeyDown}
             onChange={handleOnChange}
           />
-          <PrimaryButton>
+          <PrimaryButton onClick={onSearchHandler}>
             <Image
               src="/search.svg"
               alt=""
@@ -49,7 +73,10 @@ export default function SearchBar(props) {
           </PrimaryButton>
         </div>
       </div>
-      <SuggestionsList isOpen={showSuggestions} />
+      {suggestions && (
+        <SuggestionsList isOpen={showSuggestions} suggestions={suggestions} />
+      )}
+      {showNoResults && <P className="mt-2">Sorry, could not find a result!</P>}
     </>
   );
 }
