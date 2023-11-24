@@ -7,8 +7,9 @@ import SubHeader from "@/components/typography/SubHeader";
 import H2 from "@/components/typography/H2";
 import A from "@/components/typography/A";
 import { Tweet } from "react-twitter-widgets";
-import EmbedYoutube from "@/components/embed_youtube/EmbedYoutube";
 import ArticleLink from "@/components/typography/ArticleLink";
+import Video from "@/components/video/Video";
+import Article from "@/components/article/Article";
 
 export default function HamasEducation(props) {
   return (
@@ -52,23 +53,31 @@ export default function HamasEducation(props) {
         className="mb-2"
       />
       <H2 className="mt-6 mb-3">Videos</H2>
-      <EmbedYoutube embedId="u4TVOXHt_PA" className="mb-2" />
-      <EmbedYoutube embedId="vCWMBvxWKL0" className="mb-2" />
-      <EmbedYoutube embedId="1sDZlo_hllI" className="mb-2" />
-      <EmbedYoutube embedId="9Pw8SO0GOJU" className="mb-2" />
-
+      <Video embedId="u4TVOXHt_PA" className="mb-2" />
+      <Video embedId="vCWMBvxWKL0" className="mb-2" />
+      <Video embedId="1sDZlo_hllI" className="mb-2" />
+      <Video embedId="9Pw8SO0GOJU" className="mb-2" />
+      <Video embedId="yfj6Pf6aNqg" className="mb-2" />
+      <H2>Tweets</H2>
+      <Tweet tweetId="1727328947455553733" />
+      <Tweet tweetId="1722919232315228447" />
       <H2 className="mt-6 mb-3">Articles</H2>
-      <ArticleLink
-        href="https://www.memri.org/tv/hamas-tv-childrens-show-encourages-killing-jews"
-        title="Hamas TV Children's Show Encourages Killing Jews"
-        source="MEMRI TV"
-      />
-      <br />
-      <ArticleLink
-        href="https://www.memri.org/tv/children-hamas-summer-camps-undergo-military-training-handle-weapons-simulate-conquering-jerusalem"
-        title="At Hamas Summer Camps, Children Undergo Military Training, Learn To Handle Weapons, Simulate Raiding Israeli Military Posts, Conquering Jerusalem"
-        source="MEMRI TV"
-      />
+      <ul>
+        <li className="mb-1">
+          <Article
+            href="https://www.memri.org/tv/hamas-tv-childrens-show-encourages-killing-jews"
+            title="Hamas TV Children's Show Encourages Killing Jews"
+            source="MEMRI TV"
+          />
+        </li>
+        <li className="mb-1">
+          <Article
+            href="https://www.memri.org/tv/children-hamas-summer-camps-undergo-military-training-handle-weapons-simulate-conquering-jerusalem"
+            title="At Hamas Summer Camps, Children Undergo Military Training, Learn To Handle Weapons, Simulate Raiding Israeli Military Posts, Conquering Jerusalem"
+            source="MEMRI TV"
+          />
+        </li>
+      </ul>
     </Template>
   );
 }

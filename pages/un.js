@@ -4,13 +4,11 @@ import React from "react";
 import H1 from "@/components/typography/H1";
 import P from "@/components/typography/P";
 import H2 from "@/components/typography/H2";
-import EmbedYoutube from "@/components/embed_youtube/EmbedYoutube";
 import { Tweet } from "react-twitter-widgets";
 import Image from "next/image";
-import { Document, Page, pdfjs } from "react-pdf";
 import A from "@/components/typography/A";
 import Video from "@/components/video/Video";
-pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
+import Article from "@/components/article/Article";
 
 export default function UN(props) {
   return (
@@ -41,18 +39,25 @@ export default function UN(props) {
       />
       <H2 className="mt-6 mb-3">Videos</H2>
       <Video embedId="c2NaiX-hvVQ" className="mb-3" />
-      <Video embedId="c2NaiX-hvVQ" className="mb-3" />
       <Video embedId="35eEljsSQfc" className="mb-3" />
       <Video embedId="9NogqQ4EPDs" className="mb-3" />
+      <Video embedId="pjOEJumoABg" className="mb-3" />
       <Video embedId="GoFPJ-ekYfs" className="mb-3" />
       <Video embedId="hIXCM_OKeBs" className="mb-3" />
       <H2 className="mt-6 mb-3">Tweets</H2>
       <Tweet tweetId="1718012770367479870" />
       <Tweet tweetId="1726626835117805689" />
+      <Tweet tweetId="1726662067351081021" />
       <H2 className="mt-6 mb-3">Documents</H2>
       <A href="https://unwatch.org/wp-content/uploads/2023/11/UNW_119___UNRWA_Report_2023_November__2023-11-05__web.pdf">
         UNRWA Officials Exposed, official report by UN-WATCH from November 2023.
       </A>
+      <H2 className="mt-7 mb-3">Articles</H2>
+      <Article
+        title="Human Rights Watch under fire for allegedly accepting millions in Qatar funds"
+        href="https://www.i24news.tv/en/news/middle-east/1700763578-human-rights-watch-under-fire-for-allegedly-accepting-millions-in-qatar-funds"
+        source="i24 News"
+      />
     </Template>
   );
 }

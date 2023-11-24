@@ -9,6 +9,8 @@ import A from "@/components/typography/A";
 import { Tweet } from "react-twitter-widgets";
 import EmbedYoutube from "@/components/embed_youtube/EmbedYoutube";
 import ArticleLink from "@/components/typography/ArticleLink";
+import Video from "@/components/video/Video";
+import Article from "@/components/article/Article";
 
 export default function Antisemitism(props) {
   return (
@@ -49,7 +51,7 @@ export default function Antisemitism(props) {
     Across the seven countries in the survey, one in 10 people said they have an unfavorable attitude toward Jews.`}
       />
       <H2 className="mt-8 mb-3">Videos</H2>
-      <EmbedYoutube embedId="norywOQStcY" />
+      <Video embedId="norywOQStcY" />
       <H2 className="mt-8 mb-3">Tweets</H2>
       <Tweet tweetId="1723819227398779064" />
       <Tweet tweetId="1723470687384252659" />
@@ -63,42 +65,44 @@ export default function Antisemitism(props) {
       <Tweet tweetId="1725983719935111398" />
       <Tweet tweetId="1725512505701638529" />
 
-      <H2 className="mt-6 mb-3">Sources</H2>
-      <ul style={{ listStyle: "initial" }}>
-        <li>
-          <ArticleLink
+      <H2 className="mt-6 mb-3">Articles</H2>
+      <ul>
+        <li className="mb-1">
+          <Article
             title="European Commission Statement on antisemitic incidents in Europe"
             href="https://ec.europa.eu/commission/presscorner/detail/en/statement_23_5527"
             source="European Commission"
           />
         </li>
-        <li>
-          <ArticleLink
+        <li className="mb-1">
+          <Article
             title="A shadow over Europe"
             href="https://edition.cnn.com/interactive/2018/11/europe/antisemitism-poll-2018-intl/"
             source="CNN"
           />
         </li>
-        <li>
-          <ArticleLink
+        <li className="mb-1">
+          <Article
             title="‘An existential threat: Antisemitic attacks soar across Europe amid Israel-Hamas war"
             href="https://edition.cnn.com/2023/11/04/world/an-existential-threat-antisemitic-attacks-soar-across-europe-amid-israel-hamas-war/index.html"
             source="CNN"
           />
         </li>
-        <li>
-          <ArticleLink
+        <li className="mb-1">
+          <Article
             title="For Europe's Jews, a World of Fear"
             href="https://www.nytimes.com/2023/10/31/world/europe/europe-antisemitism-israel-hamas.html"
             source="New York Times"
           />
         </li>
+        <li className="mb-1">
+          <Article
+            title="Wave of Antisemitism Has European Jews Wondering if They Will Ever Be Safe"
+            href="https://www.wsj.com/world/europe/israel-hamas-war-sparks-wave-of-antisemitism-in-europe-fef6ee9d"
+            source="Wall Street Jorunal"
+          />
+        </li>
       </ul>
-      <ArticleLink
-        title="Wave of Antisemitism Has European Jews Wondering if They Will Ever Be Safe"
-        href="https://www.wsj.com/world/europe/israel-hamas-war-sparks-wave-of-antisemitism-in-europe-fef6ee9d"
-        source="Wall Street Jorunal"
-      />
     </Template>
   );
 }

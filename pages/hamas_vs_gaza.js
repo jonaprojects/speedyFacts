@@ -7,7 +7,7 @@ import SubHeader from "@/components/typography/SubHeader";
 import H2 from "@/components/typography/H2";
 import A from "@/components/typography/A";
 import { Tweet } from "react-twitter-widgets";
-import EmbedYoutube from "@/components/embed_youtube/EmbedYoutube";
+import Video from "@/components/video/Video";
 
 export default function FakeNews(props) {
   return (
@@ -19,13 +19,12 @@ export default function FakeNews(props) {
         and using them as human shields Hamas has done it all.
       </SubHeader>
       <H2 className="mt-6 mb-3">Videos</H2>
-      <EmbedYoutube embedId="Kvc2T5d40ag" className="mb-2" />
-      <EmbedYoutube embedId="nNCzb8w2LjM" className="mb-2" />
-      <EmbedYoutube embedId="kaK4muqkRBE" className="mb-2" />
-      <EmbedYoutube embedId="iHeb9weNAfs" className="mb-2" />
-      <EmbedYoutube embedId="v2gg00cmdU0" className="mb-2" />
-      <EmbedYoutube embedId="rRra0hvjAL0" className="mb-2" />
-
+      <Video embedId="Kvc2T5d40ag" className="mb-2" />
+      <Video embedId="nNCzb8w2LjM" className="mb-2" />
+      <Video embedId="kaK4muqkRBE" className="mb-2" />
+      <Video embedId="iHeb9weNAfs" className="mb-2" />
+      <Video embedId="v2gg00cmdU0" className="mb-2" />
+      <Video embedId="rRra0hvjAL0" className="mb-2" />
       <H2 className="mt-6 mb-3">Tweets</H2>
       <Tweet tweetId="1720425819305070821" />
       <Tweet tweetId="1723784623828676945" />
@@ -33,6 +32,7 @@ export default function FakeNews(props) {
       <Tweet tweetId="1725908411210973326" />
       <Tweet tweetId="1724058426932621764" />
       <Tweet tweetId="1725037285249306726" />
+      <Tweet tweetId="1724840159726686274" />
     </Template>
   );
 }

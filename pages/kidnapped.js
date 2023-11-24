@@ -10,6 +10,8 @@ import { Tweet } from "react-twitter-widgets";
 import EmbedYoutube from "@/components/embed_youtube/EmbedYoutube";
 import ArticleLink from "@/components/typography/ArticleLink";
 import A from "@/components/typography/A";
+import Video from "@/components/video/Video";
+import Article from "@/components/article/Article";
 
 export default function Kidnapped(props) {
   return (
@@ -43,14 +45,14 @@ export default function Kidnapped(props) {
       `}
       />
       <H2 className="mb-3 mt-6">Videos</H2>
-      <EmbedYoutube embedId="YtBBY1supYk" className="mb-2" />
-      <EmbedYoutube embedId="ICR5ml2YPkI" className="mb-2" />
-      <EmbedYoutube embedId="QJuL__lXAjA" className="mb-2" />
-      <EmbedYoutube embedId="7Y9fHUOhTMY" className="mb-2" />
-      <EmbedYoutube embedId="pbez-juyHbQ" className="mb-2" />
-      <EmbedYoutube embedId="40LZFCIKoBc" className="mb-2" />
-      <EmbedYoutube embedId="XGub-s4Jr6w" className="mb-2" />
-      
+      <Video embedId="YtBBY1supYk" className="mb-2" />
+      <Video embedId="ICR5ml2YPkI" className="mb-2" />
+      <Video embedId="QJuL__lXAjA" className="mb-2" />
+      <Video embedId="7Y9fHUOhTMY" className="mb-2" />
+      <Video embedId="pbez-juyHbQ" className="mb-2" />
+      <Video embedId="40LZFCIKoBc" className="mb-2" />
+      <Video embedId="XGub-s4Jr6w" className="mb-2" />
+
       <H2 className="mt-6 mb-3">Hostages</H2>
       <H2 className="mt-6 mb-3">Tweets</H2>
       <Tweet tweetId="1711524024226845039" />
@@ -76,29 +78,29 @@ export default function Kidnapped(props) {
       <H2 className="mt-6 mb-3">Sources</H2>
       <H3>Hostages lists</H3>
       <ul style={{ listStyle: "initial" }}>
-        <li>
-          <ArticleLink
+        <li className="mb-1">
+          <Article
             title="List of the hostages"
             href="https://kan.org.il/lobby/kidnapped/"
             source="Kan 11"
           />
         </li>
-        <li>
-          <ArticleLink
+        <li className="mb-1">
+          <Article
             title="Bring Them Home - Full List of the hostages"
             href="https://stories.bringthemhomenow.net/"
             source="Hostages And Missing Families Forum"
           />
         </li>
-        <li>
-          <ArticleLink
+        <li className="mb-1">
+          <Article
             title="We're Waiting For You!"
             href="https://bringthemhome.mako.co.il/"
             source="Mako.co.il"
           />
         </li>
       </ul>
-      <H3 className="mt-4 mb-2">Articles</H3>
+      <H2 className="mt-6 mb-3">Articles</H2>
       <A href="https://kan.org.il/content/kan/kan-actual/p-11894/news-item/581493/"></A>
     </Template>
   );

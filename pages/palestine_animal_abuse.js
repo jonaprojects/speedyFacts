@@ -1,4 +1,4 @@
-import React, {useState, useEffect, useCallback} from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import H1 from "@/components/typography/H1";
 import P from "@/components/typography/P";
 import SubHeader from "@/components/typography/SubHeader";
@@ -10,6 +10,7 @@ import H2 from "@/components/typography/H2";
 import Modal, { ModalLink } from "@/components/modal/Modal";
 import { useRouter } from "next/router";
 import ArticleLink from "@/components/typography/ArticleLink";
+import Article from "@/components/article/Article";
 
 export default function PalestineAnimalAbuse(props) {
   const [warningModalOpen, setWarningModalOpen] = useState(false);
@@ -41,7 +42,7 @@ export default function PalestineAnimalAbuse(props) {
       <Tweet tweetId="1726053887323292060" />
       <Tweet tweetId="1726044133347754329" />
       <H2 className="mt-7 mb-3">Articles</H2>
-      <ArticleLink
+      <Article
         title="Palestinian mayor offers bounty to residents who kill stray dogs"
         href="https://nypost.com/2022/11/05/palestinian-mayor-offers-bounty-to-residents-who-kill-stray-dogs/"
         source="New York Post"

@@ -7,6 +7,7 @@ import Fact from "@/components/fact/Fact";
 import EmbedYoutube from "@/components/embed_youtube/EmbedYoutube";
 import { Tweet } from "react-twitter-widgets";
 import H2 from "@/components/typography/H2";
+import Video from "@/components/video/Video";
 
 export default function JewsInMuslimCountries(props) {
   return (
@@ -71,7 +72,7 @@ export default function JewsInMuslimCountries(props) {
       enemies of Allah, the Prophet and the angels (2:97­98)."
       />
       <H2 className="mt-6 mb-3">Videos</H2>
-      <EmbedYoutube embedId="WoM6fi9AvNY" />
+      <Video embedId="WoM6fi9AvNY" />
       <H2 className="mb-3 mt-6">Tweets</H2>
     </Template>
   );

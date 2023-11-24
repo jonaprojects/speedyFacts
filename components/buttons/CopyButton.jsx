@@ -4,5 +4,11 @@ export default function CopyButton(props) {
   const copyContent = () => {
     navigator.clipboard.writeText(props.text);
   };
-  return <SVGButton iconPath="/copy.svg" onClick={copyContent} />;
+  return (
+    <SVGButton
+      iconPath="/copy.svg"
+      onClick={copyContent}
+      className={props.className ?? ""}
+    />
+  );
 }

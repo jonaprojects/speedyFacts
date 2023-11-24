@@ -7,7 +7,7 @@ import SubHeader from "@/components/typography/SubHeader";
 import EmbedYoutube from "@/components/embed_youtube/EmbedYoutube";
 import H2 from "@/components/typography/H2";
 import A from "@/components/typography/A";
-import ArticleLink from "@/components/typography/ArticleLink";
+import Article from "@/components/article/Article";
 
 export default function HamasLeaders(props) {
   return (
@@ -75,17 +75,17 @@ export default function HamasLeaders(props) {
       </p>
       <H2 className="mt-6 mb-3">Videos</H2>
       <EmbedYoutube embedId="Yg4VqiW0dyo" />
-      <H2 className="mt-6 mb-3">Further Reading</H2>
-      <ul style={{ listStyle: "initial" }}>
-        <li>
-          <ArticleLink
+      <H2 className="mt-6 mb-3">Articles</H2>
+      <ul>
+        <li className="mb-1">
+          <Article
             title="Poor Gaza, Rich Hamas"
             href="https://en.globes.co.il/en/article-poor-gaza-rich-hamas-1001461154"
             source="Globes"
           />
         </li>
-        <li>
-          <ArticleLink
+        <li className="mb-1">
+          <Article
             title="Hamas leaders worth staggering $11B revel in luxury — while Gaza’s people suffer"
             href="https://nypost.com/2023/11/07/news/hamas-leaders-worth-11bn-live-luxury-lives-in-qatar/"
             source="New York Post"

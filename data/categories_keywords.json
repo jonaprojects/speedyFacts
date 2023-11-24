@@ -1,5 +1,13 @@
 {
-  "un bias": ["UN", "Bias", "United Nations", "UN Watch", "resolution"],
+  "un bias": [
+    "UN",
+    "Bias",
+    "United Nations",
+    "UN Watch",
+    "resolution",
+    "Antonio",
+    "Guterres"
+  ],
   "october 7th": [
     "October",
     "October 7th",
@@ -25,7 +33,8 @@
     "Yahya",
     "Sinwar",
     "Khaled",
-    "Mashal"
+    "Mashal",
+    "rich"
   ],
   "palestine history": [
     "Palestine",
@@ -113,7 +122,16 @@
     "launch"
   ],
   "animal abuse": ["animal", "abuse", "dog", "hebron", "palestine"],
-  "fake news": ["fake news", "news", "lie", "misinformation", "חדשות"],
+  "fake news": [
+    "fake news",
+    "fake",
+    "news",
+    "lie",
+    "misinformation",
+    "hinkle",
+    "פייק",
+    "חדשות"
+  ],
   "international support": [
     "International Support",
     "Pro Israel",
@@ -131,5 +149,12 @@
     "iran",
     "farhud",
     "יהוד"
+  ],
+  "double standards": [
+    "double",
+    "double standards",
+    "no jews no news",
+    "סטנדרט",
+    "syria"
   ]
 }

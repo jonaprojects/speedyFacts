@@ -42,4 +42,6 @@ export const CATEGORIES_AND_PATHS = {
   "international support": "/international_support",
   "idf humanity": "/idf_humanity",
   "hospital blast": "/hospital_blast",
+  "double standards": "/double_standards",
+  "fake news": "/fake_news",
 };

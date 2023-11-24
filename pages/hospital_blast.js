@@ -4,8 +4,8 @@ import P from "@/components/typography/P";
 import Template from "@/components/Template/Template";
 import Fact from "@/components/fact/Fact";
 import SubHeader from "@/components/typography/SubHeader";
-import EmbedYoutube from "@/components/embed_youtube/EmbedYoutube";
 import H2 from "@/components/typography/H2";
+import Video from "@/components/video/Video";
 export default function HospitalBombing(props) {
   return (
     <Template>
@@ -27,10 +27,11 @@ export default function HospitalBombing(props) {
       <Fact
         className="mb-2"
         content={`"UK intelligence services have concluded that the deadly blast at al-Ahli Arab hospital in Gaza was caused by a rocket fired by a Palestinian militant group rather than by an
-         Israeli airstrike, Rishi Sunak has told MPs." - The Guardian`}      />
+         Israeli airstrike, Rishi Sunak has told MPs." - The Guardian`}
+      />
       <H2 className="mt-6 mb-3">Recordings & Proofs</H2>
-      <EmbedYoutube embedId="3qy_RjHL7-8" className="mb-2" />
-      <EmbedYoutube embedId="THV_OuzC9jM" />
+      <Video embedId="3qy_RjHL7-8" className="mb-2" />
+      <Video embedId="THV_OuzC9jM" />
     </Template>
   );
 }

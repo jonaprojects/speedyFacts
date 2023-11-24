@@ -4,9 +4,9 @@ import P from "@/components/typography/P";
 import SubHeader from "@/components/typography/SubHeader";
 import Template from "@/components/Template/Template";
 import Fact from "@/components/fact/Fact";
-import EmbedYoutube from "@/components/embed_youtube/EmbedYoutube";
 import { Tweet } from "react-twitter-widgets";
 import H2 from "@/components/typography/H2";
+import Video from "@/components/video/Video";
 
 export default function NoApartheid(props) {
   return (
@@ -47,11 +47,11 @@ export default function NoApartheid(props) {
         className="mb-2"
       />
       <H2 className="mt-6 mb-3">Videos</H2>
-      <EmbedYoutube embedId="IxLtaPo-wfw" className="mb-2" />
-      <EmbedYoutube embedId="yEm3OHMPp0g" className="mb-2" />
-      <EmbedYoutube embedId="sksCvn6YZrs" className="mb-2" />
-      <EmbedYoutube embedId="6o1-i_tn1AA" className="mb-2" />
-      <EmbedYoutube embedId="i_MfnpuafBg" className="mb-2" />
+      <Video embedId="IxLtaPo-wfw" className="mb-2" />
+      <Video embedId="yEm3OHMPp0g" className="mb-2" />
+      <Video embedId="sksCvn6YZrs" className="mb-2" />
+      <Video embedId="6o1-i_tn1AA" className="mb-2" />
+      <Video embedId="i_MfnpuafBg" className="mb-2" />
       <H2 className="mb-3 mt-6">Tweets</H2>
       <Tweet tweetId="1724486686971723992" />
       <Tweet tweetId="1725468560766468358" />

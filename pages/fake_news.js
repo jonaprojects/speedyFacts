@@ -8,6 +8,7 @@ import H2 from "@/components/typography/H2";
 import A from "@/components/typography/A";
 import ArticleLink from "@/components/typography/ArticleLink";
 import { Tweet } from "react-twitter-widgets";
+import Article from "@/components/article/Article";
 
 export default function FakeNews(props) {
   return (
@@ -41,25 +42,25 @@ export default function FakeNews(props) {
       <Tweet tweetId="1726921459082117209" />
       <Tweet tweetId="1726366860164165733" />
       <H2 className="mt-6 mb-3">Sources</H2>
-      <ul style={{ listStyle: "initial" }}>
-        <li>
-          <ArticleLink
+      <ul>
+        <li className="mb-1">
+          <Article
             title="Europe gives Elon Musk 24 hours to respond about Israel-Hamas
       war misinformation and violence on X."
             href="https://www.cnbc.com/2023/10/10/elon-musk-warned-about-misinformation-violent-content-on-x-by-eu.html"
             source="CNBC"
           />
         </li>
-        <li>
-          <ArticleLink
+        <li className="mb-1">
+          <Article
             title="X criticised for enabling spread of Israel-Hamas
         disinformation"
             href="https://www.theguardian.com/technology/2023/oct/09/x-twitter-elon-musk-disinformation-israel-hamas"
             source="The Guardian"
           />
         </li>
-        <li>
-          <ArticleLink
+        <li className="mb-1">
+          <Article
             title="Fact Check: Fake audio added to CNN video of Israel-Hamas war coverage"
             href="https://www.reuters.com/fact-check/fake-audio-added-cnn-video-israel-hamas-war-coverage-2023-10-11/"
             source="Reuters"

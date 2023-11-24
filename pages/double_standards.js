@@ -8,21 +8,22 @@ import { Tweet } from "react-twitter-widgets";
 import H2 from "@/components/typography/H2";
 import Video from "@/components/video/Video";
 
-export default function TheWestIsNext(props) {
+export default function DoubleStandards(props) {
   return (
     <Template>
-      <H1 className="mt-6">The West Is Next</H1>
+      <H1 className="mt-6">Double Standards Against Israel</H1>
       <SubHeader className="mb-5">
-        Hamas and many other radical Muslim groups and countries have expressed
-        their global ambitions on many occasions. Eventually, Radical Islam
-        wishes to destroy the western society and to dominate the world.
+        There seem to be double standard when it comes to Israel. Millions of
+        Muslim and Arab civilians were killed in bloody wars in the last decade
+        and it didn&apos;t trigger a fraction of the international outrage.
       </SubHeader>
       <H2 className="mt-6 mb-3">Videos</H2>
-      <Video embedId="UiZKNygXl2E" className="mb-2" />
-      <Video embedId="UXLZ_iT3RmE" className="mb-2" />
       <H2 className="mb-3 mt-6">Tweets</H2>
-      <Tweet tweetId="1724279167439544787" />
-      <Tweet tweetId="1136881942375346176" />
+      <Tweet tweetId="1726662067351081021" />
+      <Tweet tweetId="1725637716082032658" />
+      <Tweet tweetId="1725278300560327081" />
+      <Tweet tweetId="1725908928414802037" />
+      <Tweet tweetId="1726653958431916079" />
     </Template>
   );
 }

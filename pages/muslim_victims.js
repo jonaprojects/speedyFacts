@@ -9,6 +9,7 @@ import A from "@/components/typography/A";
 import { Tweet } from "react-twitter-widgets";
 import EmbedYoutube from "@/components/embed_youtube/EmbedYoutube";
 import ArticleLink from "@/components/typography/ArticleLink";
+import Video from "@/components/video/Video";
 
 export default function MuslimVictimsAndHeroes(props) {
   return (
@@ -32,19 +33,20 @@ export default function MuslimVictimsAndHeroes(props) {
       `}
       />
       <H2 className="mt-6 mb-3">Videos</H2>
-      <EmbedYoutube embedId="CrXtTYm_NB8" className="mb-2" />
-      <EmbedYoutube embedId="HTlDhclRcIA" className="mb-2" />
-      <EmbedYoutube embedId="7wDffjnBtec" className="mb-2" />
-      <EmbedYoutube embedId="HxvQAFAY4fU" className="mb-2" />
-      <EmbedYoutube embedId="pCK49QIVc9U" className="mb-2" />
-      <EmbedYoutube embedId="9SvKJzdNY5Y" className="mb-2" />
-      <EmbedYoutube embedId="YncV6G0j6i0" className="mb-2" />
-      <EmbedYoutube embedId="bH5pCbtpY2U" className="mb-2" />
-      <EmbedYoutube embedId="HTlDhclRcIA" className="mb-2" />
+      <Video embedId="CrXtTYm_NB8" className="mb-2" />
+      <Video embedId="HTlDhclRcIA" className="mb-2" />
+      <Video embedId="7wDffjnBtec" className="mb-2" />
+      <Video embedId="HxvQAFAY4fU" className="mb-2" />
+      <Video embedId="pCK49QIVc9U" className="mb-2" />
+      <Video embedId="9SvKJzdNY5Y" className="mb-2" />
+      <Video embedId="YncV6G0j6i0" className="mb-2" />
+      <Video embedId="bH5pCbtpY2U" className="mb-2" />
       <H2 className="mt-6 mb-3">Tweets</H2>
       <Tweet tweetId="1719639458092376171" />
       <Tweet tweetId="1726167612944478609" />
       <Tweet tweetId="1726172813785231749" />
+      <Tweet tweetId="1727327376223178939" />
+      <Tweet tweetId="1727836684438397056" />
       <H2 className="mt-6 mb-3">Sources</H2>
       <ArticleLink
         href="https://www.timesofisrael.com/newly-released-footage-shows-palestinian-driver-in-hamas-hands-before-oct-7-slaying/"

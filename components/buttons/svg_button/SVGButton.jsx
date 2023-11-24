@@ -15,7 +15,7 @@ export default function SVGButton(props) {
     setTimeout(() => setActive(false), 300);
   };
   return (
-    <button onClick={onClickHandler}>
+    <button onClick={onClickHandler} className={props.className ?? ""}>
       <Image
         src={props.iconPath}
         alt=""

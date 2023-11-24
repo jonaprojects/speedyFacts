@@ -4,9 +4,9 @@ import P from "@/components/typography/P";
 import SubHeader from "@/components/typography/SubHeader";
 import Template from "@/components/Template/Template";
 import Fact from "@/components/fact/Fact";
-import EmbedYoutube from "@/components/embed_youtube/EmbedYoutube";
 import { Tweet } from "react-twitter-widgets";
 import H2 from "@/components/typography/H2";
+import Video from "@/components/video/Video";
 
 export default function IDFHumanity(props) {
   return (
@@ -19,10 +19,10 @@ export default function IDFHumanity(props) {
         has prevented them from leaving and used them as human shields.
       </SubHeader>
       <H2 className="mt-6 mb-3">Videos</H2>
-      <EmbedYoutube embedId="OGri58wrMBk" className="mb-2" />
-      <EmbedYoutube embedId="-_3j_WNQKXw" className="mb-2" />
-      <EmbedYoutube embedId="O9UXvI4eEgQ" className="mb-2" />
-      <EmbedYoutube embedId="svnCrECZt7k" className="mb-2" />
+      <Video embedId="OGri58wrMBk" className="mb-2" />
+      <Video embedId="-_3j_WNQKXw" className="mb-2" />
+      <Video embedId="O9UXvI4eEgQ" className="mb-2" />
+      <Video embedId="svnCrECZt7k" className="mb-2" />
       <H2 className="mb-3 mt-6">Tweets</H2>
       <Tweet tweetId="1723690677190500798" />
       <Tweet tweetId="" />

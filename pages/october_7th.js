@@ -12,7 +12,7 @@ import H3 from "@/components/typography/H3";
 import Modal, { ModalLink } from "@/components/modal/Modal";
 import { useRouter } from "next/router";
 import Video from "@/components/video/Video";
-
+import Article from "@/components/article/Article";
 export default function PalestineHistory(props) {
   const [warningModalOpen, setWarningModalOpen] = useState(false);
   const router = useRouter();
@@ -138,34 +138,31 @@ export default function PalestineHistory(props) {
       <A href="https://oct7map.com/"> https://oct7map.com/ </A>
       <H2 className="mt-6 mb-3">Articles</H2>
       <H3>Hamas Didn&rsquo;t Spare Muslims</H3>
-      <ul style={{ listStyle: "initial" }}>
-        <li>
-          <A href="https://www.timesofisrael.com/in-rahat-a-bedouin-community-mourns-its-october-7-losses-away-from-the-public-eye/">
-            <i>
-              &quot;In Rahat, a Bedouin community mourns its October 7 losses
-              away from the public eye&quot;
-            </i>
-            , Times Of Israel.
-          </A>
+      <ul>
+        <li className="mb-1">
+          <Article
+            title="In Rahat, a Bedouin community mourns its October 7 losses
+              away from the public eye"
+            href="https://www.timesofisrael.com/in-rahat-a-bedouin-community-mourns-its-october-7-losses-away-from-the-public-eye/"
+            source="Times Of Israel"
+          />
         </li>
-        <li>
-          <A href="https://www.nytimes.com/2023/10/13/world/middleeast/arab-israeli-hamas-attacks.html">
-            <i>
-              &quot;Arab Citizens of Israel Were Not Spared in the Hamas-Led
-              Massacres&quot;
-            </i>
-            , New York Times.
-          </A>
+        <li className="mb-1">
+          <Article
+            title="Arab Citizens of Israel Were Not Spared in the Hamas-Led
+              Massacres"
+            href="https://www.nytimes.com/2023/10/13/world/middleeast/arab-israeli-hamas-attacks.html"
+            source="New York Times"
+          />
         </li>
-        <li>
-          <A href="https://nypost.com/2023/10/13/hamas-targeted-bedouins-during-weekend-attack-community-member-says/">
-            <i>
-              &quot;Bedouins once sympathetic to Palestinian cause seek
-              &rsquo;vengeance&rsquo; after being targeted during Hamas&rsquo;s
-              assault on Israel, member says&quot;
-            </i>
-            , New York Times.
-          </A>
+        <li className="mb-1">
+          <Article
+            title={`Bedouins once sympathetic to Palestinian cause seek
+              "vengeance" after being targeted during Hamas's
+              assault on Israel, member says"`}
+            href="https://nypost.com/2023/10/13/hamas-targeted-bedouins-during-weekend-attack-community-member-says/"
+            source="New York Times"
+          />
         </li>
       </ul>
       <Modal
