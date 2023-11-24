@@ -17,9 +17,7 @@ export default function WestBankTerrorism(props) {
         Some claim that Hamas and other terrorist groups are nonexistent in the
         West Bank and use that as an excuse to condemn Israeli settlements.
       </SubHeader>
-
       <H2 className="mt-6 mb-3">Facts</H2>
-
       <Fact
         content="An opinion poll conducted by Birzeit University's Arab World for
         Research & Development (AWRAD) during the fourth week of the 2O23 Gaza war revealed that a majority of surveyed
@@ -58,6 +56,7 @@ export default function WestBankTerrorism(props) {
       <H2 className="mt-6 mb-3">Videos</H2>
       <H2 className="mb-3 mt-6">Tweets</H2>
       <Tweet tweetId="1725098802388881544" />
+      <Tweet tweetId="1727679947475402829" />
       <H2 className="mb-3 mt-6">Articles</H2>
       <ArticleLink
         href="https://www.i24news.tv/en/news/middle-east/palestinian-territories/1700158968-survey-finds-majority-in-the-west-bank-justify-the-oct-7-massacre"

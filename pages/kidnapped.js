@@ -77,7 +77,7 @@ export default function Kidnapped(props) {
       </div>
       <H2 className="mt-6 mb-3">Sources</H2>
       <H3>Hostages lists</H3>
-      <ul style={{ listStyle: "initial" }}>
+      <ul>
         <li className="mb-1">
           <Article
             title="List of the hostages"

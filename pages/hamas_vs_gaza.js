@@ -25,6 +25,9 @@ export default function FakeNews(props) {
       <Video embedId="iHeb9weNAfs" className="mb-2" />
       <Video embedId="v2gg00cmdU0" className="mb-2" />
       <Video embedId="rRra0hvjAL0" className="mb-2" />
+      <Video embedId="PgAq-9_4Rzs" className="mb-2" />
+      <Video embedId="BkeKl2_-cBg" className="mb-2" />
+
       <H2 className="mt-6 mb-3">Tweets</H2>
       <Tweet tweetId="1720425819305070821" />
       <Tweet tweetId="1723784623828676945" />

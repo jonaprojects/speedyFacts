@@ -55,6 +55,7 @@ export default function NoApartheid(props) {
       <H2 className="mb-3 mt-6">Tweets</H2>
       <Tweet tweetId="1724486686971723992" />
       <Tweet tweetId="1725468560766468358" />
+      <Tweet tweetId="1725468560766468358" />
       <H2 className="mt-7 mb-3">Articles</H2>
     </Template>
   );
