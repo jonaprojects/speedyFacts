@@ -20,6 +20,7 @@ export const CATEGORIES = [
   "hospital blast",
   "jews in muslim countries",
   "israeli heroes",
+  "satire",
 ];
 export const CATEGORIES_AND_PATHS = {
   "un bias": "/un",

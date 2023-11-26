@@ -28,7 +28,8 @@ export default function SearchBar(props) {
 
   const handleOnBlur = (event) => {
     setIsFocused(false);
-    setShowSuggestions(false);
+    setTimeout(() => setShowSuggestions(false), 150);
+    // The timeout is in the case of clicking on a suggestion
   };
   const handleOnChange = (event) => {
     setText(event.target.value);
@@ -41,9 +42,7 @@ export default function SearchBar(props) {
     setShowSuggestions(false);
     if (suggestions && suggestions.length > 0) {
       let best_suggestion = suggestions[0].toLowerCase();
-      console.log(`best suggestion is ${best_suggestion}`);
       let path = CATEGORIES_AND_PATHS[best_suggestion];
-      console.log(`the path is ${path}`);
       router.push(path);
     } else {
       setShowNoResults(true);

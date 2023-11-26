@@ -4,7 +4,8 @@ import { useRouter } from "next/router";
 
 export default function SearchSuggestion(props) {
   const router = useRouter();
-  const onClickHandler = () => {
+  const onClickHandler = (event) => {
+    console.log("hello");
     router.push(props.href);
   };
   return (
