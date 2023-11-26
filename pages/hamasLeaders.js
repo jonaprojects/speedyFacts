@@ -16,7 +16,7 @@ export default function HamasLeaders(props) {
       <SubHeader className="mb-5">
         The leaders of Hamas are known for their brutality and inhumanity. They
         starve and use their people as human shields while hiding in tunnels and
-        luxury hotels abroad. It&apos;s time to expose the head of the snake.
+        luxury hotels abroad. They have both Israeli and Gazan blood on their hands.
       </SubHeader>
       <Fact
         className="mb-2"
@@ -32,7 +32,6 @@ export default function HamasLeaders(props) {
         has accumulated an impressive fortune. He has lived in Qatar since 2019.
         His exact net worth is unknown, but today is estimated to be at least $5 million."
       />
-
       <Fact
         className="mb-2"
         content="More than half of the residents of Gaza live in severe poverty, but
@@ -74,7 +73,8 @@ export default function HamasLeaders(props) {
         One of Isamail Haniyeh&apos;s sons in a luxury hotel in Qatar.
       </p>
       <H2 className="mt-6 mb-3">Videos</H2>
-      <EmbedYoutube embedId="Yg4VqiW0dyo" />
+      <EmbedYoutube embedId="Yg4VqiW0dyo" className="mb-2" />
+      <EmbedYoutube embedId="VAva9VM38uA" className="mb-2" />
       <H2 className="mt-6 mb-3">Articles</H2>
       <ul>
         <li className="mb-1">
@@ -89,6 +89,20 @@ export default function HamasLeaders(props) {
             title="Hamas leaders worth staggering $11B revel in luxury — while Gaza’s people suffer"
             href="https://nypost.com/2023/11/07/news/hamas-leaders-worth-11bn-live-luxury-lives-in-qatar/"
             source="New York Post"
+          />
+        </li>
+        <li className="mb-1">
+          <Article
+            title="Hamas leaders worth $11 billion revel in luxury in Qatar - while Gaza’s people suffer, prompting US lawmakers to consider stripping the emirate of its key ally status"
+            href="https://www.skynews.com.au/world-news/hamas-leaders-worth-11-billion-revel-in-luxury-in-qatar-while-gazas-people-suffer-prompting-us-lawmakers-to-strip-the-emirate-of-its-key-ally-status/news-story/b657e03b51342b3659eb9f60e320169c"
+            source="Sky News Australia"
+          />
+        </li>
+        <li className="mb-1">
+          <Article
+            title="Hamas Leader Ismail Haniyeh: We Need The Blood Of Women, Children, And The Elderly Of Gaza – So It Awakens Our Revolutionary Spirit"
+            href="https://www.memri.org/tv/hamas-leader-ismail-haniyeh-gaza-bombing-new-holocaust-need-blood-women-children-elderly-awakens-spirit-resolve"
+            source="MEMRI TV"
           />
         </li>
       </ul>

@@ -101,20 +101,22 @@ export default function PalestineHistory(props) {
       <H2 className="mt-6 lg:mt-8 mb-3">Videos</H2>
       <Video embedId="HnLq0DjErIA" className="mb-2" />
       <Video embedId="fqW8madte_I" className="mb-2" />
+      <Video embedId="1JmRL-xo_tI" className="mb-2" />
       <Video embedId="cnnnyejCL6c" className="mb-2" />
       <Video embedId="OSdQL2ze6Gc" className="mb-2" />
       <Video embedId="wAFDI63yvNQ" className="mb-2" />
       <Video embedId="T4XiTRkg9s8" className="mb-2" />
       <Video embedId="QT22MMb1sW8" className="mb-2" />
       <Video embedId="Taab_3a3124" className="mb-2" />
+      <Video embedId="m_rOp4e43GQ" className="mb-2" />
       <Video embedId="15_1D860Frg" className="mb-2" />
       <Video embedId="bH74lnxHMiU" className="mb-2" />
       <Video embedId="q74wXfhgUbw" className="mb-2" />
       <Video embedId="DWOqNnLsjN8" className="mb-2" />
+      <Video embedId="oLdsVNHvy2w" className="mb-2" />
       <Video embedId="yPK4DUNDlQ0" className="mb-2" />
       <Video embedId="HVlfElxoutE" className="mb-2" />
       <Video embedId="Dcm57pszXKw" className="" />
-      <Video embedId="lNMtik3DRSg" className="" />
       <H2 className="mt-6 lg:mt-8 mb-3">Tweets</H2>
       <Tweet tweetId="1716477619061887235" />
       <Tweet tweetId="1723777827030315213" />
@@ -133,11 +135,86 @@ export default function PalestineHistory(props) {
         title="Warning!"
         content="The following links lead to you to raw graphic content."
       />
-      <A href="https://hamasisisis.co/"> https://hamasisisis.co/ </A>
+      <A href="https://hamasisisis.co/">https://hamasisisis.co/</A>
+      <br />
+      <A href="https://www.october7.org/nova-festival-massacre">
+        https://www.october7.org/nova-festival-massacre
+      </A>
+      <br />
+      <A href="https://www.hamas.com">https://www.hamas.com</A>
       <br />
       <A href="https://oct7map.com/"> https://oct7map.com/ </A>
       <H2 className="mt-6 mb-3">Articles</H2>
-      <H3>Hamas Didn&rsquo;t Spare Muslims</H3>
+      <ul>
+        <li className="mb-1">
+          <Article
+            title={`Hamas Leaves Trail of Terror in Israel`}
+            href="https://www.nytimes.com/2023/10/10/world/middleeast/israel-gaza-war-hamas-deaths-killings.html"
+            source="New York Times"
+          />
+        </li>
+        <li className="mb-1">
+          <Article
+            title={`They Ran Into a Bomb Shelter for Safety. Instead, They Were Slaughtered.`}
+            href="https://www.nytimes.com/2023/11/11/world/middleeast/israel-hamas-oct-7-attack-shelter.html"
+            source="New York Times"
+          />
+        </li>
+        <li className="mb-1">
+          <Article
+            title={`Hamas horrors you luckily won’t see — glimpse of terror too sick for Israel to air`}
+            href="https://nypost.com/2023/10/29/opinion/hamas-horrors-you-luckily-wont-see-glimpse-of-terror-too-sick-for-israel-to-air/"
+            source="New York Post"
+          />
+        </li>
+        <li className="mb-1">
+          <Article
+            title={`Hamas terrorist recounts in horrifying detail how he slaughtered women and children in Oct. 7 massacre: ‘Our mission was to kill’`}
+            href="https://nypost.com/2023/11/01/news/hamas-terrorist-admits-to-killing-women-and-children-in-oct-7-massacre/"
+            source="New York Post"
+          />
+        </li>
+        <li className="mb-1">
+          <Article
+            title={`Hamas kills 40 babies and children — beheading some of them — at Israeli kibbutz: report`}
+            href="https://nypost.com/2023/10/10/hamas-kills-40-babies-and-children-beheading-some-of-them-at-israeli-kibbutz-report/"
+            source="New York Post"
+          />
+        </li>
+
+        <li className="mb-1">
+          <Article
+            title={`‘It was a pogrom’: Be’eri survivors on the horrific attack by Hamas terrorists`}
+            href="https://www.theguardian.com/world/2023/oct/11/it-was-a-pogrom-beeri-survivors-horrific-attack-hamas-terrorists"
+            source="The Guardian"
+          />
+        </li>
+        <li className="mb-1">
+          <Article
+            title={`Hamas terrorists post murder of Israeli grandmother on her Facebook page`}
+            href="https://www.telegraph.co.uk/world-news/2023/10/10/israel-hamas-terrorists-grandmothers-murder-posted-facebook/"
+            source="The Telegraph"
+          />
+        </li>
+      </ul>
+      <H3 className="mt-6">The Nova Festival Massacre</H3>
+      <ul>
+        <li className="mb-1">
+          <Article
+            title={`How Hamas Turned an Israeli Music Festival Into a Massacre`}
+            href="https://www.wsj.com/video/series/in-depth-features/how-hamas-turned-an-israeli-music-festival-into-a-massacre/F24366C2-CB00-49C9-BF6A-08A2B275C5CD"
+            source="The Wall Street Jorunal"
+          />
+        </li>
+        <li className="mb-1">
+          <Article
+            title={`How the Hamas attack on the Supernova festival in Israel unfolded`}
+            href="https://www.theguardian.com/world/2023/oct/09/how-the-hamas-attack-on-the-supernova-festival-in-israel-unfolded"
+            source="The Guardian"
+          />
+        </li>
+      </ul>
+      <H3 className="mt-6">Hamas Didn&rsquo;t Spare Muslims</H3>
       <ul>
         <li className="mb-1">
           <Article
@@ -161,7 +238,7 @@ export default function PalestineHistory(props) {
               "vengeance" after being targeted during Hamas's
               assault on Israel, member says"`}
             href="https://nypost.com/2023/10/13/hamas-targeted-bedouins-during-weekend-attack-community-member-says/"
-            source="New York Times"
+            source="New York Post"
           />
         </li>
       </ul>

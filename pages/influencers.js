@@ -37,14 +37,14 @@ export default function Influencers(props) {
           News.
         </P>
         <A href="https://twitter.com/YosephHaddad">Yoseph Hadad On Twitter</A>
-        <br/>
+        <br />
         <A href="ttps://www.instagram.com/yosephhaddad/">
           Yoseph Hadad On Instagram
         </A>
       </PersonCard>
       <PersonCard src="/NoaTishby.jpg" className="mt-2">
         <H3 className="">Noa Tishby</H3>
-        <P>
+        <P className="mb-1">
           Noa Tishby is an Israeli actress, producer, writer and a social
           activist. She She often speaks in favor of Israel in events around the
           world and even in the UN&apos;s General Assembly. In recognition of
@@ -60,8 +60,8 @@ export default function Influencers(props) {
       </PersonCard>
       <PersonCard src="/henMazzig.jpg" className="mt-2">
         <H3 className="">Hen Mazzig</H3>
-        <P>
-          Han Mazzig is an Israeli writer, public speaker and activist from
+        <P className="mb-1">
+          Hen Mazzig is an Israeli writer, public speaker and activist from
           Tel-Aviv. Hen is a prominent digital influencer; over 100 million
           users have interacted with his content, while his Instagram has a
           higher engagement rate than Kim Kardashian, Cristiano Rinaldo, and
@@ -73,6 +73,23 @@ export default function Influencers(props) {
         <br />
         <A href="https://www.instagram.com/henmazzig/">
           Hen Mazzig On Instagram
+        </A>
+      </PersonCard>
+      <PersonCard src="/daniBuller.png" className="mt-2">
+        <H3 className="">Dani Buller</H3>
+        <P className="mb-1">
+          Dani Buller(&quot;ask dani&quot;) is an Israeli content creator, an
+          teacher and a former programmer. He initally used these platforms to
+          teach young students about interesting math concepts, and later on he
+          started to move to other subjects such as science, politics, religion
+          and more. Following the 2023 war, he created many short videos in
+          English to educate the world about it, which became viral. Some of his
+          videos even got to some news outlets such as Sky News Australia.
+        </P>
+        <A href="https://twitter.com/askdani__real">Dani Buller On Twitter</A>
+        <br />
+        <A href="https://www.tiktok.com/@ask__dani?lang=he-IL">
+          Dani Buller On Tiktok
         </A>
       </PersonCard>
     </Template>

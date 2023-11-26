@@ -44,4 +44,5 @@ export const CATEGORIES_AND_PATHS = {
   "hospital blast": "/hospital_blast",
   "double standards": "/double_standards",
   "fake news": "/fake_news",
+  satire: "/satire",
 };
