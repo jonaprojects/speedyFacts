@@ -10,6 +10,7 @@ import { Tweet } from "react-twitter-widgets";
 import EmbedYoutube from "@/components/embed_youtube/EmbedYoutube";
 import ArticleLink from "@/components/typography/ArticleLink";
 import Video from "@/components/video/Video";
+import Article from "@/components/article/Article";
 
 export default function MuslimVictimsAndHeroes(props) {
   return (
@@ -47,13 +48,25 @@ export default function MuslimVictimsAndHeroes(props) {
       <Tweet tweetId="1726172813785231749" />
       <Tweet tweetId="1727327376223178939" />
       <Tweet tweetId="1727836684438397056" />
-      <H2 className="mt-6 mb-3">Sources</H2>
-      <ArticleLink
-        href="https://www.timesofisrael.com/newly-released-footage-shows-palestinian-driver-in-hamas-hands-before-oct-7-slaying/"
-        title="Newly released footage shows Palestinian driver in Hamas hands before
+      <H2 className="mt-6 mb-3">Articles</H2>
+      <ul>
+        <li className="mb-1">
+          <Article
+            href="https://www.timesofisrael.com/newly-released-footage-shows-palestinian-driver-in-hamas-hands-before-oct-7-slaying/"
+            title="Newly released footage shows Palestinian driver in Hamas hands before
         Oct. 7 slaying"
-        source="Times Of Israel"
-      />
+            source="Times Of Israel"
+          />
+        </li>
+        <li className="mb-1">
+          <Article
+            title="Arab Citizens of Israel Were Not Spared in the Hamas-Led
+              Massacres"
+            href="https://www.nytimes.com/2023/10/13/world/middleeast/arab-israeli-hamas-attacks.html"
+            source="New York Times"
+          />
+        </li>
+      </ul>
     </Template>
   );
 }

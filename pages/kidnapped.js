@@ -101,6 +101,15 @@ export default function Kidnapped(props) {
         </li>
       </ul>
       <H2 className="mt-6 mb-3">Articles</H2>
+      <ul>
+        <li>
+          <Article
+            title="Video shows apparent death of Israeli hostages in Hamas custody"
+            href="https://www.washingtonpost.com/investigations/2023/10/09/israel-hamas-hostage-death/"
+            source="The Washington Post"
+          />
+        </li>
+      </ul>
       <A href="https://kan.org.il/content/kan/kan-actual/p-11894/news-item/581493/"></A>
     </Template>
   );

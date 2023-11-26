@@ -196,6 +196,13 @@ export default function PalestineHistory(props) {
             source="The Telegraph"
           />
         </li>
+        <li>
+          <Article
+            title="Video shows apparent death of Israeli hostages in Hamas custody"
+            href="https://www.washingtonpost.com/investigations/2023/10/09/israel-hamas-hostage-death/"
+            source="The Washington Post"
+          />
+        </li>
       </ul>
       <H3 className="mt-6">The Nova Festival Massacre</H3>
       <ul>
