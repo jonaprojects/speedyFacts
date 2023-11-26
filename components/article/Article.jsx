@@ -1,6 +1,6 @@
 import Card from "../card/Card";
 import A from "../typography/A";
-import CopyButton from "../buttons/CopyButton";
+import CopyButton from "../buttons/copy_button/CopyButton";
 import CardAlt from "../card/CardAlt";
 export default function Article(props) {
   return (

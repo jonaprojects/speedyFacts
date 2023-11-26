@@ -9,11 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "copy-image-clipboard": "^2.1.2",
     "next": "14.0.0",
     "react": "^18",
     "react-dom": "^18",
     "react-pdf": "^7.5.1",
-    "react-twitter-widgets": "^1.11.0"
+    "react-twitter-widgets": "^1.11.0",
+    "uninstall": "^0.0.0"
   },
   "devDependencies": {
     "autoprefixer": "^10",

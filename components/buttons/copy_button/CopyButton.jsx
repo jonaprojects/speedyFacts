@@ -5,10 +5,14 @@ import classes from "./SVGButton.module.css";
 export default function SVGButton(props) {
   const [active, setActive] = useState(false);
 
+  const copyContent = () => {
+    navigator.clipboard.writeText(props.text);
+  };
+
   const onClickHandler = () => {
     setActive(true);
     try {
-      props?.onClick();
+      copyContent();
     } catch {
       //TODO: Handle this later
     }
@@ -17,7 +21,7 @@ export default function SVGButton(props) {
   return (
     <button onClick={onClickHandler} className={props.className ?? ""}>
       <Image
-        src={props.iconPath}
+        src={"/copy.svg"}
         alt=""
         className={`cursor-pointer p-1 box-content rounded-full hover:bg-slate-200 ${
           active && classes.active

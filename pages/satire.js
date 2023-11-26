@@ -7,6 +7,11 @@ import Fact from "@/components/fact/Fact";
 import { Tweet } from "react-twitter-widgets";
 import H2 from "@/components/typography/H2";
 import Video from "@/components/video/Video";
+import H3 from "@/components/typography/H3";
+import Image from "next/image";
+import SensitiveMedia from "@/components/sensitive_media/SensitiveMedia";
+
+
 
 export default function Satire(props) {
   return (
@@ -16,6 +21,9 @@ export default function Satire(props) {
         Satiric comments and skits following Hamas&apos; attack and the rise of
         Antisemitism in the world.
       </SubHeader>
+
+      <SensitiveMedia src="/CleanJews.jpg" />
+
       <H2 className="mt-6 mb-3">Videos</H2>
       <Video embedId="yVcwKsd_kiQ" className="mb-2" />
       <Video embedId="gHTNuBKtzHc" className="mb-2" />
