@@ -9,6 +9,7 @@ import A from "@/components/typography/A";
 import { Tweet } from "react-twitter-widgets";
 import ArticleLink from "@/components/typography/ArticleLink";
 import Video from "@/components/video/Video";
+import ResponsiveVideoGrid from "@/components/responsive_grids/ResponsiveVideoGrid";
 
 export default function IsraeliHeroes(props) {
   return (
@@ -20,9 +21,11 @@ export default function IsraeliHeroes(props) {
       </SubHeader>
 
       <H2 className="mt-6 mb-3">Videos</H2>
-      <Video embedId="_zXT-jtNnO4" className="mb-2" />
-      <Video embedId="ICFiHMY48KY" className="mb-2" />
-      <Video embedId="AjQ6T6y93yo" className="mb-2" />
+      <ResponsiveVideoGrid>
+        <Video embedId="_zXT-jtNnO4" className="mb-2" />
+        <Video embedId="ICFiHMY48KY" className="mb-2" />
+        <Video embedId="AjQ6T6y93yo" className="mb-2" />
+      </ResponsiveVideoGrid>
     </Template>
   );
 }

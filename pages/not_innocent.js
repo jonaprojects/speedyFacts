@@ -8,6 +8,7 @@ import EmbedYoutube from "@/components/embed_youtube/EmbedYoutube";
 import { Tweet } from "react-twitter-widgets";
 import H2 from "@/components/typography/H2";
 import ArticleLink from "@/components/typography/ArticleLink";
+import Video from "@/components/video/Video";
 
 export default function NotInnocent(props) {
   return (
@@ -29,7 +30,7 @@ export default function NotInnocent(props) {
         a public screening of the attack."
       />
       <H2 className="mt-6 mb-3">Videos</H2>
-      <EmbedYoutube embedId="ugFcvOLj88A" />
+      <Video embedId="ugFcvOLj88A" />
       <H2 className="mb-3 mt-6">Tweets</H2>
       <Tweet tweetId="1726621899822968983" />
       <Tweet tweetId="1723797001530175821" />

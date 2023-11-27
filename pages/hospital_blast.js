@@ -6,6 +6,8 @@ import Fact from "@/components/fact/Fact";
 import SubHeader from "@/components/typography/SubHeader";
 import H2 from "@/components/typography/H2";
 import Video from "@/components/video/Video";
+import ResponsiveVideoGrid from "@/components/responsive_grids/ResponsiveVideoGrid";
+import Article from "@/components/article/Article";
 export default function HospitalBombing(props) {
   return (
     <Template>
@@ -30,8 +32,17 @@ export default function HospitalBombing(props) {
          Israeli airstrike, Rishi Sunak has told MPs." - The Guardian`}
       />
       <H2 className="mt-6 mb-3">Recordings & Proofs</H2>
-      <Video embedId="3qy_RjHL7-8" className="mb-2" />
-      <Video embedId="THV_OuzC9jM" />
+      <ResponsiveVideoGrid>
+        <Video embedId="3qy_RjHL7-8" />
+        <Video embedId="THV_OuzC9jM" />
+      </ResponsiveVideoGrid>
+
+      <H2 className="mt-7 mb-3">Articles</H2>
+      <Article
+        title="Human Rights Watch says rocket misfire likely cause of deadly Gaza hospital blast"
+        href="https://www.reuters.com/world/middle-east/human-rights-watch-says-rocket-misfire-likely-cause-deadly-gaza-hospital-blast-2023-11-26/"
+        source="Reuters"
+      />
     </Template>
   );
 }

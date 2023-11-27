@@ -7,6 +7,7 @@ import Fact from "@/components/fact/Fact";
 import { Tweet } from "react-twitter-widgets";
 import H2 from "@/components/typography/H2";
 import Video from "@/components/video/Video";
+import ResponsiveVideoGrid from "@/components/responsive_grids/ResponsiveVideoGrid";
 
 export default function TheWestIsNext(props) {
   return (
@@ -18,8 +19,10 @@ export default function TheWestIsNext(props) {
         wishes to destroy the western society and to dominate the world.
       </SubHeader>
       <H2 className="mt-6 mb-3">Videos</H2>
-      <Video embedId="UiZKNygXl2E" className="mb-2" />
-      <Video embedId="UXLZ_iT3RmE" className="mb-2" />
+      <ResponsiveVideoGrid>
+        <Video embedId="UiZKNygXl2E" />
+        <Video embedId="UXLZ_iT3RmE" />
+      </ResponsiveVideoGrid>
       <H2 className="mb-3 mt-6">Tweets</H2>
       <Tweet tweetId="1724279167439544787" />
       <Tweet tweetId="1136881942375346176" />

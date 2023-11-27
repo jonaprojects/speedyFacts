@@ -9,6 +9,9 @@ import H2 from "@/components/typography/H2";
 import A from "@/components/typography/A";
 import Article from "@/components/article/Article";
 import MyImage from "@/components/image/MyImage";
+import Video from "@/components/video/Video";
+import ResponsiveVideoGrid from "@/components/responsive_grids/ResponsiveVideoGrid";
+import ResponsiveGrid from "@/components/responsive_grids/ResponsiveGrid";
 
 export default function HamasLeaders(props) {
   return (
@@ -50,33 +53,45 @@ export default function HamasLeaders(props) {
       `}
       />
       <H2 className="mt-6 mb-3">Pictures</H2>
-      <MyImage
-        src="/HaladMashalQatar.png"
-        alt="Teddy Bears for the kidnapped kids, LA."
-        className="object-fit md:w-1/2"
-      />
-      <p className="text-sm	mb-4 text-slate-500">
-        Khaled Mashal in a gym in Qatar
-      </p>
-      <MyImage
-        src="/HaladMashalTennis.png"
-        alt="Teddy Bears for the kidnapped kids, LA."
-        className="object-fit md:w-1/2 mb-2"
-      />
-      <p className="text-sm	mb-4 text-slate-500">
-        Khaled Mashal plays tennis in Qatar
-      </p>
-      <MyImage
-        src="/HaniyehSonQatar.png"
-        alt="Teddy Bears for the kidnapped kids, LA."
-        className="object-fit md:w-1/2 mb-2"
-      />
-      <p className="text-sm	mb-4 text-slate-500">
-        One of Isamail Haniyeh&apos;s sons in a luxury hotel in Qatar.
-      </p>
+      <ResponsiveGrid>
+        <div>
+          <MyImage
+            src="/HaladMashalQatar.png"
+            alt="Teddy Bears for the kidnapped kids, LA."
+            className="object-fit"
+          />
+          <p className="text-sm	mb-4 text-slate-500 inline-block">
+            Khaled Mashal in a gym in Qatar
+          </p>
+        </div>
+        <div>
+          <MyImage
+            src="/HaladMashalTennis.png"
+            alt="Teddy Bears for the kidnapped kids, LA."
+            className="object-fit"
+          />
+          <p className="text-sm	mb-4 text-slate-500">
+            Khaled Mashal plays tennis in Qatar
+          </p>
+        </div>
+        <div>
+          <MyImage
+            src="/HaniyehSonQatar.png"
+            alt="Teddy Bears for the kidnapped kids, LA."
+            className="object-fit  mb-2"
+          />
+          <p className="text-sm	mb-4 text-slate-500">
+            One of Isamail Haniyeh&apos;s sons in a luxury hotel in Qatar.
+          </p>
+        </div>
+      </ResponsiveGrid>
+
       <H2 className="mt-6 mb-3">Videos</H2>
-      <EmbedYoutube embedId="Yg4VqiW0dyo" className="mb-2" />
-      <EmbedYoutube embedId="VAva9VM38uA" className="mb-2" />
+      <ResponsiveVideoGrid>
+        <Video embedId="Yg4VqiW0dyo" />
+        <Video embedId="VAva9VM38uA" />
+      </ResponsiveVideoGrid>
+
       <H2 className="mt-6 mb-3">Articles</H2>
       <ul>
         <li className="mb-1">

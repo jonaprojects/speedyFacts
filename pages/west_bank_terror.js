@@ -9,6 +9,8 @@ import { Tweet } from "react-twitter-widgets";
 import H2 from "@/components/typography/H2";
 import ArticleLink from "@/components/typography/ArticleLink";
 import Video from "@/components/video/Video";
+import MyImage from "@/components/image/MyImage";
+import ResponsiveGrid from "@/components/responsive_grids/ResponsiveGrid";
 export default function WestBankTerrorism(props) {
   return (
     <Template>
@@ -34,25 +36,61 @@ export default function WestBankTerrorism(props) {
       during the 4th week of the 2023 Gaza war."
       />
       <H2 className="mt-7 mb-3">Images</H2>
-      <img
-        src="/HamasRamalla.webp"
-        alt="Issam Rimawi Flash90 / Hamas supporters at a rally on the occasion of Student Council elections at Birzeit University in Ramallah."
-        className="object-fit mt-6 mb-3"
-      />
-      <small className="text-sm text-slate-500">
-        Issam Rimawi Flash90 / Hamas supporters at a rally on the occasion of
-        Student Council elections at Birzeit University in Ramallah.
-      </small>
-      <img
-        src="/HamasBirzeitUniversity.webp"
-        alt="Issam Rimawi Flash90 / Hamas supporters at a rally on the occasion of Student Council elections at Birzeit University in Ramallah."
-        className="object-fit mt-6 mb-3"
-      />
-      <small className="text-sm text-slate-500">
-        Flash90 / Palestinian student supporters of Hamas in Gaza wave the
-        movement&apos;s flag during a rally at Birzeit University, near the West
-        Bank city of Ramallah.
-      </small>
+      <ResponsiveGrid>
+        <div>
+          <MyImage
+            src="/HamasRamalla.png"
+            alt="Issam Rimawi Flash90 / Hamas supporters at a rally on the occasion of Student Council elections at Birzeit University in Ramallah."
+          />
+          <br />
+          <small className="text-sm text-slate-500">
+            Issam Rimawi Flash90 / Hamas supporters at a rally on the occasion
+            of Student Council elections at Birzeit University in Ramallah.
+          </small>
+        </div>
+        <div>
+          <MyImage
+            src="/HamasBirzeitUniversity.png"
+            alt="Issam Rimawi Flash90 / Hamas supporters at a rally on the occasion of Student Council elections at Birzeit University in Ramallah."
+          />
+          <br />
+          <small className="text-sm text-slate-500">
+            Flash90 / Palestinian student supporters of Hamas in Gaza wave the
+            movement&apos;s flag during a rally at Birzeit University, near the
+            West Bank city of Ramallah.
+          </small>
+        </div>
+        <div>
+          <MyImage
+            src="/HamasRamalla1.png"
+            alt="Hamas flags in Ramalla celebrating prisoner release Nov 2023"
+          />
+          <br />
+          <small className="text-sm text-slate-500">
+            Hamas flags in Ramalla celebrating prisoner release Nov 2023
+          </small>
+        </div>
+        <div>
+          <MyImage
+            src="/HamasRamalla2.png"
+            alt="Hamas flags in Ramalla celebrating prisoner release Nov 2023"
+          />
+          <br />
+          <small className="text-sm text-slate-500">
+            Hamas flags in Ramalla celebrating prisoner release Nov 2023
+          </small>
+        </div>
+      </ResponsiveGrid>
+      <div>
+        <MyImage
+          src="/Tulkarem1.png"
+          alt="Hamas executes two Palestinians in Tulkarem, West Bank [EXPLICIT]"
+        />
+        <br />
+        <small className="text-sm text-slate-500">
+          Hamas executes two Palestinians in Tulkarem, West Bank [EXPLICIT]
+        </small>
+      </div>
       <H2 className="mt-6 mb-3">Videos</H2>
       <H2 className="mb-3 mt-6">Tweets</H2>
       <Tweet tweetId="1725098802388881544" />

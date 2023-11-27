@@ -7,6 +7,7 @@ import H2 from "@/components/typography/H2";
 import A from "@/components/typography/A";
 import ArticleLink from "@/components/typography/ArticleLink";
 import Video from "@/components/video/Video";
+import ResponsiveVideoGrid from "@/components/responsive_grids/ResponsiveVideoGrid";
 
 export default function PalestineHistory(props) {
   return (
@@ -47,8 +48,11 @@ export default function PalestineHistory(props) {
       `}
       />
       <H2 className="mt-6 mb-3">Videos</H2>
-      <Video embedId="O7ByJb7QQ9U" className="mb-3" />
-      <Video embedId="pefEIwoTEnE" />
+      <ResponsiveVideoGrid>
+        <Video embedId="O7ByJb7QQ9U" className="mb-3" />
+        <Video embedId="pefEIwoTEnE" />
+      </ResponsiveVideoGrid>
+
       <H2 className="mt-6 mb-3">Further Reading</H2>
       <A href="https://www.jewishvirtuallibrary.org/origin-of-quot-palestine-quot">
         Origins Of Palestine - Jewish Virtual Library

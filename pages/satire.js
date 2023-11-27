@@ -10,6 +10,7 @@ import Video from "@/components/video/Video";
 import H3 from "@/components/typography/H3";
 import Image from "next/image";
 import SensitiveMedia from "@/components/sensitive_media/SensitiveMedia";
+import ResponsiveVideoGrid from "@/components/responsive_grids/ResponsiveVideoGrid";
 
 export default function Satire(props) {
   return (
@@ -21,10 +22,13 @@ export default function Satire(props) {
       </SubHeader>
 
       <H2 className="mt-6 mb-3">Videos</H2>
-      <Video embedId="yVcwKsd_kiQ" className="mb-2" />
-      <Video embedId="gHTNuBKtzHc" className="mb-2" />
-      <Video embedId="rbfccVBo9tE" className="mb-2" />
-      <Video embedId="VYUL1R4pupU" className="mb-2" />
+      <ResponsiveVideoGrid>
+        <Video embedId="yVcwKsd_kiQ" />
+        <Video embedId="gHTNuBKtzHc" />
+        <Video embedId="rbfccVBo9tE" />
+        <Video embedId="VYUL1R4pupU" />
+      </ResponsiveVideoGrid>
+
       <H2 className="mb-3 mt-6">Tweets</H2>
     </Template>
   );

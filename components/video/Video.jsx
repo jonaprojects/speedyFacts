@@ -3,14 +3,13 @@ import SecondaryButton from "../buttons/SecondaryButton";
 import SVGButton from "../buttons/copy_button/CopyButton";
 import EmbedYoutube from "../embed_youtube/EmbedYoutube";
 import Image from "next/image";
-import classes from "./Video.module.css";
 import ShareButton from "../buttons/share_button/ShareButton";
 import CopyTextButton from "../buttons/copy_button/CopyTextButton";
 export default function Video(props) {
   const URL = `https://youtu.be/${props.embedId}`;
   return (
     <div
-      className={`bg-white border ${props.className ?? ""} ${classes.video}`}
+      className={`bg-white border ${props.className ?? ""}`}
     >
       <EmbedYoutube embedId={props.embedId} />
       <div className="flex gap-1 py-1">

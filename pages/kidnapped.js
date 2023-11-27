@@ -14,6 +14,7 @@ import Video from "@/components/video/Video";
 import Article from "@/components/article/Article";
 import MyImage from "@/components/image/MyImage";
 import SensitiveMedia from "@/components/sensitive_media/SensitiveMedia";
+import ResponsiveVideoGrid from "@/components/responsive_grids/ResponsiveVideoGrid";
 
 export default function Kidnapped(props) {
   return (
@@ -47,13 +48,16 @@ export default function Kidnapped(props) {
       `}
       />
       <H2 className="mb-3 mt-6">Videos</H2>
-      <Video embedId="YtBBY1supYk" className="mb-2" />
-      <Video embedId="ICR5ml2YPkI" className="mb-2" />
-      <Video embedId="QJuL__lXAjA" className="mb-2" />
-      <Video embedId="7Y9fHUOhTMY" className="mb-2" />
-      <Video embedId="pbez-juyHbQ" className="mb-2" />
-      <Video embedId="40LZFCIKoBc" className="mb-2" />
-      <Video embedId="XGub-s4Jr6w" className="mb-2" />
+      <ResponsiveVideoGrid>
+        <Video embedId="YtBBY1supYk" />
+        <Video embedId="ICR5ml2YPkI" />
+        <Video embedId="QJuL__lXAjA" />
+        <Video embedId="7Y9fHUOhTMY" />
+        <Video embedId="pbez-juyHbQ" />
+        <Video embedId="40LZFCIKoBc" />
+        <Video embedId="XGub-s4Jr6w" />
+      </ResponsiveVideoGrid>
+
       <H2 className="mt-6 mb-3">Images</H2>
       <SensitiveMedia src="/naamalevy.png" />
       <H2 className="mt-6 mb-3">Tweets</H2>
