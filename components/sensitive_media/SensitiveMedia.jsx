@@ -25,7 +25,7 @@ export default function SensitiveMedia(props) {
               <P className="text-slate-50 m-0 p-0">
                 Are you sure you want to view this?
               </P>
-              <div className="w-full flex justify-center mt-3">
+              <div className="flex justify-center mt-3">
                 <button
                   className="bg-white text-slate-500 rounded-xl text-sm px-2 py-1 flex items-center gap-1"
                   onClick={toggleShow}
@@ -48,7 +48,7 @@ export default function SensitiveMedia(props) {
         <img
           src={props.src}
           alt={props.alt ?? "Graphic content"}
-          className={`object-fit ${show ? "" : "blur-lg"}`}
+          className={`object-cover ${show ? "" : "blur-lg"}`}
         />
       </div>
     </SensitiveMediaWrapper>

@@ -13,6 +13,7 @@ import A from "@/components/typography/A";
 import Video from "@/components/video/Video";
 import Article from "@/components/article/Article";
 import MyImage from "@/components/image/MyImage";
+import SensitiveMedia from "@/components/sensitive_media/SensitiveMedia";
 
 export default function Kidnapped(props) {
   return (
@@ -53,7 +54,8 @@ export default function Kidnapped(props) {
       <Video embedId="pbez-juyHbQ" className="mb-2" />
       <Video embedId="40LZFCIKoBc" className="mb-2" />
       <Video embedId="XGub-s4Jr6w" className="mb-2" />
-      <H2 className="mt-6 mb-3">Hostages</H2>
+      <H2 className="mt-6 mb-3">Images</H2>
+      <SensitiveMedia src="/naamalevy.png" />
       <H2 className="mt-6 mb-3">Tweets</H2>
       <Tweet tweetId="1711524024226845039" />
       <Tweet tweetId="1712902786461913333" />
