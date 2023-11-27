@@ -11,7 +11,12 @@ export default function SensitiveMedia(props) {
     console.log("Toggled!");
   };
   return (
-    <SensitiveMediaWrapper show={show} toggleShow={toggleShow}>
+    <SensitiveMediaWrapper
+      show={show}
+      toggleShow={toggleShow}
+      type="image"
+      src={props.src}
+    >
       <div className="relative overflow-hidden">
         {!show && (
           <div className="absolute w-full h-full bg-slate-800 bg-opacity-60 z-10 flex justify-center items-center">

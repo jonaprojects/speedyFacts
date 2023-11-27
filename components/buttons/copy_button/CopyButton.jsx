@@ -2,20 +2,12 @@ import React, { useState } from "react";
 import Image from "next/image";
 import classes from "./SVGButton.module.css";
 
-export default function SVGButton(props) {
+export default function CopyButton(props) {
   const [active, setActive] = useState(false);
-
-  const copyContent = () => {
-    navigator.clipboard.writeText(props.text);
-  };
 
   const onClickHandler = () => {
     setActive(true);
-    try {
-      copyContent();
-    } catch {
-      //TODO: Handle this later
-    }
+    props.onClick();
     setTimeout(() => setActive(false), 300);
   };
   return (

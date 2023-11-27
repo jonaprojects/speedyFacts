@@ -11,8 +11,6 @@ import H3 from "@/components/typography/H3";
 import Image from "next/image";
 import SensitiveMedia from "@/components/sensitive_media/SensitiveMedia";
 
-
-
 export default function Satire(props) {
   return (
     <Template>
@@ -21,8 +19,6 @@ export default function Satire(props) {
         Satiric comments and skits following Hamas&apos; attack and the rise of
         Antisemitism in the world.
       </SubHeader>
-
-      <SensitiveMedia src="/CleanJews.jpg" />
 
       <H2 className="mt-6 mb-3">Videos</H2>
       <Video embedId="yVcwKsd_kiQ" className="mb-2" />

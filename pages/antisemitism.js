@@ -11,6 +11,7 @@ import EmbedYoutube from "@/components/embed_youtube/EmbedYoutube";
 import ArticleLink from "@/components/typography/ArticleLink";
 import Video from "@/components/video/Video";
 import Article from "@/components/article/Article";
+import MyImage from "@/components/image/MyImage";
 
 export default function Antisemitism(props) {
   return (
@@ -24,10 +25,9 @@ export default function Antisemitism(props) {
         Violent antisemitic incidents have also risen dramatically, most notably
         in campuses in the US and in Europe.
       </SubHeader>
-      <img
-        src="/CleanJews.jpg"
+      <MyImage
+        src="/CleanJews.png"
         alt="Pro Palestinian protester calling for the extermination of Jews."
-        className="object-fit mt-6 mb-3"
       />
       <H2 className="mt-8 mb-2">Facts</H2>
       <Fact
