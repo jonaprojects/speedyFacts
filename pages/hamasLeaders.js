@@ -8,6 +8,7 @@ import EmbedYoutube from "@/components/embed_youtube/EmbedYoutube";
 import H2 from "@/components/typography/H2";
 import A from "@/components/typography/A";
 import Article from "@/components/article/Article";
+import MyImage from "@/components/image/MyImage";
 
 export default function HamasLeaders(props) {
   return (
@@ -16,7 +17,8 @@ export default function HamasLeaders(props) {
       <SubHeader className="mb-5">
         The leaders of Hamas are known for their brutality and inhumanity. They
         starve and use their people as human shields while hiding in tunnels and
-        luxury hotels abroad. They have both Israeli and Gazan blood on their hands.
+        luxury hotels abroad. They have both Israeli and Gazan blood on their
+        hands.
       </SubHeader>
       <Fact
         className="mb-2"
@@ -48,24 +50,24 @@ export default function HamasLeaders(props) {
       `}
       />
       <H2 className="mt-6 mb-3">Pictures</H2>
-      <img
-        src="/HaladMashalQatar.jpg"
+      <MyImage
+        src="/HaladMashalQatar.png"
         alt="Teddy Bears for the kidnapped kids, LA."
         className="object-fit md:w-1/2"
       />
       <p className="text-sm	mb-4 text-slate-500">
         Khaled Mashal in a gym in Qatar
       </p>
-      <img
-        src="/HaladMashalTennis.jpg"
+      <MyImage
+        src="/HaladMashalTennis.png"
         alt="Teddy Bears for the kidnapped kids, LA."
         className="object-fit md:w-1/2 mb-2"
       />
       <p className="text-sm	mb-4 text-slate-500">
         Khaled Mashal plays tennis in Qatar
       </p>
-      <img
-        src="/HaniyehSonQatar.jpg"
+      <MyImage
+        src="/HaniyehSonQatar.png"
         alt="Teddy Bears for the kidnapped kids, LA."
         className="object-fit md:w-1/2 mb-2"
       />

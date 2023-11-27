@@ -12,6 +12,7 @@ import ArticleLink from "@/components/typography/ArticleLink";
 import A from "@/components/typography/A";
 import Video from "@/components/video/Video";
 import Article from "@/components/article/Article";
+import MyImage from "@/components/image/MyImage";
 
 export default function Kidnapped(props) {
   return (
@@ -52,10 +53,11 @@ export default function Kidnapped(props) {
       <Video embedId="pbez-juyHbQ" className="mb-2" />
       <Video embedId="40LZFCIKoBc" className="mb-2" />
       <Video embedId="XGub-s4Jr6w" className="mb-2" />
-
       <H2 className="mt-6 mb-3">Hostages</H2>
       <H2 className="mt-6 mb-3">Tweets</H2>
       <Tweet tweetId="1711524024226845039" />
+      <Tweet tweetId="1712902786461913333" />
+      <Tweet tweetId="1728723979450327204" />
       <H2 className="mt-6">Exhibitions</H2>
       <P className="mb-2">
         People all around the world have created touching exhibitions to raise
@@ -64,15 +66,15 @@ export default function Kidnapped(props) {
       </P>
       <H3 className="mt-6">Los Angeles</H3>
       <div className="md:flex md:gap-3">
-        <img
-          src="/TeddyBearsLA.jpeg"
+        <MyImage
+          src="/TeddyBearsLA.png"
           alt="Teddy Bears for the kidnapped kids, LA."
-          className="object-fit md:w-1/3 md:mb-0 mb-3"
+          className="md:w-1/3 h-full"
         />
-        <img
-          src="/DollsLA.jpeg"
+        <MyImage
+          src="/DollsLA.png"
           alt="Teddy Bears for the kidnapped kids, LA."
-          className="object-fit md:w-1/3"
+          className="md:w-1/3 h-full"
         />
       </div>
       <H2 className="mt-6 mb-3">Sources</H2>
