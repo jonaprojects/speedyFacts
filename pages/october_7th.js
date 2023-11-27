@@ -122,14 +122,15 @@ export default function PalestineHistory(props) {
       </ResponsiveVideoGrid>
 
       <H2 className="mt-6 lg:mt-8 mb-3">Tweets</H2>
-      <Tweet tweetId="1716477619061887235" />
-      <Tweet tweetId="1723777827030315213" />
-      <Tweet tweetId="1725304302627885483" />
-      <Tweet tweetId="1723834745815978229" />
-      <Tweet tweetId="1721273206202327307" />
-      <Tweet tweetId="1726601684703387869" />
-      <Tweet tweetId="1727260800522358979" />
-      <Tweet tweetId="1728729212285293047" />
+        <Tweet tweetId="1716477619061887235" />
+        <Tweet tweetId="1723777827030315213" />
+        <Tweet tweetId="1725304302627885483" />
+        <Tweet tweetId="1723834745815978229" />
+        <Tweet tweetId="1721273206202327307" />
+        <Tweet tweetId="1726601684703387869" />
+        <Tweet tweetId="1727260800522358979" />
+        <Tweet tweetId="1728729212285293047" />
+
       <H2 className="mt-6 lg:mt-8 mb-3">Graphic Content</H2>
       <P className="mb-3">
         Many deny the atrocities that Hamas has committed in October 7th. They

@@ -9,6 +9,7 @@ import Image from "next/image";
 import A from "@/components/typography/A";
 import Video from "@/components/video/Video";
 import Article from "@/components/article/Article";
+import ResponsiveVideoGrid from "@/components/responsive_grids/ResponsiveVideoGrid";
 
 export default function UN(props) {
   return (
@@ -38,12 +39,15 @@ export default function UN(props) {
         Chad, Congo and Somalia. These countries have a say on the decisions regarding women's rights around the world. "
       />
       <H2 className="mt-6 mb-3">Videos</H2>
-      <Video embedId="c2NaiX-hvVQ" className="mb-3" />
-      <Video embedId="35eEljsSQfc" className="mb-3" />
-      <Video embedId="9NogqQ4EPDs" className="mb-3" />
-      <Video embedId="pjOEJumoABg" className="mb-3" />
-      <Video embedId="GoFPJ-ekYfs" className="mb-3" />
-      <Video embedId="hIXCM_OKeBs" className="mb-3" />
+      <ResponsiveVideoGrid>
+        <Video embedId="c2NaiX-hvVQ" />
+        <Video embedId="35eEljsSQfc" />
+        <Video embedId="9NogqQ4EPDs" />
+        <Video embedId="pjOEJumoABg" />
+        <Video embedId="GoFPJ-ekYfs" />
+        <Video embedId="hIXCM_OKeBs" />
+      </ResponsiveVideoGrid>
+
       <H2 className="mt-6 mb-3">Tweets</H2>
       <Tweet tweetId="1718012770367479870" />
       <Tweet tweetId="1726626835117805689" />
