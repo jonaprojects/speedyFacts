@@ -11,6 +11,7 @@ import ArticleLink from "@/components/typography/ArticleLink";
 import Video from "@/components/video/Video";
 import Article from "@/components/article/Article";
 import ResponsiveVideoGrid from "@/components/responsive_grids/ResponsiveVideoGrid";
+import H3 from "@/components/typography/H3";
 
 export default function HamasEducation(props) {
   return (
@@ -61,8 +62,13 @@ export default function HamasEducation(props) {
         <Video embedId="9Pw8SO0GOJU" className="mb-2" />
         <Video embedId="yfj6Pf6aNqg" className="mb-2" />
       </ResponsiveVideoGrid>
+      <H3 className="mt-4 mb-2">Fatah Education</H3>
+      <ResponsiveVideoGrid>
+        <Video embedId="sSRy4WMqrh8" />
+        <Video embedId="MKvN-PEO5QI" />
+      </ResponsiveVideoGrid>
 
-      <H2>Tweets</H2>
+      <H2 className="mt-7 mb-3">Tweets</H2>
       <Tweet tweetId="1727328947455553733" />
       <Tweet tweetId="1722919232315228447" />
       <H2 className="mt-6 mb-3">Articles</H2>

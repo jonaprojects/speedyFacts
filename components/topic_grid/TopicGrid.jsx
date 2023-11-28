@@ -58,6 +58,10 @@ export default function TopicGrid() {
         onClick={() => router.push("/west_bank_terror")}
       ></Topic>
       <Topic
+        name="Palestinian Authority"
+        onClick={() => router.push("/pa")}
+      ></Topic>
+      <Topic
         name="Hospital Blast"
         onClick={() => router.push("/hospital_blast")}
       ></Topic>

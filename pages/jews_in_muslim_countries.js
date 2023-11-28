@@ -8,6 +8,7 @@ import EmbedYoutube from "@/components/embed_youtube/EmbedYoutube";
 import { Tweet } from "react-twitter-widgets";
 import H2 from "@/components/typography/H2";
 import Video from "@/components/video/Video";
+import ResponsiveVideoGrid from "@/components/responsive_grids/ResponsiveVideoGrid";
 
 export default function JewsInMuslimCountries(props) {
   return (
@@ -59,7 +60,6 @@ export default function JewsInMuslimCountries(props) {
       the Taifa of Granada, killed and crucified the Jewish vizier Joseph ibn
       Naghrela, and massacred much of the Jewish population of the city."
       />
-
       <Fact
         className="mb-2"
         content="The Muslim attitude toward Jews is reflected in various verses throughout
@@ -72,7 +72,14 @@ export default function JewsInMuslimCountries(props) {
       enemies of Allah, the Prophet and the angels (2:97­98)."
       />
       <H2 className="mt-6 mb-3">Videos</H2>
-      <Video embedId="WoM6fi9AvNY" />
+      <ResponsiveVideoGrid>
+        <Video embedId="WoM6fi9AvNY" />
+        <Video embedId="AvAGOxw1ZW0" />
+        <Video embedId="PEA7nRGMrfo" />
+        <Video embedId="xnIFRsMEnOU" />
+        <Video embedId="sP4ON6xL39Q" />
+      </ResponsiveVideoGrid>
+
       <H2 className="mb-3 mt-6">Tweets</H2>
     </Template>
   );

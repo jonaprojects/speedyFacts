@@ -46,4 +46,5 @@ export const CATEGORIES_AND_PATHS = {
   "double standards": "/double_standards",
   "fake news": "/fake_news",
   satire: "/satire",
+  pa: "/pa",
 };

@@ -49,7 +49,7 @@ export default function PalestineHistory(props) {
       />
       <H2 className="mt-6 mb-3">Videos</H2>
       <ResponsiveVideoGrid>
-        <Video embedId="O7ByJb7QQ9U" className="mb-3" />
+        <Video embedId="O7ByJb7QQ9U" />
         <Video embedId="pefEIwoTEnE" />
       </ResponsiveVideoGrid>
 

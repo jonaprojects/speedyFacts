@@ -9,6 +9,7 @@ import { Tweet } from "react-twitter-widgets";
 import H2 from "@/components/typography/H2";
 import ArticleLink from "@/components/typography/ArticleLink";
 import Video from "@/components/video/Video";
+import ResponsiveVideoGrid from "@/components/responsive_grids/ResponsiveVideoGrid";
 
 export default function NotInnocent(props) {
   return (
@@ -30,13 +31,17 @@ export default function NotInnocent(props) {
         a public screening of the attack."
       />
       <H2 className="mt-6 mb-3">Videos</H2>
-      <Video embedId="ugFcvOLj88A" />
+      <ResponsiveVideoGrid>
+        <Video embedId="ugFcvOLj88A" />
+        <Video embedId="jbU8FwatYs4" />
+      </ResponsiveVideoGrid>
       <H2 className="mb-3 mt-6">Tweets</H2>
       <Tweet tweetId="1726621899822968983" />
       <Tweet tweetId="1723797001530175821" />
       <Tweet tweetId="1719658660836610245" />
       <Tweet tweetId="1710574629838881199" />
       <Tweet tweetId="1726342185568657610" />
+      <Tweet tweetId="1729183341113455020" />
       <H2 className="mt-7 mb-3">Articles</H2>
       <ArticleLink
         href="https://www.i24news.tv/en/news/middle-east/palestinian-territories/1700158968-survey-finds-majority-in-the-west-bank-justify-the-oct-7-massacre"

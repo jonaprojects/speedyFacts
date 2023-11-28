@@ -57,13 +57,13 @@ export default function Kidnapped(props) {
         <Video embedId="40LZFCIKoBc" />
         <Video embedId="XGub-s4Jr6w" />
       </ResponsiveVideoGrid>
-
       <H2 className="mt-6 mb-3">Images</H2>
       <SensitiveMedia src="/naamalevy.png" />
       <H2 className="mt-6 mb-3">Tweets</H2>
       <Tweet tweetId="1711524024226845039" />
       <Tweet tweetId="1712902786461913333" />
       <Tweet tweetId="1728723979450327204" />
+      <Tweet tweetId="1729516785227972892" />
       <H2 className="mt-6">Exhibitions</H2>
       <P className="mb-2">
         People all around the world have created touching exhibitions to raise
