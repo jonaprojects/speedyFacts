@@ -14,7 +14,7 @@ export default function HamasAdmitsIt(props) {
     <Template>
       <H1 className="mt-6">Hamas Admits it</H1>
       <SubHeader className="mb-5">
-        Hamas doesn&apos;t bother to hide its genocidal intentions towards the
+        Hamas doesnt bother to hide its genocidal intentions towards the
         Jews and its crimes against the people of Gaza.
       </SubHeader>
 
