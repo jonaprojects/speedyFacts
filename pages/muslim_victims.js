@@ -45,6 +45,8 @@ export default function MuslimVictimsAndHeroes(props) {
         <Video embedId="YncV6G0j6i0" className="mb-2" />
         <Video embedId="bH5pCbtpY2U" className="mb-2" />
         <Video embedId="VgNtsUkxF2g" className="mb-2" />
+        <Video embedId="D2Fn69O6haY" className="mb-2" />
+        <Video embedId="G2JRnk7HK48" className="mb-2" />
       </ResponsiveVideoGrid>
       <H2 className="mt-6 mb-3">Tweets</H2>
       <Tweet tweetId="1719639458092376171" />

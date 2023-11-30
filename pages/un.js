@@ -10,6 +10,7 @@ import A from "@/components/typography/A";
 import Video from "@/components/video/Video";
 import Article from "@/components/article/Article";
 import ResponsiveVideoGrid from "@/components/responsive_grids/ResponsiveVideoGrid";
+import PdfViewer from "@/components/pdf_viewer/PDFViewer";
 
 export default function UN(props) {
   return (
@@ -62,6 +63,9 @@ export default function UN(props) {
         href="https://www.i24news.tv/en/news/middle-east/1700763578-human-rights-watch-under-fire-for-allegedly-accepting-millions-in-qatar-funds"
         source="i24 News"
       />
+
+      <H2 className="mt-7 mb-3">Articles</H2>
+      <PdfViewer pdfPath="/unrwaExposed.pdf" />
     </Template>
   );
 }

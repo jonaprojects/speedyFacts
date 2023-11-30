@@ -11,6 +11,7 @@ import ArticleLink from "@/components/typography/ArticleLink";
 import Video from "@/components/video/Video";
 import MyImage from "@/components/image/MyImage";
 import ResponsiveGrid from "@/components/responsive_grids/ResponsiveGrid";
+import A from "@/components/typography/A";
 export default function WestBankTerrorism(props) {
   return (
     <Template>
@@ -105,6 +106,10 @@ export default function WestBankTerrorism(props) {
         title="Survey finds majority in the West Bank support the Oct 7 massacre"
         source="i24 News"
       />
+      <H2 className="mt-7 mb-3">Further Research</H2>
+      <A href="https://www.fdd.org/analysis/2022/12/14/mapping-west-bank-insurgency/">
+        Mapping Terrorism In The West Bank
+      </A>
     </Template>
   );
 }

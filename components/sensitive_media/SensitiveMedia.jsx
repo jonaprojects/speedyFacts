@@ -16,8 +16,9 @@ export default function SensitiveMedia(props) {
       toggleShow={toggleShow}
       type="image"
       src={props.src}
+      className={props.className}
     >
-      <div className="relative overflow-hidden">
+      <div className="relative overflow-hidden w-full h-full">
         {!show && (
           <div className="absolute w-full h-full bg-slate-800 bg-opacity-60 z-10 flex justify-center items-center">
             <div className="z-20 opacity-100 text-center">
@@ -48,7 +49,7 @@ export default function SensitiveMedia(props) {
         <img
           src={props.src}
           alt={props.alt ?? "Graphic content"}
-          className={`object-cover ${show ? "" : "blur-xl"}`}
+          className={`object-fit ${show ? "" : "blur-xl"}`}
         />
       </div>
     </SensitiveMediaWrapper>

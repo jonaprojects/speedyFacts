@@ -19,7 +19,7 @@
     "Nir Oz",
     "Massacre",
     "Rape",
-    "Sexual Violance",
+    "Sexual Violence",
     "Testimonies",
     "Survivor",
     "Victim",
@@ -189,5 +189,13 @@
     "admit",
     "kill jew",
     "hamas charter"
+  ],
+  "rape": [
+    "rape",
+    "sex",
+    "violence",
+    "sexual violence",
+    "אונס",
+    "פגיעה מינית"
   ]
 }
