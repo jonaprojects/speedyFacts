@@ -44,6 +44,7 @@ export default function MuslimVictimsAndHeroes(props) {
         <Video embedId="9SvKJzdNY5Y" className="mb-2" />
         <Video embedId="YncV6G0j6i0" className="mb-2" />
         <Video embedId="bH5pCbtpY2U" className="mb-2" />
+        <Video embedId="VgNtsUkxF2g" className="mb-2" />
       </ResponsiveVideoGrid>
       <H2 className="mt-6 mb-3">Tweets</H2>
       <Tweet tweetId="1719639458092376171" />
@@ -68,6 +69,13 @@ export default function MuslimVictimsAndHeroes(props) {
               Massacres"
             href="https://www.nytimes.com/2023/10/13/world/middleeast/arab-israeli-hamas-attacks.html"
             source="New York Times"
+          />
+        </li>
+        <li>
+          <Article
+            title="Amer Abu Sabila, 25: killed trying to save two young girls in Sderot"
+            href="https://www.timesofisrael.com/presumed-captive-amer-odeh-abu-sabila-on-guard-duty-in-sderot/"
+            source="Times Of Israel"
           />
         </li>
       </ul>

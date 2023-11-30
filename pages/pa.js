@@ -43,11 +43,13 @@ export default function PalestinianAuthority(props) {
         title="Outrage over Abbas's antisemitic speech on Jews and Holocaust"
         href="https://www.bbc.com/news/world-middle-east-66741336"
         source="The BBC"
+        className="mb-1"
       />
       <Article
         title="Fatah Brags in Video That It Took Part in October 7 Slaughter: ‘We Killed [Them] … and Stepped on Their Heads’"
         href="https://www.algemeiner.com/2023/11/03/fatah-brags-in-video-that-it-took-part-in-october-7-slaughter-we-killed-them-and-stepped-on-their-heads/"
         source="The Algemeiner"
+        className="mb-1"
       />
     </Template>
   );

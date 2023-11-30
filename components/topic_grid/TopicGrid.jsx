@@ -66,6 +66,10 @@ export default function TopicGrid() {
         onClick={() => router.push("/hospital_blast")}
       ></Topic>
       <Topic
+        name="Hamas Propaganda"
+        onClick={() => router.push("/hamas_propaganda")}
+      ></Topic>
+      <Topic
         name="Animal Abuse"
         onClick={() => router.push("/palestine_animal_abuse")}
       ></Topic>
@@ -73,6 +77,10 @@ export default function TopicGrid() {
       <Topic
         name="International Support"
         onClick={() => router.push("/international_support")}
+      ></Topic>
+      <Topic
+        name="Hamas Admits It"
+        onClick={() => router.push("/hamas_admits_it")}
       ></Topic>
       <Topic
         name="Jews In Muslim Countries"

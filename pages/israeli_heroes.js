@@ -19,13 +19,13 @@ export default function IsraeliHeroes(props) {
         There are many touching and heartbreaking stories of heroism from the
         October 7th Massacre. Here are a few of them.
       </SubHeader>
-
       <H2 className="mt-6 mb-3">Videos</H2>
       <ResponsiveVideoGrid>
         <Video embedId="_zXT-jtNnO4" className="mb-2" />
         <Video embedId="ICFiHMY48KY" className="mb-2" />
         <Video embedId="AjQ6T6y93yo" className="mb-2" />
       </ResponsiveVideoGrid>
+      <Tweet tweetId="1724434268376420549" />
     </Template>
   );
 }

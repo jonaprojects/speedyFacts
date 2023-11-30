@@ -66,11 +66,13 @@ export default function HamasEducation(props) {
       <ResponsiveVideoGrid>
         <Video embedId="sSRy4WMqrh8" />
         <Video embedId="MKvN-PEO5QI" />
+        <Video embedId="Hcyg55vOviQ" />
       </ResponsiveVideoGrid>
 
       <H2 className="mt-7 mb-3">Tweets</H2>
       <Tweet tweetId="1727328947455553733" />
       <Tweet tweetId="1722919232315228447" />
+      <Tweet tweetId="1729551371983028423" />
       <H2 className="mt-6 mb-3">Articles</H2>
       <ul>
         <li className="mb-1">

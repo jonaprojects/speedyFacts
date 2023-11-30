@@ -47,4 +47,5 @@ export const CATEGORIES_AND_PATHS = {
   "fake news": "/fake_news",
   satire: "/satire",
   pa: "/pa",
+  "hamas propaganda": "/hamas_propaganda",
 };

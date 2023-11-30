@@ -58,12 +58,20 @@ export default function Kidnapped(props) {
         <Video embedId="XGub-s4Jr6w" />
       </ResponsiveVideoGrid>
       <H2 className="mt-6 mb-3">Images</H2>
-      <SensitiveMedia src="/naamalevy.png" />
+      <SensitiveMedia
+        src="/naamalevy.png"
+        alt="Naama Levy violently kidnapped, blood on her crotch and all over her."
+      />
+      <SensitiveMedia
+        src="/shaniLouk1.png"
+        alt="Shani Louk dragged by terrorists"
+      />
       <H2 className="mt-6 mb-3">Tweets</H2>
       <Tweet tweetId="1711524024226845039" />
       <Tweet tweetId="1712902786461913333" />
       <Tweet tweetId="1728723979450327204" />
       <Tweet tweetId="1729516785227972892" />
+      <Tweet tweetId="1729974179145888015" />
       <H2 className="mt-6">Exhibitions</H2>
       <P className="mb-2">
         People all around the world have created touching exhibitions to raise

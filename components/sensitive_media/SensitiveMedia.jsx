@@ -48,7 +48,7 @@ export default function SensitiveMedia(props) {
         <img
           src={props.src}
           alt={props.alt ?? "Graphic content"}
-          className={`object-cover ${show ? "" : "blur-lg"}`}
+          className={`object-cover ${show ? "" : "blur-xl"}`}
         />
       </div>
     </SensitiveMediaWrapper>
