@@ -12,6 +12,7 @@ import Video from "@/components/video/Video";
 import MyImage from "@/components/image/MyImage";
 import ResponsiveGrid from "@/components/responsive_grids/ResponsiveGrid";
 import A from "@/components/typography/A";
+import ResponsiveVideoGrid from "@/components/responsive_grids/ResponsiveVideoGrid";
 export default function WestBankTerrorism(props) {
   return (
     <Template>
@@ -93,8 +94,11 @@ export default function WestBankTerrorism(props) {
         </small>
       </div>
       <H2 className="mt-6 mb-3">Videos</H2>
-      <Video embedId="Lqw2E9HesM8" />
-      <Video embedId="JM3wJZdP3U0" />
+      <ResponsiveVideoGrid>
+        <Video embedId="Lqw2E9HesM8" />
+        <Video embedId="JM3wJZdP3U0" />
+        <Video embedId="ZO7tAs4x82g" />
+      </ResponsiveVideoGrid>
       <H2 className="mb-3 mt-6">Tweets</H2>
       <Tweet tweetId="1725098802388881544" />
       <Tweet tweetId="1727679947475402829" />
