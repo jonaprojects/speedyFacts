@@ -122,7 +122,6 @@ export default function HamasLeaders(props) {
             source="MEMRI TV"
           />
         </li>
-       
       </ul>
     </Template>
   );

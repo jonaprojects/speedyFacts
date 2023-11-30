@@ -17,6 +17,19 @@ export default function HamasAdmitsIt(props) {
         Hamas doesn&apos;t bother to hide its genocidal intentions towards the
         Jews and its crimes against the people of Gaza.
       </SubHeader>
+
+      <Fact
+        content=" According to Hamas' charter, Article 13, there will not be any negotiated
+      settlements with Israel, and Jihad  is the only solution. Qoute: 'There is no solution for the Palestinian question except through Jihad.
+    Initiatives, proposals and international conferences are all a waste of time and vain endeavors'"
+        className="mb-2"
+      />
+      <Fact
+        content="Article 7 in Hamas' Charter calls for the killing of Muslims by Jews and cites the following hadith: 
+        'The Day of Judgement will not come about until Moslems fight the Jews (killing the Jews), when the Jew will hide behind stones and trees. The stones and trees will say O Moslems, O Abdulla, there is a Jew behind me, come and kill him'
+        "
+        className="mb-2"
+      />
       <H2 className="mt-6 mb-3">Videos</H2>
       <ResponsiveVideoGrid>
         <Video embedId="zSgBFPnQiho" />

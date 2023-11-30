@@ -15,6 +15,7 @@ export default function HamasPropaganda(props) {
       <H1 className="mt-6">Hamas Propaganda</H1>
       <SubHeader className="mb-5">Exposing Hamas Propaganda</SubHeader>
       <H2 className="mt-6 mb-3">Videos</H2>
+      <Video embedId="VAva9VM38uA" />
       <H2 className="mb-3 mt-6">Tweets</H2>
       <Tweet tweetId="1712902786461913333" />
       <Tweet tweetId="1728723979450327204" />
