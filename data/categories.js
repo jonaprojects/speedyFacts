@@ -21,6 +21,8 @@ export const CATEGORIES = [
   "jews in muslim countries",
   "israeli heroes",
   "satire",
+  "rape",
+  "hamas propaganda"
 ];
 export const CATEGORIES_AND_PATHS = {
   "un bias": "/un",

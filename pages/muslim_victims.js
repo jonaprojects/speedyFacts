@@ -60,7 +60,6 @@ export default function MuslimVictimsAndHeroes(props) {
       He gathered victims, secured them in a bomb shelter, and cleverly used helium tanks to deter the attackers, 
       ultimately saving their lives.​"
       />
-    
       <H2 className="mt-6 mb-3">Videos</H2>
       <ResponsiveVideoGrid>
         <Video embedId="CrXtTYm_NB8" className="mb-2" />
@@ -82,6 +81,8 @@ export default function MuslimVictimsAndHeroes(props) {
       <Tweet tweetId="1727327376223178939" />
       <Tweet tweetId="1727836684438397056" />
       <Tweet tweetId="1729083032861364241" />
+      <Tweet tweetId="1730653911365587073" />
+      <Tweet tweetId="1726355586583851512" />
       <H2 className="mt-6 mb-3">Articles</H2>
       <ul>
         <li className="mb-1">

@@ -11,16 +11,15 @@
   "october 7th": [
     "October",
     "October 7th",
-    "Atrocities",
+    "Atrocit",
     "Horror",
     "Nova",
+    "fesival",
     "Kfar Aza",
     "Beeri",
     "Nir Oz",
     "Massacre",
-    "Rape",
-    "Sexual Violence",
-    "Testimonies",
+    "Testimon",
     "Survivor",
     "Victim",
     "אוקטובר"
@@ -92,6 +91,7 @@
     "water",
     "leaflet",
     "food",
+    "human",
     "הומינטרי",
     "צהל"
   ],
@@ -99,6 +99,8 @@
   "the west is next": ["the west is next", "islam", "isis", "iran", "terror"],
   "not innocent": [
     "not innocent",
+    "no",
+    "innocent",
     "gaza",
     "civilian",
     "kidnap",
@@ -166,21 +168,14 @@
     "קומדיה",
     "ארץ נהדרת"
   ],
-  "pa": [
-    "pa",
-    "palestinian",
-    "authority",
-    "fatah",
-    "abbas",
-    "plo",
-    "arafat"
-  ],
+  "pa": ["pa", "palestinian", "authority", "fatah", "abbas", "plo", "arafat"],
   "hamas propaganda": [
-    "hamas",
     "propaganda",
     "hamas propaganda",
     "keep waving",
-    "actor"
+    "actor",
+    "pallywood",
+    "lie"
   ],
   "hamas admits it": [
     "hamas admits it",
@@ -190,12 +185,5 @@
     "kill jew",
     "hamas charter"
   ],
-  "rape": [
-    "rape",
-    "sex",
-    "violence",
-    "sexual violence",
-    "אונס",
-    "פגיעה מינית"
-  ]
+  "rape": ["rape", "sex", "violence", "sexual violence", "אונס", "פגיעה מינית"]
 }

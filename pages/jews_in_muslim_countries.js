@@ -81,6 +81,7 @@ export default function JewsInMuslimCountries(props) {
       </ResponsiveVideoGrid>
 
       <H2 className="mb-3 mt-6">Tweets</H2>
+      <Tweet tweetId="1729693884526031359" />
     </Template>
   );
 }

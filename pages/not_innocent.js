@@ -30,6 +30,14 @@ export default function NotInnocent(props) {
         candy was distributed in Gaza and there were big celebrations, and even
         a public screening of the attack."
       />
+      <Fact
+        className="mb-2"
+        content="In a poll conducted by Birzeit University in the fourth week of the Gaza war found that a majority 
+      in the West Bank and in Gaza support Hamas and the October 7th Massacre. 76% support Hamas,
+      84% support Palestinian Islamic Jihad and 89% support al Qassem Brigades, the military wing of Hamas.
+      98% felt more proud to be Palestinian following the October 7 attacks."
+      />
+
       <H2 className="mt-6 mb-3">Videos</H2>
       <ResponsiveVideoGrid>
         <Video embedId="ugFcvOLj88A" />

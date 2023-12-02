@@ -48,11 +48,12 @@ export default function UN(props) {
         <Video embedId="GoFPJ-ekYfs" />
         <Video embedId="hIXCM_OKeBs" />
       </ResponsiveVideoGrid>
-
       <H2 className="mt-6 mb-3">Tweets</H2>
       <Tweet tweetId="1718012770367479870" />
       <Tweet tweetId="1726626835117805689" />
       <Tweet tweetId="1726662067351081021" />
+      <Tweet tweetId="1730737053342548173" />
+      
       <H2 className="mt-6 mb-3">Documents</H2>
       <A href="https://unwatch.org/wp-content/uploads/2023/11/UNW_119___UNRWA_Report_2023_November__2023-11-05__web.pdf">
         UNRWA Officials Exposed, official report by UN-WATCH from November 2023.
@@ -63,7 +64,6 @@ export default function UN(props) {
         href="https://www.i24news.tv/en/news/middle-east/1700763578-human-rights-watch-under-fire-for-allegedly-accepting-millions-in-qatar-funds"
         source="i24 News"
       />
-
       <H2 className="mt-7 mb-3">Articles</H2>
       <PdfViewer pdfPath="/unrwaExposed.pdf" />
     </Template>

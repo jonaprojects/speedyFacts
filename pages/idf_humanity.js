@@ -26,12 +26,9 @@ export default function IDFHumanity(props) {
         <Video embedId="O9UXvI4eEgQ" />
         <Video embedId="svnCrECZt7k" />
       </ResponsiveVideoGrid>
-
       <H2 className="mb-3 mt-6">Tweets</H2>
       <Tweet tweetId="1723690677190500798" />
-      <Tweet tweetId="" />
-      <Tweet tweetId="" />
-      <Tweet tweetId="" />
+      <Tweet tweetId="1730532637125550267" />
     </Template>
   );
 }

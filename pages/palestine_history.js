@@ -8,6 +8,7 @@ import A from "@/components/typography/A";
 import ArticleLink from "@/components/typography/ArticleLink";
 import Video from "@/components/video/Video";
 import ResponsiveVideoGrid from "@/components/responsive_grids/ResponsiveVideoGrid";
+import { Tweet } from "react-twitter-widgets";
 
 export default function PalestineHistory(props) {
   return (
@@ -52,7 +53,8 @@ export default function PalestineHistory(props) {
         <Video embedId="O7ByJb7QQ9U" />
         <Video embedId="pefEIwoTEnE" />
       </ResponsiveVideoGrid>
-
+      <H2 className="mt-6 mb-3">Tweets</H2>
+      <Tweet tweetId="1726501630357520738" />
       <H2 className="mt-6 mb-3">Further Reading</H2>
       <A href="https://www.jewishvirtuallibrary.org/origin-of-quot-palestine-quot">
         Origins Of Palestine - Jewish Virtual Library
@@ -61,7 +63,8 @@ export default function PalestineHistory(props) {
       <ArticleLink
         title="Archaeology in Israel: Ancient Jewish Coins"
         href="https://www.jewishvirtuallibrary.org/ancient-jewish-coins"
-        source="Jewish Virtual Library"
+        source="Jewish Virtual Li
+        brary"
       />
     </Template>
   );

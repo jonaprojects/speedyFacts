@@ -26,7 +26,6 @@ export default function HamasPropaganda(props) {
       39 were killed in the Oct. 7 attacks."
         className="mb-2"
       />
-
       <Fact
         content="In a video spread by Hamas, a Palestinian teen named Mohammed Nazal that
       was released from Israeli prison is seen wearing casts on both his arms.
@@ -36,7 +35,6 @@ export default function HamasPropaganda(props) {
       good health."
       />
       <H2 className="mt-6 mb-3">Images</H2>
-      
       <SensitiveMedia
         src="/hamasKongSalao.png"
         alt="Hamas lied about the kidnapped"
@@ -46,11 +44,14 @@ export default function HamasPropaganda(props) {
       <ResponsiveVideoGrid>
         <Video embedId="VAva9VM38uA" />
         <Video embedId="bh-M33hKqrU" />
+        <Video embedId="-73WHGrOVsY" />
       </ResponsiveVideoGrid>
       <H2 className="mb-3 mt-6">Tweets</H2>
       <Tweet tweetId="1712902786461913333" />
       <Tweet tweetId="1728723979450327204" />
       <Tweet tweetId="1729614130145874222" />
+      <Tweet tweetId="1730023036902916519" />
+      <Tweet tweetId="1729277662118457436" />
       <H2 className="mt-7 mb-3">Articles</H2>
       <Article
         title="Human Rights Watch says rocket misfire likely cause of deadly Gaza hospital blast"

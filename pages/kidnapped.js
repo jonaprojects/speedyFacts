@@ -72,6 +72,8 @@ export default function Kidnapped(props) {
       <Tweet tweetId="1728723979450327204" />
       <Tweet tweetId="1729516785227972892" />
       <Tweet tweetId="1729974179145888015" />
+      <Tweet tweetId="1726626412365484513" />
+      
       <H2 className="mt-6">Exhibitions</H2>
       <P className="mb-2">
         People all around the world have created touching exhibitions to raise

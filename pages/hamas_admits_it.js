@@ -14,10 +14,9 @@ export default function HamasAdmitsIt(props) {
     <Template>
       <H1 className="mt-6">Hamas Admits it</H1>
       <SubHeader className="mb-5">
-        Hamas doesnt bother to hide its genocidal intentions towards the
-        Jews and its crimes against the people of Gaza.
+        Hamas doesnt bother to hide its genocidal intentions towards the Jews
+        and its crimes against the people of Gaza.
       </SubHeader>
-
       <Fact
         content=" According to Hamas' charter, Article 13, there will not be any negotiated
       settlements with Israel, and Jihad  is the only solution. Qoute: 'There is no solution for the Palestinian question except through Jihad.
@@ -40,6 +39,7 @@ export default function HamasAdmitsIt(props) {
         <Video embedId="Yg4VqiW0dyo" />
       </ResponsiveVideoGrid>
       <H2 className="mb-3 mt-6">Tweets</H2>
+      <Tweet tweetId="1393862073008934918" />
     </Template>
   );
 }
