@@ -34,6 +34,33 @@ export default function MuslimVictimsAndHeroes(props) {
         family and announced they captured Suheib, and that he couldn't sleep since he saw the footage.
       `}
       />
+      <Fact
+        content={`Hamid Abu Ar'ar, a Muslim Bedouin said in an
+      interview that at October 7th Hamas terrorists saw his wife Fatma with a
+      hijab and still shot her. He told her in her last moments to pray for
+      Allah. He added: "They killed a mother, a Muslim woman wearing a hijab. A mother of
+      4 daughters who study the Quran. Which Islam are we talking about? Our
+      Islam, my friends, does not preach this."`}
+        className="mb-2"
+      />
+      <Fact
+        content={`Aisha and Bilal Ziyadne, Bedouin siblings, were abducted by Hamas. Aisha is 17 years old, Bilal is 18,
+         and Aisha wears a hijab. Despite being Muslims, 
+         they were kidnapped and held hostage by Hamas for months.`}
+        className="mb-2"
+      />
+      <Fact
+        content="Amar Abu Sabeila, a Muslim Bedouin was killed while trying to save two Jewish little girls from Hamas
+      in Sderot at October 7th. The little girls survived and he is considered an Israeli hero.
+      "
+        className="mb-2"
+      />
+      <Fact
+        content="Masad Armilat, a Muslim Bedouin, bravely saved 14 people during a shooting by Hamas terrorists at a gas station near Sderot on October 7th. 
+      He gathered victims, secured them in a bomb shelter, and cleverly used helium tanks to deter the attackers, 
+      ultimately saving their lives.​"
+      />
+    
       <H2 className="mt-6 mb-3">Videos</H2>
       <ResponsiveVideoGrid>
         <Video embedId="CrXtTYm_NB8" className="mb-2" />

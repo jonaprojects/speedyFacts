@@ -52,6 +52,13 @@ export default function HamasLeaders(props) {
       It is currently estimated at about $5 billion.
       `}
       />
+      <Fact
+        content="In an interview with Russia Today's Arabic channel, when
+      asked why Hamas has dug over 500 kilometers of tunnels in Gaza but never
+      built a single shelter for civilians, Hamas official Moussa Abu Marzouk
+      declared that Hamas is not responsible for the safety of the citizens of
+      Gaza; instead, he pointed to Israel and the UN as being responsible for them."
+      />
       <H2 className="mt-6 mb-3">Pictures</H2>
       <ResponsiveGrid>
         <div>
