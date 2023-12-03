@@ -19,7 +19,7 @@ const Modal = (props) => {
 
   return createPortal(
     <>
-      <Overlay className={`flex items-center justify-center`} close={closeModal}>
+      <Overlay className={`flex items-center justify-center`} close={props.closeModal}>
         <div
           className="bg-white max-w-2xl p-7 rounded-lg shadow-lg relative"
           onClick={handleModalClick}
