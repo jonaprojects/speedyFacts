@@ -2,7 +2,7 @@ import React, { useState, useContext } from "react";
 import Image from "next/image";
 import { Inter, Open_Sans } from "next/font/google";
 import Link from "next/link";
-import SidebarContext from "../../store/sidebarContext.js";
+import SidebarContext from "../../store/SidebarContext.js";
 // Custom components
 
 const inter = Inter({ subsets: ["latin"] });
