@@ -4,7 +4,7 @@ import Container from "../container/Container";
 
 import { Inter, Open_Sans } from "next/font/google";
 import Footer from "../footer/Footer";
-import SidebarContext from "@/store/sidebarContext";
+import SidebarContext from "../../store/sidebarContext.js";
 import Sidebar from "../sidebar/Sidebar";
 
 const inter = Inter({ subsets: ["latin"] });
