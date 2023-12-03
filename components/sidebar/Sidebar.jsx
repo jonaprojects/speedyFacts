@@ -23,7 +23,7 @@ export default function Sidebar(props) {
   };
 
   return (
-    <Overlay>
+    <Overlay close={closeSidebar}>
       <div className="bg-slate-100 fixed right-0 w-64 h-full md:w-80 z-40 overflow-x-hidden overflow-y-scroll ">
         <button
           onClick={closeSidebar}
