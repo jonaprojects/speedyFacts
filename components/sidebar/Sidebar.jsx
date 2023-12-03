@@ -1,7 +1,7 @@
 import React from "react";
 import { CATEGORIES, CATEGORIES_AND_PATHS } from "@/data/categories";
 import { useRouter } from "next/router";
-import SidebarContext from "@/store/sidebarContext";
+import SidebarContext from "@/store/SidebarContext";
 import { useContext } from "react";
 import H3 from "../typography/H3";
 import SearchBar from "../search/SearchBar";
