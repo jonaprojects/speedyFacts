@@ -26,6 +26,7 @@ export default function TheWestIsNext(props) {
       <H2 className="mb-3 mt-6">Tweets</H2>
       <Tweet tweetId="1724279167439544787" />
       <Tweet tweetId="1136881942375346176" />
+      <Tweet tweetId="1731098320389775582" />
     </Template>
   );
 }

@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { createPortal } from "react-dom";
 import PrimaryButton from "../buttons/PrimaryButton";
 import SecondaryButton from "../buttons/SecondaryButton";
+import Overlay from "./Overlay";
 
 const Modal = (props) => {
   // A modal is closed by default
@@ -10,12 +11,6 @@ const Modal = (props) => {
     return <></>;
   }
 
-  const handleOverlayClick = (event) => {
-    if (event.target === event.currentTarget) {
-      // Only trigger the closeModal function when the overlay (outside the modal content) is clicked
-      props.closeModal();
-    }
-  };
 
   const handleModalClick = (event) => {
     // Prevent event propagation to the overlay when clicking inside the modal content
@@ -24,10 +19,7 @@ const Modal = (props) => {
 
   return createPortal(
     <>
-      <div
-        className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-black bg-opacity-50"
-        onClick={handleOverlayClick}
-      >
+      <Overlay className={`flex items-center justify-center`}>
         <div
           className="bg-white max-w-2xl p-7 rounded-lg shadow-lg relative"
           onClick={handleModalClick}
@@ -48,7 +40,7 @@ const Modal = (props) => {
             </PrimaryButton>
           </div>
         </div>
-      </div>
+      </Overlay>
     </>,
     document.body
   );

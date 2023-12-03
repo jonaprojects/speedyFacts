@@ -37,6 +37,7 @@ export default function HamasAdmitsIt(props) {
         <Video embedId="bh-M33hKqrU" />
         <Video embedId="NTbGCxwYOmM" />
         <Video embedId="Yg4VqiW0dyo" />
+        <Video embedId="mPWOvwG4_x4" />
       </ResponsiveVideoGrid>
       <H2 className="mb-3 mt-6">Tweets</H2>
       <Tweet tweetId="1393862073008934918" />

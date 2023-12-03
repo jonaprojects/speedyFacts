@@ -6,11 +6,11 @@ export default function Alert(props) {
       class="bg-red-100 border border-red-400 text-red-700 px-2 py-2 md:px-4 text-sm md:text-base md:py-3 rounded relative mt-1 mb-2"
       role="alert"
     >
-      <strong class="font-bold">{props.title} </strong>
-      <span class="block sm:inline">{props.content}</span>
-      <span class="absolute top-0 bottom-0 right-0 px-2 py-2 md:px-4 md:py-3">
+      <strong className="font-bold">{props.title} </strong>
+      <span className="block sm:inline">{props.content}</span>
+      <span className="absolute top-0 bottom-0 right-0 px-2 py-2 md:px-4 md:py-3">
         <svg
-          class="fill-current h-5 w-5 md:h-6 md:w-6 text-red-500"
+          className="fill-current h-5 w-5 md:h-6 md:w-6 text-red-500"
           role="button"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 20 20"

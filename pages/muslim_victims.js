@@ -12,6 +12,7 @@ import ArticleLink from "@/components/typography/ArticleLink";
 import Video from "@/components/video/Video";
 import Article from "@/components/article/Article";
 import ResponsiveVideoGrid from "@/components/responsive_grids/ResponsiveVideoGrid";
+import MyImage from "@/components/image/MyImage";
 
 export default function MuslimVictimsAndHeroes(props) {
   return (
@@ -74,6 +75,12 @@ export default function MuslimVictimsAndHeroes(props) {
         <Video embedId="D2Fn69O6haY" className="mb-2" />
         <Video embedId="G2JRnk7HK48" className="mb-2" />
       </ResponsiveVideoGrid>
+      <H2 className="mt-7 mb-3">Images</H2>
+      <MyImage src="/releasedBedouin1.png" />
+      <br/>
+      <small className="text-slate-500">
+        Aisha Al Ziadna released from Hamas captivity.
+      </small>
       <H2 className="mt-6 mb-3">Tweets</H2>
       <Tweet tweetId="1719639458092376171" />
       <Tweet tweetId="1726167612944478609" />

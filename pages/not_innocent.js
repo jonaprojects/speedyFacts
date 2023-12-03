@@ -37,7 +37,6 @@ export default function NotInnocent(props) {
       84% support Palestinian Islamic Jihad and 89% support al Qassem Brigades, the military wing of Hamas.
       98% felt more proud to be Palestinian following the October 7 attacks."
       />
-
       <H2 className="mt-6 mb-3">Videos</H2>
       <ResponsiveVideoGrid>
         <Video embedId="ugFcvOLj88A" />
@@ -51,6 +50,9 @@ export default function NotInnocent(props) {
       <Tweet tweetId="1729519254477713519" />
       <Tweet tweetId="1726342185568657610" />
       <Tweet tweetId="1729183341113455020" />
+      <Tweet tweetId="1731090796672409662" />
+      <Tweet tweetId="1719643171976605809" />
+
       <H2 className="mt-7 mb-3">Articles</H2>
       <ArticleLink
         href="https://www.i24news.tv/en/news/middle-east/palestinian-territories/1700158968-survey-finds-majority-in-the-west-bank-justify-the-oct-7-massacre"

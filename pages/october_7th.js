@@ -122,15 +122,15 @@ export default function PalestineHistory(props) {
       </ResponsiveVideoGrid>
       <H2 className="mt-6 lg:mt-8 mb-3">Tweets</H2>
       <Tweet tweetId="1716477619061887235" />
-      <Tweet tweetId="1723777827030315213" />
       <Tweet tweetId="1725304302627885483" />
       <Tweet tweetId="1723834745815978229" />
       <Tweet tweetId="1721273206202327307" />
+      <Tweet tweetId="1724434268376420549" />
+      <Tweet tweetId="1724478934304088575" />
       <Tweet tweetId="1726601684703387869" />
       <Tweet tweetId="1727260800522358979" />
       <Tweet tweetId="1728729212285293047" />
       <Tweet tweetId="1729564865893675200" />
-      <Tweet tweetId="1724478934304088575" />
       <Tweet tweetId="1726930483320107203" />
       <Tweet tweetId="1730361620075806725" />
       <H2 className="mt-6 lg:mt-8 mb-3">Graphic Content</H2>
@@ -143,15 +143,25 @@ export default function PalestineHistory(props) {
         title="Warning!"
         content="The following links lead to you to raw graphic content."
       />
-      <A href="https://hamasisisis.co/">https://hamasisisis.co/</A>
-      <br />
+      <H3 className="mt-5 mb-2">Graphic Footage Of The Atrocities</H3>
+      <ul>
+        <li>
+          <A href="https://www.thisishamas.com/">
+            https://www.thisishamas.com/
+          </A>
+        </li>
+        <li>
+          <A href="https://hamasisisis.co/">https://hamasisisis.co/</A>
+        </li>
+        <li>
+          <A href="https://www.hamas.com">https://www.hamas.com</A>
+        </li>
+        <li>the</li>
+      </ul>
+      <A href="https://oct7map.com/"> https://oct7map.com/ </A>
       <A href="https://www.october7.org/nova-festival-massacre">
         https://www.october7.org/nova-festival-massacre
       </A>
-      <br />
-      <A href="https://www.hamas.com">https://www.hamas.com</A>
-      <br />
-      <A href="https://oct7map.com/"> https://oct7map.com/ </A>
       <H2 className="mt-6 mb-3">Articles</H2>
       <ul>
         <li className="mb-1">

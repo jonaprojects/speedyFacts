@@ -41,6 +41,7 @@ export default function Rape(props) {
       <Tweet tweetId="1731007578451165622" />
       <Tweet tweetId="1730780305085149304" />
       <Tweet tweetId="1730743164787405011" />
+      <Tweet tweetId="1730572779592814740" />
       <H2 className="mt-7 mb-3">Articles</H2>
       <ul>
         <li>

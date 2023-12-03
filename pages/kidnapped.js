@@ -66,6 +66,7 @@ export default function Kidnapped(props) {
         src="/shaniLouk1.png"
         alt="Shani Louk dragged by terrorists"
       />
+     
       <H2 className="mt-6 mb-3">Tweets</H2>
       <Tweet tweetId="1711524024226845039" />
       <Tweet tweetId="1712902786461913333" />

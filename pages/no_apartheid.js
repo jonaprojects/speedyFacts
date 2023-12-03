@@ -8,6 +8,7 @@ import { Tweet } from "react-twitter-widgets";
 import H2 from "@/components/typography/H2";
 import Video from "@/components/video/Video";
 import ResponsiveVideoGrid from "@/components/responsive_grids/ResponsiveVideoGrid";
+import MyImage from "@/components/image/MyImage";
 
 export default function NoApartheid(props) {
   return (
@@ -54,7 +55,10 @@ export default function NoApartheid(props) {
         <Video embedId="sksCvn6YZrs" className="mb-2" />
         <Video embedId="6o1-i_tn1AA" className="mb-2" />
         <Video embedId="i_MfnpuafBg" className="mb-2" />
+        <Video embedId="wgD22J9mZ04" />
       </ResponsiveVideoGrid>
+      <H2 className="mb-3 mt-6">Images</H2>
+      <MyImage src="rahatCenter1.png" />
 
       <H2 className="mb-3 mt-6">Tweets</H2>
       <Tweet tweetId="1724486686971723992" />
