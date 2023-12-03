@@ -12,7 +12,6 @@ export default function Navbar(props) {
   const { sidebarCtx, setSidebarCtx } = useContext(SidebarContext);
   const toggleSidebar = () => {
     setSidebarCtx((prevCtx) => !prevCtx);
-    console.log("toggling!");
   };
 
   return (
