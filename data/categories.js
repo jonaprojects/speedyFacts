@@ -4,7 +4,6 @@ export const CATEGORIES = [
   "hamas leaders",
   "palestine history",
   "kidnapped",
-  "hamas leaders",
   "hamas vs gaza",
   "muslim victims & heroes",
   "hamas education",
@@ -25,6 +24,9 @@ export const CATEGORIES = [
   "hamas propaganda",
   "hamas admits it",
 ];
+
+CATEGORIES.sort(); // TODO: bad solution!
+
 export const CATEGORIES_AND_PATHS = {
   "un bias": "/un",
   "october 7th": "/october_7th",

@@ -21,3 +21,8 @@ body {
   color: rgb(var(--foreground-rgb));
   background: var(--background-color);
 }
+
+
+::selection{
+  background: yellow;
+}

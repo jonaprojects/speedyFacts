@@ -52,7 +52,7 @@ export default function NotInnocent(props) {
       <Tweet tweetId="1729183341113455020" />
       <Tweet tweetId="1731090796672409662" />
       <Tweet tweetId="1719643171976605809" />
-
+      <Tweet tweetId="1731313566244839509" />
       <H2 className="mt-7 mb-3">Articles</H2>
       <ArticleLink
         href="https://www.i24news.tv/en/news/middle-east/palestinian-territories/1700158968-survey-finds-majority-in-the-west-bank-justify-the-oct-7-massacre"

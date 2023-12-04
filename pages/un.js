@@ -53,7 +53,8 @@ export default function UN(props) {
       <Tweet tweetId="1726626835117805689" />
       <Tweet tweetId="1726662067351081021" />
       <Tweet tweetId="1730737053342548173" />
-      
+      <Tweet tweetId="1542230202604027912" />
+      <Tweet tweetId="1731626346260910443" />
       <H2 className="mt-6 mb-3">Documents</H2>
       <A href="https://unwatch.org/wp-content/uploads/2023/11/UNW_119___UNRWA_Report_2023_November__2023-11-05__web.pdf">
         UNRWA Officials Exposed, official report by UN-WATCH from November 2023.
@@ -65,6 +66,33 @@ export default function UN(props) {
         source="i24 News"
       />
       <H2 className="mt-7 mb-3">Articles</H2>
+      <Article
+        title="Striking UNRWA Staff Protest Suspension of Teacher Who Incited Terrorism"
+        href="https://unwatch.org/hamas-unrwa-staff-slam-suspension-of-teacher-who-promotes-terrorism/"
+        source="UN Watch"
+      />
+      <Article
+        title="Gaza headmaster was Islamic Jihad 'rocket-maker'"
+        href="https://www.reuters.com/article/middleeastCrisis/idUSL05686115/"
+        source="Reuters"
+      />
+      <Article
+        title="UNRWA: Cradle of Killers"
+        href="https://vimeo.com/856467890"
+        source="Film by David Bedein"
+      />
+
+      <Article
+        title="Released hostage says he was held by UNRWA teacher in Gaza - report"
+        href="https://www.jpost.com/middle-east/article-775777"
+        source="The Jerusalem Post"
+      />
+      <Article
+        title="Report: U.N. Teachers Celebrated Hamas Massacre"
+        href="https://unwatch.org/report-u-n-teachers-celebrated-hamas-massacre/"
+        source="UN Watch"
+      />
+      <H2 className="mt-6 mb-3">Documents</H2>
       <PdfViewer pdfPath="/unrwaExposed.pdf" />
     </Template>
   );

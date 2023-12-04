@@ -82,7 +82,8 @@
     "pro-palestinian",
     "poster",
     "jew",
-    "אנטישמיות"
+    "אנטישמיות",
+    "anti"
   ],
   "idf humanity": [
     "IDF",
@@ -96,7 +97,16 @@
     "צהל"
   ],
   "no apartheid": ["No", "Apartheid", "אפרטהייד"],
-  "the west is next": ["the west is next", "islam", "isis", "iran", "terror"],
+  "the west is next": [
+    "the west is next",
+    "islam",
+    "isis",
+    "iran",
+    "terror",
+    "the west",
+    "next",
+    "west"
+  ],
   "not innocent": [
     "not innocent",
     "no",
@@ -113,7 +123,9 @@
     "terror",
     "hamas",
     "יהודה ושומרון",
-    "שטחים"
+    "שטחים",
+    "west",
+    "גדה"
   ],
   "hospital blast": [
     "hospital",

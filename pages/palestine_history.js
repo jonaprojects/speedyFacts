@@ -5,10 +5,10 @@ import Template from "@/components/Template/Template";
 import Fact from "@/components/fact/Fact";
 import H2 from "@/components/typography/H2";
 import A from "@/components/typography/A";
-import ArticleLink from "@/components/typography/ArticleLink";
 import Video from "@/components/video/Video";
 import ResponsiveVideoGrid from "@/components/responsive_grids/ResponsiveVideoGrid";
 import { Tweet } from "react-twitter-widgets";
+import Article from "@/components/article/Article";
 
 export default function PalestineHistory(props) {
   return (
@@ -28,6 +28,15 @@ export default function PalestineHistory(props) {
       Jewish identification with the land of Israel.
       `}
       />
+      <Fact
+        className="mb-2"
+        content={`Abdul Rahman Hassan Azzam, the Secretary-General of the Arab League from
+      1945 to 1952, declared in 1947 that were a war to take place
+      with the proposed establishment of a Jewish state, it would lead to "a war
+      of extermination and momentous massacre which will be spoken of like the
+      Mongolian massacre and the Crusades."`}
+      />
+
       <Fact
         className="mb-2"
         content={`During the 2,600 years those who lived in what the Roman Emperor Hadrian renamed Palestine were known as Palestinians, including Christians, Jews, Muslims, and people of any ethnic or religious affiliation. Accordingly, Palestinian did
@@ -55,16 +64,29 @@ export default function PalestineHistory(props) {
       </ResponsiveVideoGrid>
       <H2 className="mt-6 mb-3">Tweets</H2>
       <Tweet tweetId="1726501630357520738" />
-      <H2 className="mt-6 mb-3">Further Reading</H2>
-      <A href="https://www.jewishvirtuallibrary.org/origin-of-quot-palestine-quot">
-        Origins Of Palestine - Jewish Virtual Library
-      </A>
-      <br />
-      <ArticleLink
+      <H2 className="mt-6 mb-3">Articles</H2>
+      <Article
+        title="Azzan Pasha Quotation"
+        href="https://en.wikipedia.org/wiki/Azzam_Pasha_quotation"
+        source="Wikipedia"
+      />
+      <Article
+        title="Origins Of Palestine"
+        href="https://www.jewishvirtuallibrary.org/origin-of-quot-palestine-quot"
+        source="Jewish Virtual Library"
+        className="mb-2"
+      />
+      <Article
         title="Archaeology in Israel: Ancient Jewish Coins"
         href="https://www.jewishvirtuallibrary.org/ancient-jewish-coins"
-        source="Jewish Virtual Li
-        brary"
+        source="Jewish Virtual Library"
+        className="mb-2"
+      />
+      <Article
+        title="Myths & Facts - The Refugees"
+        href="https://www.jewishvirtuallibrary.org/myths-and-facts-the-refugees"
+        source="Jewish Virtual Library"
+        className="mb-1"
       />
     </Template>
   );

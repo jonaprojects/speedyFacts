@@ -17,7 +17,6 @@ export default function DoubleStandards(props) {
         Muslim and Arab civilians were killed in bloody wars in the last decade
         and it didn&apos;t trigger a fraction of the international outrage.
       </SubHeader>
-      <H2 className="mt-6 mb-3">Videos</H2>
       <H2 className="mb-3 mt-6">Tweets</H2>
       <Tweet tweetId="1726662067351081021" />
       <Tweet tweetId="1725637716082032658" />
