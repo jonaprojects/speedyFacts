@@ -8,6 +8,8 @@ import { Tweet } from "react-twitter-widgets";
 import H2 from "@/components/typography/H2";
 import Video from "@/components/video/Video";
 import ResponsiveVideoGrid from "@/components/responsive_grids/ResponsiveVideoGrid";
+import MyImage from "@/components/image/MyImage";
+import Article from "@/components/article/Article";
 
 export default function HamasAdmitsIt(props) {
   return (
@@ -38,9 +40,31 @@ export default function HamasAdmitsIt(props) {
         <Video embedId="NTbGCxwYOmM" />
         <Video embedId="Yg4VqiW0dyo" />
         <Video embedId="mPWOvwG4_x4" />
+        <Video embedId="LJ0mJo2ybkk" />
+        <Video embedId="4xNuQP0U4bE" />
       </ResponsiveVideoGrid>
-      <H2 className="mb-3 mt-6">Tweets</H2>
+      <H2 className="mt-7 mb-3">Images</H2>
+      <MyImage src="hamasCharter1.png" />
+      <H2 className="mb-3 mt-7">Tweets</H2>
       <Tweet tweetId="1393862073008934918" />
+      <Tweet tweetId="1718117018799333611" />
+      <Tweet tweetId="1731999238689579254" />
+      <H2 className="mt-7 mb-3">Further Reading</H2>
+      <Article
+        title="Covenant of Hamas terror"
+        href="https://embassies.gov.il/NEW-YORK/ABOUTISRAEL/Pages/Hamas-Covenant.aspx"
+        source="Consulate General of Israel in New York"
+      />
+      <Article
+        title="Hamas Covenant 1988"
+        href="https://avalon.law.yale.edu/20th_century/hamas.asp"
+        source="Yale Law School - The Avalon Project"
+      />
+      <Article
+        title="Hamas Sermon from the Gaza Strip: Our Doctrine Entails Exterminating the Jews"
+        href="https://www.memri.org/tv/hamas-sermon-gaza-strip-our-doctrine-entails-exterminating-jews"
+        source="Memri TV"
+      />
     </Template>
   );
 }

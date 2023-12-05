@@ -131,6 +131,7 @@ export default function PalestineHistory(props) {
       <Tweet tweetId="1727260800522358979" />
       <Tweet tweetId="1728729212285293047" />
       <Tweet tweetId="1729564865893675200" />
+      <Tweet tweetId="1731925155415195857" />
       <Tweet tweetId="1726930483320107203" />
       <Tweet tweetId="1730361620075806725" />
       <H2 className="mt-6 lg:mt-8 mb-3">Graphic Content</H2>
@@ -158,7 +159,7 @@ export default function PalestineHistory(props) {
         </li>
         <li>the</li>
       </ul>
-      <A href="https://oct7map.com/"> https://oct7map.com/ </A>
+      <A href="https://oct7map.com/"> https://oct7map.com/ </A> <br />
       <A href="https://www.october7.org/nova-festival-massacre">
         https://www.october7.org/nova-festival-massacre
       </A>
@@ -236,6 +237,13 @@ export default function PalestineHistory(props) {
             title={`How the Hamas attack on the Supernova festival in Israel unfolded`}
             href="https://www.theguardian.com/world/2023/oct/09/how-the-hamas-attack-on-the-supernova-festival-in-israel-unfolded"
             source="The Guardian"
+          />
+        </li>
+        <li className="mb-1">
+          <Article
+            title={`Israeli female soldiers shot in crotch, vagina, breasts on October 7`}
+            href="https://www.jpost.com/israel-news/article-776654#776654"
+            source="The Jerusalem Post"
           />
         </li>
       </ul>

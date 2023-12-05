@@ -24,6 +24,7 @@ export default function DoubleStandards(props) {
       <Tweet tweetId="1725908928414802037" />
       <Tweet tweetId="1726653958431916079" />
       <Tweet tweetId="1731337674017952189" />
+      <Tweet tweetId="1732074725554213009" />
     </Template>
   );
 }

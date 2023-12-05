@@ -35,6 +35,7 @@ export default function Rape(props) {
       <Tweet tweetId="1723834745815978229" />
       <Tweet tweetId="1731770689340719289" />
       <Tweet tweetId="1725304302627885483" />
+      <Tweet tweetId="1731434646959739077" />
       <Tweet tweetId="1729151643021615352" />
       <Tweet tweetId="1729557493527761170" />
       <Tweet tweetId="1731007578451165622" />
@@ -52,6 +53,14 @@ export default function Rape(props) {
           />
         </li>
         <li>
+          <li>
+            <Article
+              title="Horrific new stories of Hamas attacks in Israel surface, including rape of ‘beautiful woman with face of angel’ who screamed to be killed"
+              href="https://nypost.com/2023/12/03/news/horrific-new-stories-of-hamas-rapes-in-israel-surface-including-attack-on-woman-with-face-of-an-angel-who-screamed-to-be-killed/?utm_source=twitter&utm_campaign=nypost&utm_medium=social"
+              source="The New York Post"
+            />
+          </li>
+          <li></li>
           <Article
             title="Residents of Israel
 Gender-Based Violence as a Weapon of War during the October 7 Hamas Attacks | Position Paper"

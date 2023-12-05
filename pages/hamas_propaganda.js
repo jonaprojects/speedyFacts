@@ -34,18 +34,24 @@ export default function HamasPropaganda(props) {
       the prison with his arms perfectly intact and functional and appearing in
       good health."
       />
-      <H2 className="mt-6 mb-3">Images</H2>
-      <SensitiveMedia
-        src="/hamasKongSalao.png"
-        alt="Hamas lied about the kidnapped"
-        className="max-w-lg"
-      />
+
       <H2 className="mt-6 mb-3">Videos</H2>
       <ResponsiveVideoGrid>
         <Video embedId="VAva9VM38uA" />
         <Video embedId="bh-M33hKqrU" />
         <Video embedId="-73WHGrOVsY" />
       </ResponsiveVideoGrid>
+      <H2 className="mt-6 mb-3">Images</H2>
+      <SensitiveMedia
+        src="/hamasKongSalao.png"
+        alt="Hamas lied about the kidnapped"
+        className="max-w-lg"
+      />
+      <SensitiveMedia
+        src="/hamasBabies1.png"
+        alt="Hamas kidnapped Babies"
+        className="max-w-lg"
+      />
       <H2 className="mb-3 mt-6">Tweets</H2>
       <Tweet tweetId="1712902786461913333" />
       <Tweet tweetId="1728723979450327204" />
@@ -62,6 +68,11 @@ export default function HamasPropaganda(props) {
         title="Hamas Official Hisham Qasem Explains The Abduction Of Thai Nationals To Gaza: We Detained Them For Their Own Safety Due To Indiscriminate Israeli Shelling Of The Area"
         href="https://www.memri.org/tv/hamas-official-hisham-qasem-detained-thailand-indiscriminate-shelling-israel"
         source="MEMRI TV"
+      />
+      <Article
+        title="Hamas drugged hostages before releasing them"
+        href="https://jewishinsider.com/2023/12/hamas-hostages-klonopin-israel-gaza-release/"
+        source="Jewish Insider"
       />
     </Template>
   );

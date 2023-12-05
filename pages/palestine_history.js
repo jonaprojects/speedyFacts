@@ -36,7 +36,6 @@ export default function PalestineHistory(props) {
       of extermination and momentous massacre which will be spoken of like the
       Mongolian massacre and the Crusades."`}
       />
-
       <Fact
         className="mb-2"
         content={`During the 2,600 years those who lived in what the Roman Emperor Hadrian renamed Palestine were known as Palestinians, including Christians, Jews, Muslims, and people of any ethnic or religious affiliation. Accordingly, Palestinian did
@@ -64,6 +63,7 @@ export default function PalestineHistory(props) {
       </ResponsiveVideoGrid>
       <H2 className="mt-6 mb-3">Tweets</H2>
       <Tweet tweetId="1726501630357520738" />
+      <Tweet tweetId="1732015747063255380" />
       <H2 className="mt-6 mb-3">Articles</H2>
       <Article
         title="Azzan Pasha Quotation"

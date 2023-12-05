@@ -53,6 +53,7 @@ export default function UN(props) {
       <Tweet tweetId="1726626835117805689" />
       <Tweet tweetId="1726662067351081021" />
       <Tweet tweetId="1730737053342548173" />
+      <Tweet tweetId="1731710937214636178" />
       <Tweet tweetId="1542230202604027912" />
       <Tweet tweetId="1731626346260910443" />
       <H2 className="mt-6 mb-3">Documents</H2>
@@ -81,7 +82,6 @@ export default function UN(props) {
         href="https://vimeo.com/856467890"
         source="Film by David Bedein"
       />
-
       <Article
         title="Released hostage says he was held by UNRWA teacher in Gaza - report"
         href="https://www.jpost.com/middle-east/article-775777"

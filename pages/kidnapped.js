@@ -66,7 +66,7 @@ export default function Kidnapped(props) {
         src="/shaniLouk1.png"
         alt="Shani Louk dragged by terrorists"
       />
-     
+
       <H2 className="mt-6 mb-3">Tweets</H2>
       <Tweet tweetId="1711524024226845039" />
       <Tweet tweetId="1712902786461913333" />
@@ -74,7 +74,7 @@ export default function Kidnapped(props) {
       <Tweet tweetId="1729516785227972892" />
       <Tweet tweetId="1729974179145888015" />
       <Tweet tweetId="1726626412365484513" />
-      
+
       <H2 className="mt-6">Exhibitions</H2>
       <P className="mb-2">
         People all around the world have created touching exhibitions to raise
@@ -126,6 +126,13 @@ export default function Kidnapped(props) {
             title="Video shows apparent death of Israeli hostages in Hamas custody"
             href="https://www.washingtonpost.com/investigations/2023/10/09/israel-hamas-hostage-death/"
             source="The Washington Post"
+          />
+        </li>
+        <li>
+          <Article
+            title="Hamas drugged hostages before releasing them"
+            href="https://jewishinsider.com/2023/12/hamas-hostages-klonopin-israel-gaza-release/"
+            source="Jewish Insider"
           />
         </li>
       </ul>

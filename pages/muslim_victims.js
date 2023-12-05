@@ -77,7 +77,7 @@ export default function MuslimVictimsAndHeroes(props) {
       </ResponsiveVideoGrid>
       <H2 className="mt-7 mb-3">Images</H2>
       <MyImage src="/releasedBedouin1.png" />
-      <br/>
+      <br />
       <small className="text-slate-500">
         Aisha Al Ziadna released from Hamas captivity.
       </small>
@@ -90,6 +90,8 @@ export default function MuslimVictimsAndHeroes(props) {
       <Tweet tweetId="1729083032861364241" />
       <Tweet tweetId="1730653911365587073" />
       <Tweet tweetId="1726355586583851512" />
+      <Tweet tweetId="1731451253064966445" />
+      <Tweet tweetId="1731313838606152177" />
       <H2 className="mt-6 mb-3">Articles</H2>
       <ul>
         <li className="mb-1">

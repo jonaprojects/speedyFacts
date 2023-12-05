@@ -11,6 +11,7 @@ import H3 from "@/components/typography/H3";
 import Image from "next/image";
 import SensitiveMedia from "@/components/sensitive_media/SensitiveMedia";
 import ResponsiveVideoGrid from "@/components/responsive_grids/ResponsiveVideoGrid";
+import Article from "@/components/article/Article";
 
 export default function Satire(props) {
   return (
@@ -20,7 +21,6 @@ export default function Satire(props) {
         Satiric comments and skits following Hamas&apos; attack and the rise of
         Antisemitism in the world.
       </SubHeader>
-
       <H2 className="mt-6 mb-3">Videos</H2>
       <ResponsiveVideoGrid>
         <Video embedId="yVcwKsd_kiQ" />
@@ -28,8 +28,14 @@ export default function Satire(props) {
         <Video embedId="rbfccVBo9tE" />
         <Video embedId="VYUL1R4pupU" />
       </ResponsiveVideoGrid>
-
       <H2 className="mb-3 mt-6">Tweets</H2>
+      <Tweet tweetId="1731789101815246953" />
+      <H2 className="mb-3 mt-6">Articles</H2>
+      <Article
+        title="Bill Cosby Joins Hamas So Feminists Will Stop Condemning Him For Rape"
+        href="https://babylonbee.com/news/bill-cosby-joins-hamas-so-feminists-will-stop-condemning-him-for-rape"
+        source="The Babylon Bee"
+      />
     </Template>
   );
 }
