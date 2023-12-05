@@ -27,6 +27,7 @@ export default function Satire(props) {
         <Video embedId="gHTNuBKtzHc" />
         <Video embedId="rbfccVBo9tE" />
         <Video embedId="VYUL1R4pupU" />
+        <Video embedId="cB98QWIWoDs" />
       </ResponsiveVideoGrid>
       <H2 className="mb-3 mt-6">Tweets</H2>
       <Tweet tweetId="1731789101815246953" />
