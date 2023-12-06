@@ -34,7 +34,6 @@ export default function HamasPropaganda(props) {
       the prison with his arms perfectly intact and functional and appearing in
       good health."
       />
-
       <H2 className="mt-6 mb-3">Videos</H2>
       <ResponsiveVideoGrid>
         <Video embedId="VAva9VM38uA" />
@@ -58,6 +57,7 @@ export default function HamasPropaganda(props) {
       <Tweet tweetId="1729614130145874222" />
       <Tweet tweetId="1730023036902916519" />
       <Tweet tweetId="1729277662118457436" />
+      <Tweet tweetId="1732499063499579570" />
       <H2 className="mt-7 mb-3">Articles</H2>
       <Article
         title="Human Rights Watch says rocket misfire likely cause of deadly Gaza hospital blast"

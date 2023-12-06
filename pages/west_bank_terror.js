@@ -103,7 +103,8 @@ export default function WestBankTerrorism(props) {
       <Tweet tweetId="1725098802388881544" />
       <Tweet tweetId="1727679947475402829" />
       <Tweet tweetId="1728605809783808491" />
-      https://x.com/StandWithUs/status/?s=20
+      <Tweet tweetId="1732131621589962870" />
+      <Tweet tweetId="1730099569717920174" />
       <H2 className="mb-3 mt-6">Articles</H2>
       <ArticleLink
         href="https://www.i24news.tv/en/news/middle-east/palestinian-territories/1700158968-survey-finds-majority-in-the-west-bank-justify-the-oct-7-massacre"

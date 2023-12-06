@@ -134,6 +134,7 @@ export default function PalestineHistory(props) {
       <Tweet tweetId="1731925155415195857" />
       <Tweet tweetId="1726930483320107203" />
       <Tweet tweetId="1730361620075806725" />
+      <Tweet tweetId="1720536075817398620" />
       <H2 className="mt-6 lg:mt-8 mb-3">Graphic Content</H2>
       <P className="mb-3">
         Many deny the atrocities that Hamas has committed in October 7th. They

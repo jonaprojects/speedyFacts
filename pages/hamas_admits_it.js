@@ -45,6 +45,8 @@ export default function HamasAdmitsIt(props) {
       </ResponsiveVideoGrid>
       <H2 className="mt-7 mb-3">Images</H2>
       <MyImage src="hamasCharter1.png" />
+      <MyImage src="hamasCharter2.png" />
+
       <H2 className="mb-3 mt-7">Tweets</H2>
       <Tweet tweetId="1393862073008934918" />
       <Tweet tweetId="1718117018799333611" />

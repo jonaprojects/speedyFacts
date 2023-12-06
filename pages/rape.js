@@ -60,7 +60,20 @@ export default function Rape(props) {
               source="The New York Post"
             />
           </li>
-          <li></li>
+          <li>
+            <Article
+              title="What we know about rape and sexual violence inflicted by Hamas during its terror attack on Israel"
+              href="https://edition.cnn.com/2023/12/06/middleeast/rape-sexual-violence-hamas-israel-what-we-know-intl/index.html"
+              source="CNN"
+            />
+          </li>
+          <li>
+            <Article
+              title="Their bodies tell their stories. They're not alive to speak for themselves."
+              href="https://www.nbcnews.com/news/world/hamas-rape-israeli-women-oct-7-rcna128221"
+              source="NBC"
+            />
+          </li>
           <Article
             title="Residents of Israel
 Gender-Based Violence as a Weapon of War during the October 7 Hamas Attacks | Position Paper"
@@ -70,7 +83,7 @@ Gender-Based Violence as a Weapon of War during the October 7 Hamas Attacks | Po
         </li>
         <li>
           <Article
-            title="srael Police Presents New Evidence of Sexual Assault by Hamas Terrorists on October 7"
+            title="Israel Police Presents New Evidence of Sexual Assault by Hamas Terrorists on October 7"
             href="https://www.haaretz.com/israel-news/2023-11-28/ty-article/.premium/israel-police-presents-further-evidence-of-sexual-assault-by-hamas-members-on-october-7/0000018c-169e-dd03-a7ff-bebe1bdb0000"
             source="Haaretz"
           />
@@ -91,11 +104,19 @@ Gender-Based Violence as a Weapon of War during the October 7 Hamas Attacks | Po
         </li>
         <li>
           <Article
+            title="Israel presents evidence, witness testimonies of Hamas's sexual violence in Oct. 7 attacks"
+            href="https://www.cbc.ca/news/world/israel-hamas-sexual-violence-1.7050237"
+            source="CBC"
+          />
+        </li>
+        <li>
+          <Article
             title="עדות אחר עדות, מתברר ההיקף המבעית של מעשי האונס ב-7 באוקטובר"
             href="https://www.haaretz.co.il/magazine/2023-11-30/ty-article-magazine/.highlight/0000018c-1ab8-d3b6-adef-bbfc5f440000"
             source="Haaretz"
           />
         </li>
+
         <li>
           <Article
             title="המשטרה גבתה עדויות נוספות על פגיעות מיניות ב–7 באוקטובר"

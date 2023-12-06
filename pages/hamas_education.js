@@ -12,6 +12,7 @@ import Video from "@/components/video/Video";
 import Article from "@/components/article/Article";
 import ResponsiveVideoGrid from "@/components/responsive_grids/ResponsiveVideoGrid";
 import H3 from "@/components/typography/H3";
+import MyImage from "@/components/image/MyImage";
 
 export default function HamasEducation(props) {
   return (
@@ -68,6 +69,9 @@ export default function HamasEducation(props) {
         <Video embedId="MKvN-PEO5QI" />
         <Video embedId="Hcyg55vOviQ" />
       </ResponsiveVideoGrid>
+      <H2 className="mt-6 mb-3">Images</H2>
+      <MyImage src="/sinwarchild.png"/>
+      <small className="bg-slate-500"></small>
       <H2 className="mt-7 mb-3">Tweets</H2>
       <Tweet tweetId="1727328947455553733" />
       <Tweet tweetId="1722919232315228447" />

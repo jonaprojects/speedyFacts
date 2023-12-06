@@ -9,6 +9,7 @@ import Video from "@/components/video/Video";
 import ResponsiveVideoGrid from "@/components/responsive_grids/ResponsiveVideoGrid";
 import { Tweet } from "react-twitter-widgets";
 import Article from "@/components/article/Article";
+import MyImage from "@/components/image/MyImage";
 
 export default function PalestineHistory(props) {
   return (
@@ -61,6 +62,9 @@ export default function PalestineHistory(props) {
         <Video embedId="O7ByJb7QQ9U" />
         <Video embedId="pefEIwoTEnE" />
       </ResponsiveVideoGrid>
+      <H2 className="mt-6 mb-3">Images</H2>
+      <MyImage src="/muftiHitler.png" />
+      <small className="text-slate-500">Illustrative: Hitler hosts Grand Mufti of Jerusalem Haj Amin al-Husseini in 1941 in Germany. (Heinrich Hoffmann Collection)</small>
       <H2 className="mt-6 mb-3">Tweets</H2>
       <Tweet tweetId="1726501630357520738" />
       <Tweet tweetId="1732015747063255380" />
