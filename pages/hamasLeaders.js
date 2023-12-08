@@ -12,6 +12,7 @@ import MyImage from "@/components/image/MyImage";
 import Video from "@/components/video/Video";
 import ResponsiveVideoGrid from "@/components/responsive_grids/ResponsiveVideoGrid";
 import ResponsiveGrid from "@/components/responsive_grids/ResponsiveGrid";
+import { Tweet } from "react-twitter-widgets";
 
 export default function HamasLeaders(props) {
   return (
@@ -59,7 +60,7 @@ export default function HamasLeaders(props) {
       declared that Hamas is not responsible for the safety of the citizens of
       Gaza; instead, he pointed to Israel and the UN as being responsible for them."
       />
-      <H2 className="mt-6 mb-3">Pictures</H2>
+      <H2 className="mt-6 mb-3">Images</H2>
       <ResponsiveGrid>
         <div>
           <MyImage
@@ -98,7 +99,8 @@ export default function HamasLeaders(props) {
         <Video embedId="Yg4VqiW0dyo" />
         <Video embedId="VAva9VM38uA" />
       </ResponsiveVideoGrid>
-
+      <H2 className="mt-6 mb-3">Tweets</H2>
+      <Tweet tweetId="1732789140620501209" />
       <H2 className="mt-6 mb-3">Articles</H2>
       <ul>
         <li className="mb-1">

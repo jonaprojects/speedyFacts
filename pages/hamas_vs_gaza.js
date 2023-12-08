@@ -36,11 +36,14 @@ export default function FakeNews(props) {
       <Tweet tweetId="1725180475080163835" />
       <Tweet tweetId="1725908411210973326" />
       <Tweet tweetId="1724058426932621764" />
+      <Tweet tweetId="1732539753227051327" />
       <Tweet tweetId="1725037285249306726" />
       <Tweet tweetId="1724840159726686274" />
       <Tweet tweetId="1723450736577564759" />
       <Tweet tweetId="1732023554575565120" />
       <Tweet tweetId="1732458327664168988" />
+      <Tweet tweetId="1732842445191229937" />
+      <Tweet tweetId="1732544165748064451" />
     </Template>
   );
 }

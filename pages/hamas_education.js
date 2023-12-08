@@ -70,13 +70,31 @@ export default function HamasEducation(props) {
         <Video embedId="Hcyg55vOviQ" />
       </ResponsiveVideoGrid>
       <H2 className="mt-6 mb-3">Images</H2>
-      <MyImage src="/sinwarchild.png"/>
+      <MyImage src="/sinwarchild.png" className="max-w-lg" />
+      <small className="text-slate-500 block mb-6">
+        Yahya Sinwar, the leader of Hamas in Gaza, holding a child with military
+        uniform and a gun in Gaza.
+      </small>
+      <MyImage src="/kidsPlayTerrorists2.png" className="max-w-lg mb-2" />
+      <br />
+      <MyImage src="/jihadCamp1.png" className="max-w-lg" />
+      <small className="text-slate-500 block mb-6">
+        Graduation Ceremony of Youth Military Camp of Islamic Palestinian Jihad
+        on Aug 18, 2015
+      </small>
+      <br />
+      <MyImage src="/naziTextbookGaza.png" className="max-w-lg" />
+      <small className="text-slate-500 block mb-6">
+        A Textbook found in a school in Gaza: &quot;The Big lie, burning of 6 Million
+        Jews in Gas Chambers&quot;
+      </small>
       <small className="bg-slate-500"></small>
       <H2 className="mt-7 mb-3">Tweets</H2>
       <Tweet tweetId="1727328947455553733" />
       <Tweet tweetId="1722919232315228447" />
       <Tweet tweetId="1729551371983028423" />
       <Tweet tweetId="1727331089486938481" />
+      <Tweet tweetId="1663621350290751489" />
       <H2 className="mt-6 mb-3">Articles</H2>
       <ul>
         <li className="mb-1">

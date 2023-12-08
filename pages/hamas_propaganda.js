@@ -58,6 +58,7 @@ export default function HamasPropaganda(props) {
       <Tweet tweetId="1730023036902916519" />
       <Tweet tweetId="1729277662118457436" />
       <Tweet tweetId="1732499063499579570" />
+      <Tweet tweetId="1732754038393905165" />
       <H2 className="mt-7 mb-3">Articles</H2>
       <Article
         title="Human Rights Watch says rocket misfire likely cause of deadly Gaza hospital blast"

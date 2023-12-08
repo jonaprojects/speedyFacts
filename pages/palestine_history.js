@@ -64,10 +64,18 @@ export default function PalestineHistory(props) {
       </ResponsiveVideoGrid>
       <H2 className="mt-6 mb-3">Images</H2>
       <MyImage src="/muftiHitler.png" />
-      <small className="text-slate-500">Illustrative: Hitler hosts Grand Mufti of Jerusalem Haj Amin al-Husseini in 1941 in Germany. (Heinrich Hoffmann Collection)</small>
+      <small className="text-slate-500 block">
+        Illustrative: Hitler hosts Grand Mufti of Jerusalem Haj Amin al-Husseini
+        in 1941 in Germany. (Heinrich Hoffmann Collection)
+      </small>
+      <MyImage src="/ancientMap1.png" className="mt-6" />
+      <small className="text-slate-500 block">
+        An ancient map of the old kingdoms of Judea and Israel
+      </small>
       <H2 className="mt-6 mb-3">Tweets</H2>
       <Tweet tweetId="1726501630357520738" />
       <Tweet tweetId="1732015747063255380" />
+      <Tweet tweetId="1732865627574894928" />
       <H2 className="mt-6 mb-3">Articles</H2>
       <Article
         title="Azzan Pasha Quotation"

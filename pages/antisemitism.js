@@ -71,6 +71,8 @@ export default function Antisemitism(props) {
       <Tweet tweetId="1720155036016095580" />
       <Tweet tweetId="1731702583977222272" />
       <Tweet tweetId="1732353175078768928" />
+      <Tweet tweetId="1732179418787783089" />
+      <Tweet tweetId="1732774984173474208" />
       <H2 className="mt-6 mb-3">Articles</H2>
       <ul>
         <li className="mb-1">

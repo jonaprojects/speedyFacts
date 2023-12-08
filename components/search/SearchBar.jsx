@@ -6,6 +6,7 @@ import rankSearchResult from "./rank_categories";
 import { CATEGORIES_AND_PATHS } from "@/data/categories";
 import { useRouter } from "next/router";
 import P from "../typography/P";
+import SecondaryButtonAlt from "../buttons/SecondaryButtonAlt";
 
 export default function SearchBar(props) {
   const router = useRouter();
@@ -48,6 +49,36 @@ export default function SearchBar(props) {
       setShowNoResults(true);
     }
   };
+
+  const fontSizeClass = props?.fontSize ?? "text-sm sm:text-base";
+  const paddingClass = props?.padding ?? "p-3";
+  const buttonType = props?.buttonType ?? "primary";
+  var searchButton = (
+    <PrimaryButton onClick={onSearchHandler}>
+      <Image
+        src="/search.svg"
+        alt=""
+        className=""
+        width={30}
+        height={30}
+        priority
+      />
+    </PrimaryButton>
+  );
+  if (buttonType == "secondary") {
+    searchButton = (
+      <SecondaryButtonAlt onClick={onSearchHandler}>
+        <Image
+          src="/search.svg"
+          alt=""
+          className=""
+          width={30}
+          height={30}
+          priority
+        />
+      </SecondaryButtonAlt>
+    );
+  }
   return (
     <>
       <div className={props?.className}>
@@ -55,22 +86,13 @@ export default function SearchBar(props) {
           <input
             type="text"
             placeholder="Search for a category"
-            className="text-sm p-3 sm:p-3 sm:text-base w-full box-border"
+            className={`text-slate-500 ${paddingClass} ${fontSizeClass}  w-full box-border`}
             onFocus={handleOnFocus}
             onBlur={handleOnBlur}
             onKeyDown={handleKeyDown}
             onChange={handleOnChange}
           />
-          <PrimaryButton onClick={onSearchHandler}>
-            <Image
-              src="/search.svg"
-              alt=""
-              className=""
-              width={30}
-              height={30}
-              priority
-            />
-          </PrimaryButton>
+          {searchButton}
         </div>
       </div>
       {suggestions && (
