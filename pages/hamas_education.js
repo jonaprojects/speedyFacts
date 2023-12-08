@@ -70,23 +70,38 @@ export default function HamasEducation(props) {
         <Video embedId="Hcyg55vOviQ" />
       </ResponsiveVideoGrid>
       <H2 className="mt-6 mb-3">Images</H2>
-      <MyImage src="/sinwarchild.png" className="max-w-lg" />
+      <MyImage
+        src="/sinwarchild.png"
+        className="max-w-lg"
+        alt="Yahya Sinwar, the leader of Hamas in Gaza, holding a child with military
+        uniform and a gun in Gaza."
+      />
       <small className="text-slate-500 block mb-6">
         Yahya Sinwar, the leader of Hamas in Gaza, holding a child with military
         uniform and a gun in Gaza.
       </small>
       <MyImage src="/kidsPlayTerrorists2.png" className="max-w-lg mb-2" />
       <br />
-      <MyImage src="/jihadCamp1.png" className="max-w-lg" />
+      <MyImage
+        src="/jihadCamp1.png"
+        className="max-w-lg"
+        alt="  Graduation Ceremony of Youth Military Camp of Islamic Palestinian Jihad
+        on Aug 18, 2015"
+      />
       <small className="text-slate-500 block mb-6">
         Graduation Ceremony of Youth Military Camp of Islamic Palestinian Jihad
         on Aug 18, 2015
       </small>
       <br />
-      <MyImage src="/naziTextbookGaza.png" className="max-w-lg" />
+      <MyImage
+        src="/naziTextbookGaza.png"
+        className="max-w-lg"
+        alt='A Textbook found in a school in Gaza: "The Big lie, burning of 6
+        Million Jews in Gas Chambers"'
+      />
       <small className="text-slate-500 block mb-6">
-        A Textbook found in a school in Gaza: &quot;The Big lie, burning of 6 Million
-        Jews in Gas Chambers&quot;
+        A Textbook found in a school in Gaza: &quot;The Big lie, burning of 6
+        Million Jews in Gas Chambers&quot;
       </small>
       <small className="bg-slate-500"></small>
       <H2 className="mt-7 mb-3">Tweets</H2>
@@ -109,6 +124,20 @@ export default function HamasEducation(props) {
             href="https://www.memri.org/tv/children-hamas-summer-camps-undergo-military-training-handle-weapons-simulate-conquering-jerusalem"
             title="At Hamas Summer Camps, Children Undergo Military Training, Learn To Handle Weapons, Simulate Raiding Israeli Military Posts, Conquering Jerusalem"
             source="MEMRI TV"
+          />
+        </li>
+        <li className="mb-1">
+          <Article
+            title="Palestinian Teenage Terror - Inherently Illegal, But Does Anyone Care?"
+            href="https://www.jewishpress.com/indepth/opinions/palestinian-teenage-terror-inherently-illegal-but-does-anyone-care/2023/03/15/"
+            source="Jewish Press"
+          />
+        </li>
+        <li className="mb-1">
+          <Article
+            title="Editorial: Reform UNRWA, a renegade agency committed to hate"
+            href="https://jewishjournal.org/2017/05/04/editorial-reform-unrwa-a-renegade-agency-committed-to-hate/"
+            source="Jewish Jorunal"
           />
         </li>
       </ul>

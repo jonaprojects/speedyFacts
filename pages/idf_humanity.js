@@ -8,6 +8,7 @@ import { Tweet } from "react-twitter-widgets";
 import H2 from "@/components/typography/H2";
 import Video from "@/components/video/Video";
 import ResponsiveVideoGrid from "@/components/responsive_grids/ResponsiveVideoGrid";
+import MyImage from "@/components/image/MyImage";
 
 export default function IDFHumanity(props) {
   return (
@@ -19,14 +20,24 @@ export default function IDFHumanity(props) {
         to warn the civilians a month ahead to get to safety. Meanwhile, Hamas
         has prevented them from leaving and used them as human shields.
       </SubHeader>
-      <H2 className="mt-6 mb-3">Videos</H2>
+      <H2 className="mt-7 mb-3">Videos</H2>
       <ResponsiveVideoGrid>
         <Video embedId="OGri58wrMBk" />
         <Video embedId="-_3j_WNQKXw" />
         <Video embedId="O9UXvI4eEgQ" />
         <Video embedId="svnCrECZt7k" />
       </ResponsiveVideoGrid>
-      <H2 className="mb-3 mt-6">Tweets</H2>
+      <H2 className="mt-7 mb-3">Images</H2>
+      <MyImage
+        src="/shifaAid2.png"
+        alt="IDF Soldiers deliver humanitarian aid to Al-Shifa hospital in Gaza during the 2023 Gaza War."
+        className="max-w-2xl"
+      ></MyImage>
+      <small className="block text-slate-500">
+        IDF Soldiers deliver humanitarian aid to Shifa hospital during the 2023
+        Gaza War.
+      </small>
+      <H2 className="mb-3 mt-7">Tweets</H2>
       <Tweet tweetId="1723690677190500798" />
       <Tweet tweetId="1730532637125550267" />
     </Template>

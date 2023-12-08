@@ -7,6 +7,8 @@ import { CATEGORIES_AND_PATHS } from "@/data/categories";
 import { useRouter } from "next/router";
 import P from "../typography/P";
 import SecondaryButtonAlt from "../buttons/SecondaryButtonAlt";
+import Modal from "../modal/Modal";
+import H1 from "../typography/H1";
 
 export default function SearchBar(props) {
   const router = useRouter();
@@ -15,11 +17,17 @@ export default function SearchBar(props) {
   const [showSuggestions, setShowSuggestions] = useState(false);
   const [suggestions, setSuggestions] = useState(null);
   const [showNoResults, setShowNoResults] = useState(false);
+
+  const [noResultsModalOpen, setNoResultsModalOpen] = useState(false);
   var top_categories = null;
 
   const handleKeyDown = (event) => {
     if (isFocused && event.key === "Enter") {
       onSearchHandler();
+    } else if (event.key === "ArrowUp") {
+      //TODO: implement scrolling results functionality
+    } else if (event.key === "ArrowDown") {
+      //TODO: implement scrolling results functionality
     }
   };
 
@@ -47,12 +55,22 @@ export default function SearchBar(props) {
       router.push(path);
     } else {
       setShowNoResults(true);
+      if (props.notFound && props.notFound === "modal") {
+        setNoResultsModalOpen(true);
+      }
     }
+  };
+
+  const goHome = () => {
+    setNoResultsModalOpen(false);
+    setShowNoResults(false);
+    router.push("/");
   };
 
   const fontSizeClass = props?.fontSize ?? "text-sm sm:text-base";
   const paddingClass = props?.padding ?? "p-3";
   const buttonType = props?.buttonType ?? "primary";
+  const notFound = props?.notFound ?? "text";
   var searchButton = (
     <PrimaryButton onClick={onSearchHandler}>
       <Image
@@ -81,8 +99,8 @@ export default function SearchBar(props) {
   }
   return (
     <>
-      <div className={props?.className}>
-        <div className="flex justify-center">
+      <div className={` ${props?.className}`}>
+        <div className="flex justify-center relative">
           <input
             type="text"
             placeholder="Search for a category"
@@ -94,11 +112,32 @@ export default function SearchBar(props) {
           />
           {searchButton}
         </div>
+        {suggestions && (
+          <SuggestionsList
+            isOpen={showSuggestions}
+            suggestions={suggestions}
+            className={props?.suggestions}
+            fontSize={props?.suggestionFontSize}
+          />
+        )}
       </div>
-      {suggestions && (
-        <SuggestionsList isOpen={showSuggestions} suggestions={suggestions} />
+
+      {showNoResults && notFound === "text" && (
+        <P className="mt-2">Sorry, could not find a result!</P>
       )}
-      {showNoResults && <P className="mt-2">Sorry, could not find a result!</P>}
+      {showNoResults && notFound === "modal" && (
+        <Modal
+          isOpen={noResultsModalOpen}
+          primaryText="Close"
+          secondaryText="Home"
+          primaryAction={() => setNoResultsModalOpen(false)}
+          secondaryAction={goHome}
+          closeModal={() => setNoResultsModalOpen(false)}
+        >
+          <H1>No Results!</H1>
+          <P>Oops! We weren&apos;t able to find the desired result!</P>
+        </Modal>
+      )}
     </>
   );
 }

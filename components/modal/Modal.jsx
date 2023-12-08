@@ -32,7 +32,7 @@ const Modal = (props) => {
           </span>
           {props.children}
           <div name="options" className="mt-6 flex flex-row gap-3">
-            <SecondaryButton onClick={props.secondaryAction}>
+            <SecondaryButton onClick={props?.secondaryAction}>
               {props.secondaryText}
             </SecondaryButton>
             <PrimaryButton onClick={props.primaryAction}>

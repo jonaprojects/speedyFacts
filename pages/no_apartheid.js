@@ -9,6 +9,7 @@ import H2 from "@/components/typography/H2";
 import Video from "@/components/video/Video";
 import ResponsiveVideoGrid from "@/components/responsive_grids/ResponsiveVideoGrid";
 import MyImage from "@/components/image/MyImage";
+import Article from "@/components/article/Article";
 
 export default function NoApartheid(props) {
   return (
@@ -42,6 +43,10 @@ export default function NoApartheid(props) {
         className="mb-2"
       />
       <Fact
+        content="An Arab Supreme Court Judge named Salim Joubran was one of the Judges that sent Prime Minister Ehud Olmert to prison."
+        className="mb-2"
+      />
+      <Fact
         content="Equality is rooted deep in the very document that dictates
       the essence of the Jewish country. According to Israel’s Declaration of
       Independence, each person is equal to the law and must not be
@@ -59,12 +64,32 @@ export default function NoApartheid(props) {
       </ResponsiveVideoGrid>
       <H2 className="mb-3 mt-6">Images</H2>
       <MyImage src="rahatCenter1.png" />
-
+      <small className="block text-slate-500">
+        Jews and Arabs in the Joint Arab-Jewish Emergency Relief Center in Rahat
+        following the October 7th Massacre.
+      </small>
+      <MyImage src="idfPray1.png" className="mt-6" />
+      <small className="block text-slate-500">
+        Jew and Muslim IDF soldiers pray next to each other.
+      </small>
+      <MyImage src="salimJoubran1.png" className="mt-6 max-w-2xl" />
+      <small className="block text-slate-500">
+        <b>
+          Supreme Court judge Salim Joubran and Supreme Court President Miriam
+          Naor at the court, August 3, 2017.
+        </b>{" "}
+        Credit: Emil Salman
+      </small>
       <H2 className="mb-3 mt-6">Tweets</H2>
       <Tweet tweetId="1724486686971723992" />
       <Tweet tweetId="1725468560766468358" />
       <Tweet tweetId="1731312634035589397" />
       <H2 className="mt-7 mb-3">Articles</H2>
+      <Article
+        title="Khaled Kabub sworn in as Israeli Supreme Court's first Muslim justice"
+        href="https://www.timesofisrael.com/khaled-kabub-sworn-in-as-supreme-courts-first-muslim-justice/"
+        source="The Times Of Israel"
+      />
     </Template>
   );
 }

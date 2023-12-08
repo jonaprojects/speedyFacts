@@ -38,6 +38,9 @@ export default function Navbar(props) {
           fontSize="text-xs md:text-sm"
           padding="py-0 px-2"
           buttonType="secondary"
+          notFound="modal"
+          suggestions="max-w-sm lg:max-w-xl"
+          suggestionFontSize="text-xs md:text-sm"
         />
       </div>
       <button onClick={toggleSidebar} className="m-0 p-0">
