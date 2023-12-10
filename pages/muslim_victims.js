@@ -74,6 +74,7 @@ export default function MuslimVictimsAndHeroes(props) {
         <Video embedId="VgNtsUkxF2g" className="mb-2" />
         <Video embedId="D2Fn69O6haY" className="mb-2" />
         <Video embedId="G2JRnk7HK48" className="mb-2" />
+        <Video embedId="KJeV9BFnnGc" className="mb-2" />
       </ResponsiveVideoGrid>
       <H2 className="mt-7 mb-3">Images</H2>
       <MyImage src="/releasedBedouin1.png" />

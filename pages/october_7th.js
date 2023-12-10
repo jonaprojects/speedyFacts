@@ -118,7 +118,8 @@ export default function PalestineHistory(props) {
         <Video embedId="oLdsVNHvy2w" />
         <Video embedId="yPK4DUNDlQ0" />
         <Video embedId="HVlfElxoutE" />
-        <Video embedId="Dcm57pszXKw" className="" />
+        <Video embedId="9ZhXFKD5qyo" />
+        <Video embedId="Dcm57pszXKw" />
       </ResponsiveVideoGrid>
       <H2 className="mt-6 lg:mt-8 mb-3">Tweets</H2>
       <Tweet tweetId="1716477619061887235" />

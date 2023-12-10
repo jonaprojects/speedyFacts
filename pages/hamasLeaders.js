@@ -93,13 +93,14 @@ export default function HamasLeaders(props) {
           </p>
         </div>
       </ResponsiveGrid>
-
       <H2 className="mt-6 mb-3">Videos</H2>
       <ResponsiveVideoGrid>
         <Video embedId="Yg4VqiW0dyo" />
         <Video embedId="VAva9VM38uA" />
+        <Video embedId="SQBkV9L9iuM" />
       </ResponsiveVideoGrid>
       <H2 className="mt-6 mb-3">Tweets</H2>
+      <Tweet tweetId="1730479462234439765" />
       <Tweet tweetId="1732789140620501209" />
       <H2 className="mt-6 mb-3">Articles</H2>
       <ul>

@@ -42,15 +42,16 @@ export default function HamasAdmitsIt(props) {
         <Video embedId="mPWOvwG4_x4" />
         <Video embedId="LJ0mJo2ybkk" />
         <Video embedId="4xNuQP0U4bE" />
+        <Video embedId="4xNuQP0U4bE" />
       </ResponsiveVideoGrid>
       <H2 className="mt-7 mb-3">Images</H2>
       <MyImage src="hamasCharter1.png" />
-      <MyImage src="hamasCharter2.png" />
-
+      <MyImage src="hamasCharter2.png" className="max-w-md" />
       <H2 className="mb-3 mt-7">Tweets</H2>
       <Tweet tweetId="1393862073008934918" />
       <Tweet tweetId="1718117018799333611" />
       <Tweet tweetId="1731999238689579254" />
+      <Tweet tweetId="1730479462234439765" />
       <H2 className="mt-7 mb-3">Further Reading</H2>
       <Article
         title="Covenant of Hamas terror"

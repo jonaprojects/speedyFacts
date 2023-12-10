@@ -47,7 +47,7 @@ export default function Navbar(props) {
         <Image
           src="/menu.svg"
           alt=""
-          className=""
+          className="sm:mr-2 mr-1"
           width={24}
           height={24}
           priority

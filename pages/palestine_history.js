@@ -100,6 +100,12 @@ export default function PalestineHistory(props) {
         source="Jewish Virtual Library"
         className="mb-1"
       />
+      <Article
+        title="Maccabean Revolt"
+        href="https://en.wikipedia.org/wiki/Maccabean_Revolt"
+        source="Wikipedia"
+        className="mb-1"
+      />
     </Template>
   );
 }

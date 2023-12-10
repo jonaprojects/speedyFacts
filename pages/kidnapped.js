@@ -56,6 +56,8 @@ export default function Kidnapped(props) {
         <Video embedId="pbez-juyHbQ" />
         <Video embedId="40LZFCIKoBc" />
         <Video embedId="XGub-s4Jr6w" />
+        <Video embedId="IWrzlX2FnzI" />
+        <Video embedId="P0EBhKtI5zU" />
       </ResponsiveVideoGrid>
       <H2 className="mt-6 mb-3">Images</H2>
       <SensitiveMedia
@@ -66,6 +68,11 @@ export default function Kidnapped(props) {
         src="/shaniLouk1.png"
         alt="Shani Louk dragged by terrorists"
       />
+      <SensitiveMedia
+        src="/hamasBabies1.png"
+        alt="Hamas kidnapped Babies"
+        className="max-w-lg"
+      />
       <H2 className="mt-6 mb-3">Tweets</H2>
       <Tweet tweetId="1711524024226845039" />
       <Tweet tweetId="1712902786461913333" />
@@ -75,7 +82,7 @@ export default function Kidnapped(props) {
       <Tweet tweetId="1726626412365484513" />
       <Tweet tweetId="1731566416707432748" />
       <Tweet tweetId="1732754038393905165" />
-      
+      <Tweet tweetId="1733562832589848717" />
       <H2 className="mt-6">Exhibitions</H2>
       <P className="mb-2">
         People all around the world have created touching exhibitions to raise

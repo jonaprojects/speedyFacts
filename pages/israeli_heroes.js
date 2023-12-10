@@ -24,6 +24,7 @@ export default function IsraeliHeroes(props) {
         <Video embedId="_zXT-jtNnO4" className="mb-2" />
         <Video embedId="ICFiHMY48KY" className="mb-2" />
         <Video embedId="AjQ6T6y93yo" className="mb-2" />
+        <Video embedId="Dzwj2uR76Uo" className="mb-2" />
       </ResponsiveVideoGrid>
       <Tweet tweetId="1724434268376420549" />
     </Template>

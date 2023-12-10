@@ -26,6 +26,8 @@ export default function IDFHumanity(props) {
         <Video embedId="-_3j_WNQKXw" />
         <Video embedId="O9UXvI4eEgQ" />
         <Video embedId="svnCrECZt7k" />
+        <Video embedId="4nntSi_P504" />
+        <Video embedId="RDvtNPmleJg" />
       </ResponsiveVideoGrid>
       <H2 className="mt-7 mb-3">Images</H2>
       <MyImage
