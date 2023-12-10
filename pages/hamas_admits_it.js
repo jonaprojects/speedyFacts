@@ -42,7 +42,6 @@ export default function HamasAdmitsIt(props) {
         <Video embedId="mPWOvwG4_x4" />
         <Video embedId="LJ0mJo2ybkk" />
         <Video embedId="4xNuQP0U4bE" />
-        <Video embedId="4xNuQP0U4bE" />
       </ResponsiveVideoGrid>
       <H2 className="mt-7 mb-3">Images</H2>
       <MyImage src="hamasCharter1.png" />
