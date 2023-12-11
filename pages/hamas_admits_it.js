@@ -50,6 +50,8 @@ export default function HamasAdmitsIt(props) {
       <Tweet tweetId="1393862073008934918" />
       <Tweet tweetId="1718117018799333611" />
       <Tweet tweetId="1731999238689579254" />
+      <Tweet tweetId="1734174597124071867" />
+      <Tweet tweetId="1734189254526558457" />
       <Tweet tweetId="1730479462234439765" />
       <H2 className="mt-7 mb-3">Further Reading</H2>
       <Article

@@ -33,6 +33,7 @@ export default function FakeNews(props) {
         <Video embedId="lOFwqAMG4rc" className="mb-2" />
         <Video embedId="qo36HKG7mt8" className="mb-2" />
         <Video embedId="ot5Dx6qAHNw" className="mb-2" />
+        <Video embedId="iRUSJx-OsRM" className="mb-2" />
         <Video embedId="vKVNAB9eOdI" className="mb-2" />
       </ResponsiveVideoGrid>
       <H2 className="mt-6 mb-3">Tweets</H2>
@@ -44,12 +45,16 @@ export default function FakeNews(props) {
       <Tweet tweetId="1732539753227051327" />
       <Tweet tweetId="1725037285249306726" />
       <Tweet tweetId="1724840159726686274" />
+      <Tweet tweetId="1732685090050785471" />
       <Tweet tweetId="1723450736577564759" />
       <Tweet tweetId="1732023554575565120" />
+      <Tweet tweetId="1733512673910821067" />
       <Tweet tweetId="1732458327664168988" />
       <Tweet tweetId="1732842445191229937" />
       <Tweet tweetId="1732544165748064451" />
       <Tweet tweetId="1730965932447613082" />
+      <Tweet tweetId="1733102642275004583" />
+      <Tweet tweetId="1732087435683660147" />
       <Tweet tweetId="1733455624975901058" />
     </Template>
   );

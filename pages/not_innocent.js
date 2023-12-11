@@ -49,6 +49,7 @@ export default function NotInnocent(props) {
       <Tweet tweetId="1726621899822968983" />
       <Tweet tweetId="1723797001530175821" />
       <Tweet tweetId="1719658660836610245" />
+      <Tweet tweetId="1731289449940537487" />
       <Tweet tweetId="1710574629838881199" />
       <Tweet tweetId="1729519254477713519" />
       <Tweet tweetId="1726342185568657610" />
@@ -57,6 +58,7 @@ export default function NotInnocent(props) {
       <Tweet tweetId="1719643171976605809" />
       <Tweet tweetId="1731313566244839509" />
       <Tweet tweetId="1731414246200676558" />
+      <Tweet tweetId="1733515775967723692" />
       <H2 className="mt-7 mb-3">Articles</H2>
       <ArticleLink
         href="https://www.i24news.tv/en/news/middle-east/palestinian-territories/1700158968-survey-finds-majority-in-the-west-bank-justify-the-oct-7-massacre"

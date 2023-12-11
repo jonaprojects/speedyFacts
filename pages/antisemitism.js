@@ -52,6 +52,11 @@ export default function Antisemitism(props) {
       <MyImage
         src="/CleanJews.png"
         alt="Pro Palestinian protester calling for the extermination of Jews."
+        className="mb-2"
+      />
+      <MyImage
+        src="/finalSolution.png"
+        alt="Protesters hold a 'Final Solution' sign in a London demonstration in December 2023"
       />
       <H2 className="mt-8 mb-3">Tweets</H2>
       <Tweet tweetId="1723470687384252659" />
@@ -68,10 +73,12 @@ export default function Antisemitism(props) {
       <Tweet tweetId="1725512505701638529" />
       <Tweet tweetId="1719549185739857938" />
       <Tweet tweetId="1730527156336251367" />
+      <Tweet tweetId="1733815778464465069" />
       <Tweet tweetId="1731107534679711961" />
       <Tweet tweetId="1731440158363222485" />
       <Tweet tweetId="1720155036016095580" />
       <Tweet tweetId="1731702583977222272" />
+      <Tweet tweetId="1733966347816624223" />
       <Tweet tweetId="1732179418787783089" />
       <Tweet tweetId="1732774984173474208" />
       <H2 className="mt-6 mb-3">Articles</H2>

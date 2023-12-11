@@ -42,6 +42,9 @@ export default function IDFHumanity(props) {
       <H2 className="mb-3 mt-7">Tweets</H2>
       <Tweet tweetId="1723690677190500798" />
       <Tweet tweetId="1730532637125550267" />
+      <Tweet tweetId="1734110713780809986" />
+      <Tweet tweetId="1734173056128463166" />
+      <Tweet tweetId="1734105548478410909" />
     </Template>
   );
 }

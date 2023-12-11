@@ -79,6 +79,7 @@ export default function Kidnapped(props) {
       <Tweet tweetId="1712902786461913333" />
       <Tweet tweetId="1728723979450327204" />
       <Tweet tweetId="1729516785227972892" />
+      <Tweet tweetId="1732642867993006254" />
       <Tweet tweetId="1729974179145888015" />
       <Tweet tweetId="1726626412365484513" />
       <Tweet tweetId="1731566416707432748" />
