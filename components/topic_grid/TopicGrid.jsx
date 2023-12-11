@@ -63,8 +63,16 @@ export default function TopicGrid() {
         onClick={() => router.push("/pa")}
       ></Topic>
       <Topic
-        name="Hospital Blast"
-        onClick={() => router.push("/hospital_blast")}
+        name="Hamas Admits It"
+        onClick={() => router.push("/hamas_admits_it")}
+      ></Topic>
+      <Topic
+        name="Jews In Muslim Countries"
+        onClick={() => router.push("/jews_in_muslim_countries")}
+      ></Topic>
+      <Topic
+        name="Palestine & Nazism"
+        onClick={() => router.push("/palestine_nazism")}
       ></Topic>
       <Topic
         name="Hamas Propaganda"
@@ -80,13 +88,10 @@ export default function TopicGrid() {
         onClick={() => router.push("/international_support")}
       ></Topic>
       <Topic
-        name="Hamas Admits It"
-        onClick={() => router.push("/hamas_admits_it")}
+        name="Hospital Blast"
+        onClick={() => router.push("/hospital_blast")}
       ></Topic>
-      <Topic
-        name="Jews In Muslim Countries"
-        onClick={() => router.push("/jews_in_muslim_countries")}
-      ></Topic>
+
       <Topic
         name="Double Standards"
         onClick={() => router.push("/double_standards")}

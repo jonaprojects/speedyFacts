@@ -20,6 +20,7 @@ export default function IDFHumanity(props) {
         to warn the civilians a month ahead to get to safety. Meanwhile, Hamas
         has prevented them from leaving and used them as human shields.
       </SubHeader>
+
       <H2 className="mt-7 mb-3">Videos</H2>
       <ResponsiveVideoGrid>
         <Video embedId="OGri58wrMBk" />
@@ -33,12 +34,17 @@ export default function IDFHumanity(props) {
       <MyImage
         src="/shifaAid2.png"
         alt="IDF Soldiers deliver humanitarian aid to Al-Shifa hospital in Gaza during the 2023 Gaza War."
-        className="max-w-2xl"
+        className="max-w-xl"
       ></MyImage>
       <small className="block text-slate-500">
         IDF Soldiers deliver humanitarian aid to Shifa hospital during the 2023
         Gaza War.
       </small>
+      <MyImage
+        src="/civilianDeathRatio.png"
+        alt="Low civilian death ratio according to Hamas data"
+        className="max-w-xl mt-3"
+      ></MyImage>
       <H2 className="mb-3 mt-7">Tweets</H2>
       <Tweet tweetId="1723690677190500798" />
       <Tweet tweetId="1730532637125550267" />

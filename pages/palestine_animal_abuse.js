@@ -47,6 +47,11 @@ export default function PalestineAnimalAbuse(props) {
         href="https://nypost.com/2022/11/05/palestinian-mayor-offers-bounty-to-residents-who-kill-stray-dogs/"
         source="New York Post"
       />
+      <Article
+        title="Gaza Cattle Torture 'Worst Case of Animal Cruelty' in History, Australian Group Says"
+        href="https://www.haaretz.com/2013-12-12/ty-article/gaza-cattle-torture-worst-ever/0000017f-e913-df2c-a1ff-ff53d92f0000"
+        source="Haaretz"
+      />
       <Modal
         isOpen={warningModalOpen}
         openModal={openModal}

@@ -23,6 +23,7 @@ export const CATEGORIES = [
   "rape",
   "hamas propaganda",
   "hamas admits it",
+  "palestine nazism",
 ];
 
 CATEGORIES.sort(); // TODO: bad solution!
@@ -55,4 +56,5 @@ export const CATEGORIES_AND_PATHS = {
   "hamas propaganda": "/hamas_propaganda",
   "hamas admits it": "/hamas_admits_it",
   rape: "/rape",
+  "palestine nazism": "palestine_nazism",
 };

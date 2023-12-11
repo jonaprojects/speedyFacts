@@ -51,6 +51,11 @@ export default function PalestinianAuthority(props) {
         source="The Algemeiner"
         className="mb-1"
       />
+      <Article
+        title="PA official: Nazi-collaborator Mufti is leader and ‘role model’"
+        href="https://www.jpost.com/middle-east/pa-official-nazi-collaborator-mufti-is-leader-and-role-model-595511"
+        source="The Jerusalem Post"
+      />
     </Template>
   );
 }

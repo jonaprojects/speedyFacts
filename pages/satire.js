@@ -28,6 +28,7 @@ export default function Satire(props) {
         <Video embedId="rbfccVBo9tE" />
         <Video embedId="VYUL1R4pupU" />
         <Video embedId="cB98QWIWoDs" />
+        <Video embedId="3AgOmk7ue04" />
       </ResponsiveVideoGrid>
       <H2 className="mb-3 mt-6">Tweets</H2>
       <Tweet tweetId="1731789101815246953" />
@@ -35,6 +36,12 @@ export default function Satire(props) {
       <Article
         title="Bill Cosby Joins Hamas So Feminists Will Stop Condemning Him For Rape"
         href="https://babylonbee.com/news/bill-cosby-joins-hamas-so-feminists-will-stop-condemning-him-for-rape"
+        source="The Babylon Bee"
+        className="mb-1"
+      />
+      <Article
+        title="Ousted UPenn President Liz Magill Lands New Gig At Hamas Institute Of Technology"
+        href="https://babylonbee.com/news/ousted-penn-president-liz-magill-lands-new-job-leading-hamas-institute-of-technology"
         source="The Babylon Bee"
       />
     </Template>

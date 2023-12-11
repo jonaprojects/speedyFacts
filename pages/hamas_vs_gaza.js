@@ -10,7 +10,7 @@ import { Tweet } from "react-twitter-widgets";
 import Video from "@/components/video/Video";
 import ResponsiveVideoGrid from "@/components/responsive_grids/ResponsiveVideoGrid";
 
-export default function FakeNews(props) {
+export default function HamasVSGaza(props) {
   return (
     <Template>
       <H1 className="mt-6">Hamas VS Gaza</H1>
@@ -19,6 +19,21 @@ export default function FakeNews(props) {
         people of Gaza. From throwing people off rooftops to torture and murder,
         and using them as human shields Hamas has done it all.
       </SubHeader>
+      <Fact
+        content="Hamas fights from residential areas and operates from schools, mosques,
+      and hospitals and by that it uses them as human shields. Hamas terrorists
+      hide in underground tunnels and steal humanitarian aid while their civilians
+      are starving."
+        className="mb-2"
+      />
+
+      <Fact
+        content="Dutch reporter Jan Franke has been in Al-Shifa hospital in several times
+      in 2014 and afterwards. He says he has personally seen saw Hamas fighters there.
+      He asserts that everyone in Gaza, including UN staff, knows about the 'dual use' of these facilities by Hamas."
+        className="mb-2"
+      />
+
       <H2 className="mt-6 mb-3">Videos</H2>
       <ResponsiveVideoGrid>
         <Video embedId="Kvc2T5d40ag" className="mb-2" />
@@ -28,6 +43,7 @@ export default function FakeNews(props) {
         <Video embedId="v2gg00cmdU0" className="mb-2" />
         <Video embedId="rRra0hvjAL0" className="mb-2" />
         <Video embedId="PgAq-9_4Rzs" className="mb-2" />
+        <Video embedId="D1a0GoC107k" className="mb-2" />
         <Video embedId="BkeKl2_-cBg" className="mb-2" />
         <Video embedId="cx7aRObDIzE" className="mb-2" />
         <Video embedId="lOFwqAMG4rc" className="mb-2" />
