@@ -41,7 +41,7 @@ export default function PalestineAnimalAbuse(props) {
       <Fact
         content="In 1941 the Arab Palestinian leader Haj Amin al-Husseini met Hitler in
       Berlin to discuss their alliance and mutual desire to get rid of the Jews.
-      He reportedly visited a Nazi concetration camp in 1942."
+      He reportedly visited a Nazi concentration camp in 1942."
       />
       <H2 className="mt-6 mb-3">Videos</H2>
       <H2 className="mt-6 mb-3">Image</H2>

@@ -13,6 +13,7 @@ import Video from "@/components/video/Video";
 import ResponsiveVideoGrid from "@/components/responsive_grids/ResponsiveVideoGrid";
 import ResponsiveGrid from "@/components/responsive_grids/ResponsiveGrid";
 import { Tweet } from "react-twitter-widgets";
+import ImageDescription from "@/components/typography/ImageDescription";
 
 export default function HamasLeaders(props) {
   return (
@@ -61,38 +62,37 @@ export default function HamasLeaders(props) {
       Gaza; instead, he pointed to Israel and the UN as being responsible for them."
       />
       <H2 className="mt-6 mb-3">Images</H2>
-      <ResponsiveGrid>
-        <div>
-          <MyImage
-            src="/HaladMashalQatar.png"
-            alt="Teddy Bears for the kidnapped kids, LA."
-            className="object-fit"
-          />
-          <p className="text-sm	mb-4 text-slate-500 inline-block">
-            Khaled Mashal in a gym in Qatar
-          </p>
-        </div>
-        <div>
-          <MyImage
-            src="/HaladMashalTennis.png"
-            alt="Teddy Bears for the kidnapped kids, LA."
-            className="object-fit"
-          />
-          <p className="text-sm	mb-4 text-slate-500">
-            Khaled Mashal plays tennis in Qatar
-          </p>
-        </div>
-        <div>
-          <MyImage
-            src="/HaniyehSonQatar.png"
-            alt="Teddy Bears for the kidnapped kids, LA."
-            className="object-fit  mb-2"
-          />
-          <p className="text-sm	mb-4 text-slate-500">
-            One of Isamail Haniyeh&apos;s sons in a luxury hotel in Qatar.
-          </p>
-        </div>
-      </ResponsiveGrid>
+      <div className="max-w-xl">
+        <MyImage
+          src="/HaladMashalQatar.png"
+          alt="Khaled Mashal in Qatar hotel, LA."
+          className="object-fit"
+        />
+        <ImageDescription>Khaled Mashal in a gym in Qatar</ImageDescription>
+        <MyImage
+          src="/HaladMashalTennis.png"
+          alt="Khaled Mashal plays tennis in Qatar"
+          className="object-fit"
+        />
+        <ImageDescription>Khaled Mashal plays tennis in Qatar</ImageDescription>
+        <MyImage
+          src="/HaniyehSonQatar.png"
+          alt="One of haniyeh's sons"
+          className="object-fit  mb-2"
+        />
+        <ImageDescription>
+          One of Isamail Haniyeh&apos;s sons in a luxury hotel in Qatar.
+        </ImageDescription>
+        <MyImage
+          src="/hamasLeadersPrivateJet.png"
+          alt="Hamas leaders in a private jet"
+          className="object-fit  mb-2"
+        />
+        <ImageDescription>
+          One of Isamail Haniyeh&apos;s sons in a luxury hotel in Qatar.
+        </ImageDescription>
+      </div>
+
       <H2 className="mt-6 mb-3">Videos</H2>
       <ResponsiveVideoGrid>
         <Video embedId="Yg4VqiW0dyo" />

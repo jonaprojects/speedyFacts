@@ -57,21 +57,49 @@ export default function PalestineHistory(props) {
       in 1967 that the UN settled on the term “West Bank.”
       `}
       />
+      <Fact
+        className="mb-2"
+        content={`
+           According to a 2010 study by Behar et al. titled "The genome-wide
+      structure of the Jewish people", Palestinians tested clustered genetically
+      close to Bedouins, Jordanians and Saudi Arabians which was described as
+      "consistent with a common origin in the Arabian Peninsula"
+      `}
+      />
+      <Fact
+        className="mb-2"
+        content={`
+          One DNA study by Nebel found substantial genetic overlap among
+      Israeli/Palestinian Arabs and Jews.Nebel proposed that "part, or
+      perhaps the majority" of Muslim Palestinians descend from "local
+      inhabitants, mainly Christians and Jews, who had converted after the
+      Islamic conquest in the seventh century AD".
+      `}
+      />
+
       <H2 className="mt-6 mb-3">Videos</H2>
       <ResponsiveVideoGrid>
         <Video embedId="O7ByJb7QQ9U" />
         <Video embedId="pefEIwoTEnE" />
       </ResponsiveVideoGrid>
       <H2 className="mt-6 mb-3">Images</H2>
-      <MyImage src="/muftiHitler.png" />
-      <small className="text-slate-500 block">
-        Illustrative: Hitler hosts Grand Mufti of Jerusalem Haj Amin al-Husseini
-        in 1941 in Germany. (Heinrich Hoffmann Collection)
-      </small>
-      <MyImage src="/ancientMap1.png" className="mt-6" />
-      <small className="text-slate-500 block">
-        An ancient map of the old kingdoms of Judea and Israel
-      </small>
+      <div className="max-w-xl">
+        <MyImage
+          src="/muftiHitler.png"
+          alt="The Mufti Of Jerusalem meets Hitler"
+          className=""
+        />
+        <small className="text-slate-500 block">
+          Illustrative: Hitler hosts Grand Mufti of Jerusalem Haj Amin
+          al-Husseini in 1941 in Germany. (Heinrich Hoffmann Collection)
+        </small>
+        <MyImage src="/ancientMap1.png" className="mt-6" />
+        <small className="text-slate-500 block">
+          An ancient map of the old kingdoms of Judea and Israel
+        </small>
+        <MyImage src="/palestinianMap.png" className="mt-6" />
+      </div>
+
       <H2 className="mt-6 mb-3">Tweets</H2>
       <Tweet tweetId="1726501630357520738" />
       <Tweet tweetId="1732015747063255380" />
@@ -98,6 +126,12 @@ export default function PalestineHistory(props) {
         title="Myths & Facts - The Refugees"
         href="https://www.jewishvirtuallibrary.org/myths-and-facts-the-refugees"
         source="Jewish Virtual Library"
+        className="mb-1"
+      />
+      <Article
+        title="History of the Jews and Judaism in the Land of Israel"
+        href="https://en.wikipedia.org/wiki/History_of_the_Jews_and_Judaism_in_the_Land_of_Israel"
+        source="Wikipedia"
         className="mb-1"
       />
       <Article

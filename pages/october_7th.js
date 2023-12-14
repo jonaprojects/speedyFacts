@@ -134,7 +134,10 @@ export default function PalestineHistory(props) {
       <Tweet tweetId="1733618363832607021" />
       <Tweet tweetId="1733855893974827095" />
       <Tweet tweetId="1729564865893675200" />
+      <Tweet tweetId="1735273157609533639" />
       <Tweet tweetId="1731925155415195857" />
+      <Tweet tweetId="1718988337820651650" />
+      <Tweet tweetId="1719018877563113855" />
       <Tweet tweetId="1733967828380758182" />
       <Tweet tweetId="1726930483320107203" />
       <Tweet tweetId="1730361620075806725" />

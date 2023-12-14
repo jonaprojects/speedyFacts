@@ -28,6 +28,8 @@ export default function TheWestIsNext(props) {
       <Tweet tweetId="1136881942375346176" />
       <Tweet tweetId="1731098320389775582" />
       <Tweet tweetId="1730115216845729896" />
+      <Tweet tweetId="1734502380731851178" />
+      <Tweet tweetId="1734154137791603040" />
     </Template>
   );
 }

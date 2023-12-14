@@ -38,6 +38,8 @@ export default function PalestinianAuthority(props) {
         <Video embedId="MKvN-PEO5QI" />
         <Video embedId="Ad03Cl-IX7Y" />
       </ResponsiveVideoGrid>
+      <H2 className="mt-7 mb-3">Tweets</H2>
+      <Tweet tweetId="1734544655650299941" />
       <H2 className="mt-7 mb-3">Articles</H2>
       <Article
         title="Outrage over Abbas's antisemitic speech on Jews and Holocaust"

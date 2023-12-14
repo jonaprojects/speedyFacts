@@ -55,6 +55,7 @@ export default function HamasPropaganda(props) {
       <Tweet tweetId="1712902786461913333" />
       <Tweet tweetId="1728723979450327204" />
       <Tweet tweetId="1729614130145874222" />
+      <Tweet tweetId="1734958579474370756" />
       <Tweet tweetId="1730023036902916519" />
       <Tweet tweetId="1729277662118457436" />
       <Tweet tweetId="1732499063499579570" />

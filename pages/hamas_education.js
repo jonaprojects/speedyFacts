@@ -13,6 +13,7 @@ import Article from "@/components/article/Article";
 import ResponsiveVideoGrid from "@/components/responsive_grids/ResponsiveVideoGrid";
 import H3 from "@/components/typography/H3";
 import MyImage from "@/components/image/MyImage";
+import ImageDescription from "@/components/typography/ImageDescription";
 
 export default function HamasEducation(props) {
   return (
@@ -70,39 +71,60 @@ export default function HamasEducation(props) {
         <Video embedId="Hcyg55vOviQ" />
       </ResponsiveVideoGrid>
       <H2 className="mt-6 mb-3">Images</H2>
-      <MyImage
-        src="/sinwarchild.png"
-        className="max-w-lg"
-        alt="Yahya Sinwar, the leader of Hamas in Gaza, holding a child with military
+      <div className="max-w-xl">
+        <MyImage
+          src="/sinwarchild.png"
+          className="max-w-lg"
+          alt="Yahya Sinwar, the leader of Hamas in Gaza, holding a child with military
         uniform and a gun in Gaza."
-      />
-      <small className="text-slate-500 block mb-6">
-        Yahya Sinwar, the leader of Hamas in Gaza, holding a child with military
-        uniform and a gun in Gaza.
-      </small>
-      <MyImage src="/kidsPlayTerrorists2.png" className="max-w-lg mb-2" />
-      <br />
-      <MyImage
-        src="/jihadCamp1.png"
-        className="max-w-lg"
-        alt="  Graduation Ceremony of Youth Military Camp of Islamic Palestinian Jihad
+        />
+        <ImageDescription>
+          Yahya Sinwar, the leader of Hamas in Gaza, holding a child with
+          military uniform and a gun in Gaza.
+        </ImageDescription>
+        <MyImage src="/kidsPlayTerrorists2.png" className="max-w-lg mb-2" />
+        <br />
+        <MyImage
+          src="/jihadCamp1.png"
+          alt="  Graduation Ceremony of Youth Military Camp of Islamic Palestinian Jihad
         on Aug 18, 2015"
-      />
-      <small className="text-slate-500 block mb-6">
-        Graduation Ceremony of Youth Military Camp of Islamic Palestinian Jihad
-        on Aug 18, 2015
-      </small>
-      <br />
-      <MyImage
-        src="/naziTextbookGaza.png"
-        className="max-w-lg"
-        alt='A Textbook found in a school in Gaza: "The Big lie, burning of 6
+        />
+        <ImageDescription>
+          Graduation Ceremony of Youth Military Camp of Islamic Palestinian
+          Jihad on Aug 18, 2015
+        </ImageDescription>
+        <br />
+        <MyImage
+          src="/naziTextbookGaza.png"
+          alt='A Textbook found in a school in Gaza: "The Big lie, burning of 6
         Million Jews in Gas Chambers"'
-      />
-      <small className="text-slate-500 block mb-6">
-        A Textbook found in a school in Gaza: &quot;The Big lie, burning of 6
-        Million Jews in Gas Chambers&quot;
-      </small>
+        />
+        <ImageDescription>
+          A Textbook found in a school in Gaza: &quot;The Big lie, burning of 6
+          Million Jews in Gas Chambers&quot;
+        </ImageDescription>
+        <MyImage
+          src="/childrenJihad1.png"
+          alt="Children and teenagers in Palestinian Islamic Jihad camp"
+        />
+        <ImageDescription>
+          Children and teenagers in Palestinian Islamic Jihad camp
+        </ImageDescription>
+        <MyImage
+          src="/childrenJihad2.png"
+          alt="Gazan Child dressed up as a suicide bomber in Hamas."
+        />
+        <ImageDescription>
+          Gazan Child dressed up as a suicide bomber in Hamas.
+        </ImageDescription>
+        <MyImage src="/childrenJihad4.png" alt="" />
+        <ImageDescription>
+         Gazan child with a rifle in a Hamas training camp.
+        </ImageDescription>
+
+        <MyImage src="/childrenJihad3.png" alt="" />
+      </div>
+
       <small className="bg-slate-500"></small>
       <H2 className="mt-7 mb-3">Tweets</H2>
       <Tweet tweetId="1727328947455553733" />

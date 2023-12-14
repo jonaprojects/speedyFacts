@@ -29,6 +29,8 @@ export default function Satire(props) {
         <Video embedId="VYUL1R4pupU" />
         <Video embedId="cB98QWIWoDs" />
         <Video embedId="3AgOmk7ue04" />
+        <Video embedId="jW_k-mUfzhE" />
+        <Video embedId="OUMl58i4m0w" />
       </ResponsiveVideoGrid>
       <H2 className="mb-3 mt-6">Tweets</H2>
       <Tweet tweetId="1731789101815246953" />
@@ -42,6 +44,11 @@ export default function Satire(props) {
       <Article
         title="Ousted UPenn President Liz Magill Lands New Gig At Hamas Institute Of Technology"
         href="https://babylonbee.com/news/ousted-penn-president-liz-magill-lands-new-job-leading-hamas-institute-of-technology"
+        source="The Babylon Bee"
+      />
+      <Article
+        title="Harvard President Claudine Gay In Hot Water For Plagiarizing Large Sections Of 'Mein Kampf'"
+        href="https://babylonbee.com/news/harvard-president-claudine-gay-in-hot-water-for-plagiarizing-large-sections-of-mein-kampf"
         source="The Babylon Bee"
       />
     </Template>

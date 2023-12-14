@@ -11,6 +11,7 @@ import Video from "@/components/video/Video";
 import Article from "@/components/article/Article";
 import ResponsiveVideoGrid from "@/components/responsive_grids/ResponsiveVideoGrid";
 import PdfViewer from "@/components/pdf_viewer/PDFViewer";
+import MyImage from "@/components/image/MyImage";
 
 export default function UN(props) {
   return (
@@ -48,6 +49,14 @@ export default function UN(props) {
         <Video embedId="GoFPJ-ekYfs" />
         <Video embedId="hIXCM_OKeBs" />
       </ResponsiveVideoGrid>
+      <H2 className="mt-6 mb-3">Images</H2>
+      <div className="max-w-xl">
+        <MyImage
+          src="unrwaRocket.png"
+          alt="UNRWA Condemn placement of rockets in one of its schools, for the second time"
+        />
+      </div>
+
       <H2 className="mt-6 mb-3">Tweets</H2>
       <Tweet tweetId="1718012770367479870" />
       <Tweet tweetId="1726626835117805689" />
@@ -91,6 +100,11 @@ export default function UN(props) {
         title="Report: U.N. Teachers Celebrated Hamas Massacre"
         href="https://unwatch.org/report-u-n-teachers-celebrated-hamas-massacre/"
         source="UN Watch"
+      />
+      <Article
+        title="UNRWA CONDEMNS PLACEMENT OF ROCKETS, FOR A SECOND TIME, IN ONE OF ITS SCHOOLS"
+        href="https://www.unrwa.org/newsroom/press-releases/unrwa-condemns-placement-rockets-second-time-one-its-schools"
+        source="UNRWA"
       />
       <H2 className="mt-6 mb-3">Documents</H2>
       <PdfViewer pdfPath="/unrwaExposed.pdf" />

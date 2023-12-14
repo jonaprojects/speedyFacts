@@ -9,6 +9,7 @@ import { Tweet } from "react-twitter-widgets";
 import H2 from "@/components/typography/H2";
 import Video from "@/components/video/Video";
 import ResponsiveVideoGrid from "@/components/responsive_grids/ResponsiveVideoGrid";
+import MyImage from "@/components/image/MyImage";
 
 export default function JewsInMuslimCountries(props) {
   return (
@@ -79,6 +80,13 @@ export default function JewsInMuslimCountries(props) {
         <Video embedId="xnIFRsMEnOU" />
         <Video embedId="sP4ON6xL39Q" />
       </ResponsiveVideoGrid>
+      <H2 className="mt-6 mb-3">Images</H2>
+      <div className="max-w-xl">
+        <MyImage
+          src="jewishPopulationInMuslimCountries.png"
+          alt="Jewish population decline in Muslim countries"
+        />
+      </div>
 
       <H2 className="mb-3 mt-6">Tweets</H2>
       <Tweet tweetId="1729693884526031359" />
