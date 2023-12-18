@@ -32,6 +32,12 @@ export default function HamasVSGaza(props) {
       He asserts that everyone in Gaza, including UN staff, knows about the 'dual use' of these facilities by Hamas."
         className="mb-2"
       />
+      <Fact
+        content="It is estimated that Hamas has spent at least dozens or hundreds of millions of dollars 
+        for its underground tunnel system for its fighters, and much more on other military sites and activities.
+        However, it hasn't invested in civilian shelters or warning networks, even though it has bases in 
+        proximity of residential and humanitarian areas."
+      />
       <H2 className="mt-6 mb-3">Videos</H2>
       <ResponsiveVideoGrid>
         <Video embedId="Kvc2T5d40ag" className="mb-2" />

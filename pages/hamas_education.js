@@ -63,6 +63,7 @@ export default function HamasEducation(props) {
         <Video embedId="1sDZlo_hllI" className="mb-2" />
         <Video embedId="9Pw8SO0GOJU" className="mb-2" />
         <Video embedId="yfj6Pf6aNqg" className="mb-2" />
+        <Video embedId="gsZtBu5yiHY" className="mb-2" />
       </ResponsiveVideoGrid>
       <H3 className="mt-4 mb-2">Fatah Education</H3>
       <ResponsiveVideoGrid>
@@ -119,7 +120,7 @@ export default function HamasEducation(props) {
         </ImageDescription>
         <MyImage src="/childrenJihad4.png" alt="" />
         <ImageDescription>
-         Gazan child with a rifle in a Hamas training camp.
+          Gazan child with a rifle in a Hamas training camp.
         </ImageDescription>
 
         <MyImage src="/childrenJihad3.png" alt="" />

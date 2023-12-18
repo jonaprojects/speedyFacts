@@ -88,14 +88,27 @@ export default function TopicGrid() {
         onClick={() => router.push("/international_support")}
       ></Topic>
       <Topic
+        name="Terror Attacks"
+        onClick={() => router.push("/terror_attacks")}
+      ></Topic>
+      <Topic
+        name="Palestine & LGBT"
+        onClick={() => router.push("/palestine_gay_rights")}
+      ></Topic>
+      <Topic
         name="Hospital Blast"
         onClick={() => router.push("/hospital_blast")}
+      ></Topic>
+      <Topic
+        name="International Law"
+        onClick={() => router.push("/international_law")}
       ></Topic>
 
       <Topic
         name="Double Standards"
         onClick={() => router.push("/double_standards")}
       ></Topic>
+
       <Topic
         name="Influencers"
         onClick={() => router.push("/influencers")}

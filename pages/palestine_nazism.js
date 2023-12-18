@@ -42,7 +42,10 @@ export default function PalestineAnimalAbuse(props) {
         content="In 1941 the Arab Palestinian leader Haj Amin al-Husseini met Hitler in
       Berlin to discuss their alliance and mutual desire to get rid of the Jews.
       He reportedly visited a Nazi concentration camp in 1942."
+        className="mb-2"
       />
+     
+
       <H2 className="mt-6 mb-3">Videos</H2>
       <H2 className="mt-6 mb-3">Image</H2>
       <div className="max-w-xl">
@@ -113,6 +116,7 @@ export default function PalestineAnimalAbuse(props) {
         source="The Jerusalem Post"
         className="mb-1"
       />
+      
       <Article
         title="Relations between Nazi Germany and the Arab world"
         href="https://en.wikipedia.org/wiki/Relations_between_Nazi_Germany_and_the_Arab_world"
@@ -125,6 +129,7 @@ export default function PalestineAnimalAbuse(props) {
         source="Tablet"
         className="mb-1"
       />
+     
     </Template>
   );
 }

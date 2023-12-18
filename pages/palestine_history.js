@@ -77,6 +77,42 @@ export default function PalestineHistory(props) {
       `}
       />
 
+      <Fact
+        content="Time magazine reported in a May 3, 1948 article that, “the mass
+      evacuation, prompted partly by fear, partly by order of Arab leaders, left
+      the Arab quarter of Haifa a ghost city... By withdrawing Arab workers
+      their leaders hoped to paralyze Haifa.”"
+        className="mb-2"
+      />
+      <Fact
+        content="In the cities of Haifa and Tiberias, local Arab leaders chose to
+      clear the town of its Arab inhabitants and did so with the assistance of
+      the British. In Jaffa, following the withdrawal of Jewish militiamen from
+      the city, local Arab leaders organized the evacuation of roughly 20,000
+      residents that did not flee during or before the fighting. Similar
+      scenarios occurred in dozens of Arab villages during the course of the
+      war."
+        className="mb-2"
+      />
+      <Fact
+        content="Arab leaders thus encouraged Arabs living in Israel to get out of the way
+      of the advancing Arab armies and promised them that they would be able to
+      return after quickly winning the war. For instance, then-Iraqi prime
+      minister Nuri Said was quoted saying, “We will smash the country with our
+      guns and obliterate every place the Jews seek shelter in. The Arabs should
+      conduct their wives and children to safe areas until the fighting has died
+      down.”"
+        className="mb-2"
+      />
+      <Fact
+        content="Many Palestinian refugees admitted the Arab leaders told them to leave,
+      such as Fuad Khader, a Palestinian refugee, who explained in an interview
+      broadcast on official PA television on May 15, 2013, that, “the one who
+      made us leave was the Jordanian army because there were going to be
+      battles and we would be under their feet. They told us, ‘Leave. In two
+      hours, we will liberate it and then you’ll return.’”"
+        className="mb-2"
+      />
       <H2 className="mt-6 mb-3">Videos</H2>
       <ResponsiveVideoGrid>
         <Video embedId="O7ByJb7QQ9U" />
@@ -106,9 +142,25 @@ export default function PalestineHistory(props) {
       <Tweet tweetId="1732865627574894928" />
       <H2 className="mt-6 mb-3">Articles</H2>
       <Article
+        title="Palestine"
+        href="https://www.history.com/topics/middle-east/palestine"
+        source="The History Channel"
+      />
+      <Article
         title="Azzan Pasha Quotation"
         href="https://en.wikipedia.org/wiki/Azzam_Pasha_quotation"
         source="Wikipedia"
+      />
+      <Article
+        title="Azzan Pasha Quotation"
+        href="https://en.wikipedia.org/wiki/Azzam_Pasha_quotation"
+        source="Wikipedia"
+      />
+      <Article
+        title="Actions and false promises are creating Palestinian refugees - opinion"
+        href="https://www.jpost.com/opinion/article-743153"
+        source="The Jerusalem Post"
+        className="mb-1"
       />
       <Article
         title="Origins Of Palestine"

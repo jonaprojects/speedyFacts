@@ -87,6 +87,7 @@
   ],
   "idf humanity": [
     "IDF",
+    "Humanity",
     "IDF Humanity",
     "Humanitarian",
     "water",
@@ -148,10 +149,13 @@
   ],
   "international support": [
     "International Support",
+    "international",
+    "inter",
     "Pro Israel",
     "Iranian",
     "Biden",
-    "תמיכה בין לאומית"
+    "תמיכה",
+    "לאומי"
   ],
   "influencers": ["yoseph", "noa", "hen", "influencer", "משפיענים"],
   "israeli heroes": ["Israel", "Hero", "גיבור"],
@@ -206,5 +210,30 @@
     "haj",
     "נאצי",
     "מופתי"
+  ],
+  "terror attacks": [
+    "terror",
+    "attack",
+    "terror attacks",
+    "suicide",
+    "bombing",
+    "suicide bombings",
+    "התאבדות",
+    "פיגוע"
+  ],
+  "international law": [
+    "international law",
+    "law",
+    "international",
+    "inter",
+    "geneva",
+    "חוק",
+    "לאומי"
+  ],
+  "palestine & lgbt": [
+    "lgb",
+    "gay",
+    "lgbt",
+    "הומו"
   ]
 }

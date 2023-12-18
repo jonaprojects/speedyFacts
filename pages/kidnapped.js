@@ -56,9 +56,11 @@ export default function Kidnapped(props) {
         <Video embedId="7Y9fHUOhTMY" />
         <Video embedId="pbez-juyHbQ" />
         <Video embedId="40LZFCIKoBc" />
+        <Video embedId="-wMld0BmVDk" />
         <Video embedId="XGub-s4Jr6w" />
         <Video embedId="IWrzlX2FnzI" />
         <Video embedId="P0EBhKtI5zU" />
+        <Video embedId="y_9LyHu01Oo" />
       </ResponsiveVideoGrid>
       <H2 className="mt-6 mb-3">Images</H2>
       <SensitiveMedia

@@ -33,12 +33,15 @@ export default function HamasPropaganda(props) {
       hammers by prison officers while in prison. However, he was filmed leaving
       the prison with his arms perfectly intact and functional and appearing in
       good health."
+        className="mb-2"
       />
+     
       <H2 className="mt-6 mb-3">Videos</H2>
       <ResponsiveVideoGrid>
         <Video embedId="VAva9VM38uA" />
         <Video embedId="bh-M33hKqrU" />
         <Video embedId="-73WHGrOVsY" />
+        <Video embedId="-wMld0BmVDk" />
       </ResponsiveVideoGrid>
       <H2 className="mt-6 mb-3">Images</H2>
       <SensitiveMedia

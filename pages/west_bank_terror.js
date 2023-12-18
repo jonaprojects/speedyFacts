@@ -98,6 +98,7 @@ export default function WestBankTerrorism(props) {
         <Video embedId="Lqw2E9HesM8" />
         <Video embedId="JM3wJZdP3U0" />
         <Video embedId="ZO7tAs4x82g" />
+        <Video embedId="EoX-hUj5fVs" />
       </ResponsiveVideoGrid>
       <H2 className="mb-3 mt-6">Tweets</H2>
       <Tweet tweetId="1725098802388881544" />

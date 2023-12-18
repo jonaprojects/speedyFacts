@@ -24,9 +24,12 @@ export const CATEGORIES = [
   "hamas propaganda",
   "hamas admits it",
   "palestine nazism",
+  "terror attacks",
+  "international law",
+  "palestine & lgbt",
 ];
 
-CATEGORIES.sort(); // TODO: bad solution!
+CATEGORIES.sort(); // TODO: fix this awful lazy solution!
 
 export const CATEGORIES_AND_PATHS = {
   "un bias": "/un",
@@ -56,5 +59,8 @@ export const CATEGORIES_AND_PATHS = {
   "hamas propaganda": "/hamas_propaganda",
   "hamas admits it": "/hamas_admits_it",
   rape: "/rape",
-  "palestine nazism": "palestine_nazism",
+  "palestine nazism": "/palestine_nazism",
+  "terror attacks": "/terror_attacks",
+  "international law": "/international_law",
+  "palestine & lgbt": "/palestine_gay_rights",
 };

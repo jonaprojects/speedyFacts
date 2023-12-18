@@ -10,6 +10,7 @@ import Video from "@/components/video/Video";
 import Article from "@/components/article/Article";
 import PdfViewer from "@/components/pdf_viewer/PDFViewer";
 import SensitiveMedia from "@/components/sensitive_media/SensitiveMedia";
+import ResponsiveVideoGrid from "@/components/responsive_grids/ResponsiveVideoGrid";
 
 export default function Rape(props) {
   return (
@@ -21,6 +22,10 @@ export default function Rape(props) {
         their bodies at the scene with signs of extreme torture and sexual
         violence.
       </SubHeader>
+      <H2 className="mt-7 mb-3">Videos</H2>
+      <ResponsiveVideoGrid>
+        <Video embedId="dqTLCCPJXCk" />
+      </ResponsiveVideoGrid>
       <H2 className="mt-7 mb-3">Images</H2>
       <SensitiveMedia
         src="/naamalevy.png"
