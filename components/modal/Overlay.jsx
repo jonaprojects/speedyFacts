@@ -9,7 +9,7 @@ export default function Overlay(props) {
   };
   return (
     <div
-      className={`fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 z-10 ${props?.className}`}
+      className={`fixed top-0 left-0 w-full h-full bg-black bg-opacity-60 z-10 ${props?.className}`}
       onClick={handleOverlayClick}
     >
       {props.children}

@@ -11,6 +11,7 @@ import Article from "@/components/article/Article";
 import PdfViewer from "@/components/pdf_viewer/PDFViewer";
 import SensitiveMedia from "@/components/sensitive_media/SensitiveMedia";
 import ResponsiveVideoGrid from "@/components/responsive_grids/ResponsiveVideoGrid";
+import WarningModal from "@/components/modal/WarningModal";
 
 export default function Rape(props) {
   return (
@@ -39,13 +40,14 @@ export default function Rape(props) {
       <Tweet tweetId="1728729212285293047" />
       <Tweet tweetId="1723834745815978229" />
       <Tweet tweetId="1731770689340719289" />
-      <Tweet tweetId="1725304302627885483" />
+      <Tweet tweetId="1712036369248186674" />
       <Tweet tweetId="1731434646959739077" />
       <Tweet tweetId="1729151643021615352" />
       <Tweet tweetId="1729557493527761170" />
       <Tweet tweetId="1731007578451165622" />
       <Tweet tweetId="1730780305085149304" />
       <Tweet tweetId="1730743164787405011" />
+      <Tweet tweetId="1725304302627885483" />
       <Tweet tweetId="1730572779592814740" />
       <Tweet tweetId="1731768493031256526" />
       <H2 className="mt-7 mb-3">Articles</H2>
@@ -132,6 +134,7 @@ Gender-Based Violence as a Weapon of War during the October 7 Hamas Attacks | Po
       </ul>
       <H2 className="mt-7 mb-3">Documents</H2>
       <PdfViewer pdfPath="/sexualViolenceReport.pdf" />
+      <WarningModal />
     </Template>
   );
 }

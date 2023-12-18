@@ -7,27 +7,11 @@ import Fact from "@/components/fact/Fact";
 import EmbedYoutube from "@/components/embed_youtube/EmbedYoutube";
 import { Tweet } from "react-twitter-widgets";
 import H2 from "@/components/typography/H2";
-import Modal, { ModalLink } from "@/components/modal/Modal";
-import { useRouter } from "next/router";
-import ArticleLink from "@/components/typography/ArticleLink";
 import Article from "@/components/article/Article";
+import WarningModal from "@/components/modal/WarningModal";
+import Video from "@/components/video/Video";
 
 export default function PalestineAnimalAbuse(props) {
-  const [warningModalOpen, setWarningModalOpen] = useState(false);
-  const router = useRouter();
-
-  const openModal = useCallback(() => {
-    setWarningModalOpen(true);
-  }, []);
-
-  const closeModal = useCallback(() => {
-    setWarningModalOpen(false);
-  }, []);
-
-  useEffect(() => {
-    openModal();
-  }, [openModal]);
-
   return (
     <Template>
       <H1 className="mt-6">Palestine Animal Abuse</H1>
@@ -36,11 +20,19 @@ export default function PalestineAnimalAbuse(props) {
         dogs. This attests to the level of violence and cruelty in their
         society.
       </SubHeader>
-      <H2 className="mt-6 mb-3">Videos</H2>
+      <Fact
+        content="In 2022, the Palestinian mayor of Hebron, Tayseer Abu Sneineh, offered 5$
+      to whoever kills a stray dog and delivers its dead body."
+      />
 
+      <H2 className="mt-6 mb-3">Videos</H2>
+      <div className="max-w-xl">
+        <Video embedId="r3NKEdqdvdM" />
+      </div>
       <H2 className="mb-3 mt-6">Tweets</H2>
       <Tweet tweetId="1726053887323292060" />
       <Tweet tweetId="1726044133347754329" />
+      <Tweet tweetId="1735120466413597165" />
       <H2 className="mt-7 mb-3">Articles</H2>
       <Article
         title="Palestinian mayor offers bounty to residents who kill stray dogs"
@@ -52,21 +44,7 @@ export default function PalestineAnimalAbuse(props) {
         href="https://www.haaretz.com/2013-12-12/ty-article/gaza-cattle-torture-worst-ever/0000017f-e913-df2c-a1ff-ff53d92f0000"
         source="Haaretz"
       />
-      <Modal
-        isOpen={warningModalOpen}
-        openModal={openModal}
-        closeModal={closeModal}
-        primaryText="I understand"
-        secondaryText="Go Back"
-        primaryAction={closeModal}
-        secondaryAction={() => router.push("/")}
-      >
-        <h1 className="text-3xl md:text-5xl font-bold">Warning!</h1>
-        <p className="md:text-xl text-slate-500 mt-4">
-          This page contains Graphic description and imagery, including extreme
-          violance and death. Viewer discresion advised.
-        </p>
-      </Modal>
+      <WarningModal />
     </Template>
   );
 }

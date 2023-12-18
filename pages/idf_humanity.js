@@ -20,6 +20,13 @@ export default function IDFHumanity(props) {
         to warn the civilians a month ahead to get to safety. Meanwhile, Hamas
         has prevented them from leaving and used them as human shields.
       </SubHeader>
+      <Fact
+        content="The IDF has dispersed Millions of leaflets and sent Millions of text
+      messages and pre-recorded message to warn the civilians of Gaza to
+      evacuate from the danger zones before it started the ground maneuver in Gaza.
+      "
+        className="mb-2"
+      />
 
       <H2 className="mt-7 mb-3">Videos</H2>
       <ResponsiveVideoGrid>
@@ -29,6 +36,7 @@ export default function IDFHumanity(props) {
         <Video embedId="svnCrECZt7k" />
         <Video embedId="4nntSi_P504" />
         <Video embedId="RDvtNPmleJg" />
+        <Video embedId="8NRySPpCWlI" />
       </ResponsiveVideoGrid>
       <H2 className="mt-7 mb-3">Images</H2>
       <MyImage
