@@ -13,6 +13,7 @@ import MyImage from "@/components/image/MyImage";
 import ResponsiveGrid from "@/components/responsive_grids/ResponsiveGrid";
 import A from "@/components/typography/A";
 import ResponsiveVideoGrid from "@/components/responsive_grids/ResponsiveVideoGrid";
+import Article from "@/components/article/Article";
 export default function WestBankTerrorism(props) {
   return (
     <Template>
@@ -107,10 +108,17 @@ export default function WestBankTerrorism(props) {
       <Tweet tweetId="1732131621589962870" />
       <Tweet tweetId="1730099569717920174" />
       <H2 className="mb-3 mt-6">Articles</H2>
-      <ArticleLink
+      <Article
         href="https://www.i24news.tv/en/news/middle-east/palestinian-territories/1700158968-survey-finds-majority-in-the-west-bank-justify-the-oct-7-massacre"
         title="Survey finds majority in the West Bank support the Oct 7 massacre"
         source="i24 News"
+        className="mb-1"
+      />
+      <Article
+        title="IDF finds launch pit after Hamas claims it fired rocket from Jenin - report"
+        href="https://www.i24news.tv/en/news/middle-east/palestinian-territories/1690444458-hamas-claims-to-fire-rocket-from-jenin-in-response-to-ben-gvir-s-visit-to-temple-mount-report"
+        source="i24 News"
+        className="mb-1"
       />
       <H2 className="mt-7 mb-3">Further Research</H2>
       <A href="https://www.fdd.org/analysis/2022/12/14/mapping-west-bank-insurgency/">

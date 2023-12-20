@@ -27,7 +27,7 @@ export default function Kidnapped(props) {
       </SubHeader>
       <Fact
         className="mb-2"
-        content={`In October 7th, at leats 240 were kidnapped to Gaza by the terror organization Hamas,
+        content={`In October 7th, at least 240 people were kidnapped to Gaza by the terror organization Hamas,
         some were taken after they were already dead. It is estimated that more than 30 babies and children and 10-20 elderly were kidnapped.
         `}
       />
@@ -39,14 +39,39 @@ export default function Kidnapped(props) {
       `}
       />
       <Fact
-        className="mb-2"
         content={`
-        According to The Washington Post, at least 4 Israeli hostages (Civilians) 
-        were executed by Hamas in Kibutz Be'eri.
-        Link to the article:
-        https://www.washingtonpost.com/investigations/2023/10/09/israel-hamas-hostage-death/
+        Some hostages had severe injuries as they were shot or thrown grenades at
+      by the terrorists. However, they were not granted adequate medical
+      attention. Other hostages reported being treated by veterinarians and
+      operated on without anesthesia. For example, Mia Regev (21) was shot by Hamas in the
+      leg. She was operated on in Gaza and her leg was connected “the wrong way”
+      according to Israeli physicians.
       `}
+        className="mb-2"
       />
+      <Fact
+        content={`
+        Many hostages described conditions of malnutrition and even
+      near-starvation conditions. Philippine citizen Jimmy Pacheco testified
+      that, for some time, he and the other hostages only got briny water and
+      half a pita a day. To survive, he collected pieces of toilet paper and
+      moistened them with humidity that accumulated on the tunnel's walls,
+      before eating them.
+      `}
+        className="mb-2"
+      />
+      <Fact
+        content={`
+         Hamas reportedly drugged some hostages so they appear happier and
+      more exuberant, according to Israeli physicians. They also threatened them
+      to wave and smile at them, which was also recorded on camera. It’s also
+      important to note that many if not all of the hostages had family members
+      and friends that were still in the hands of Hamas, when they were
+      released.
+      `}
+        className="mb-2"
+      />
+
       <H2 className="mb-3 mt-6">Videos</H2>
       <ResponsiveVideoGrid>
         <Video embedId="YtBBY1supYk" />
@@ -134,18 +159,53 @@ export default function Kidnapped(props) {
       </ul>
       <H2 className="mt-6 mb-3">Articles</H2>
       <ul>
-        <li>
+        <li className="mb-1">
           <Article
             title="Video shows apparent death of Israeli hostages in Hamas custody"
             href="https://www.washingtonpost.com/investigations/2023/10/09/israel-hamas-hostage-death/"
             source="The Washington Post"
           />
         </li>
-        <li>
+        <li className="mb-1">
           <Article
             title="Hamas drugged hostages before releasing them"
             href="https://jewishinsider.com/2023/12/hamas-hostages-klonopin-israel-gaza-release/"
             source="Jewish Insider"
+          />
+        </li>
+        <li className="mb-1">
+          <Article
+            title="Starvation, whispering and psychological terror: Life of captives in Gaza"
+            href="https://www.ynetnews.com/article/h13wxhlba"
+            source="Ynet"
+          />
+        </li>
+        <li className="mb-1">
+          <Article
+            title={`Itai was operated on without anesthesia, Mia's leg was joined upside down: the Regev brothers with hard testimonies about what they went through in captivity`}
+            href="https://www.mako.co.il/news-military/6361323ddea5a810/Article-afbda4f43d54c81027.htm"
+            source="N12"
+          />
+        </li>
+        <li className="mb-1">
+          <Article
+            title={`Hamas forced hostage kids to watch videos of Oct. 7 atrocities, family member says`}
+            href="https://www.timesofisrael.com/hamas-forced-hostage-kids-to-watch-videos-of-oct-7-atrocities-family-member-says/"
+            source="Times Of Israel"
+          />
+        </li>
+        <li className="mb-1">
+          <Article
+            title="Horrors Of Captivity Revealed: Maya’s Foot Attached Wrongly, Itai Operated On Without Anasthesia"
+            href="https://vinnews.com/2023/12/10/horrors-of-captivity-revealed-mayas-foot-attached-wrongly-itai-operated-without-anasthesia/"
+            source="VIN News"
+          />
+        </li>
+        <li className="mb-1">
+          <Article
+            title={`Hamas forced hostage kids to watch videos of Oct. 7 atrocities, family member says`}
+            href="https://www.timesofisrael.com/hamas-forced-hostage-kids-to-watch-videos-of-oct-7-atrocities-family-member-says/"
+            source="Times Of Israel"
           />
         </li>
       </ul>
