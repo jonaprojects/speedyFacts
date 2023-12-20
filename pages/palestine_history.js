@@ -117,6 +117,8 @@ export default function PalestineHistory(props) {
       <ResponsiveVideoGrid>
         <Video embedId="O7ByJb7QQ9U" />
         <Video embedId="pefEIwoTEnE" />
+        <Video embedId="awLQNraky7A" />
+        <Video embedId="P8bkqqvoGpc" />
       </ResponsiveVideoGrid>
       <H2 className="mt-6 mb-3">Images</H2>
       <div className="max-w-xl">
@@ -135,10 +137,6 @@ export default function PalestineHistory(props) {
         </small>
         <MyImage src="/palestinianMap.png" className="mt-6" />
       </div>
-      <ResponsiveVideoGrid>
-        <Video embedId="awLQNraky7A" />
-        <Video embedId="P8bkqqvoGpc" />
-      </ResponsiveVideoGrid>
       <H2 className="mt-6 mb-3">Tweets</H2>
       <Tweet tweetId="1726501630357520738" />
       <Tweet tweetId="1732015747063255380" />
