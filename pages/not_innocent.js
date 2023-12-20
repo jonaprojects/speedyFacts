@@ -82,6 +82,11 @@ export default function NotInnocent(props) {
         href="https://pcpsr.org/en/node/961"
         source="PCPSR"
       />
+      <Article
+        title="Wartime poll among Palestinians reveals support for Hamas, disapproval of Palestinian Authority"
+        href="https://www.i24news.tv/en/news/israel-at-war/1702489813-wartime-poll-among-palestinians-reveals-support-for-hamas-disapproval-of-palestinian-authority"
+        source="i24 News"
+      />
       <PdfViewer pdfPath="/poll2.pdf" />
     </Template>
   );

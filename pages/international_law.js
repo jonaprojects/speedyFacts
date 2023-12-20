@@ -7,7 +7,6 @@ import SubHeader from "@/components/typography/SubHeader";
 import H2 from "@/components/typography/H2";
 import A from "@/components/typography/A";
 import { Tweet } from "react-twitter-widgets";
-import ArticleLink from "@/components/typography/ArticleLink";
 import Video from "@/components/video/Video";
 import ResponsiveVideoGrid from "@/components/responsive_grids/ResponsiveVideoGrid";
 import Article from "@/components/article/Article";

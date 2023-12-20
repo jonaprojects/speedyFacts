@@ -21,7 +21,7 @@ export default function HamasAdmitsIt(props) {
       </SubHeader>
       <Fact
         content=" According to Hamas' charter, Article 13, there will not be any negotiated
-      settlements with Israel, and Jihad  is the only solution. Qoute: 'There is no solution for the Palestinian question except through Jihad.
+      settlements with Israel, and Jihad  is the only solution. Quote: 'There is no solution for the Palestinian question except through Jihad.
     Initiatives, proposals and international conferences are all a waste of time and vain endeavors'"
         className="mb-2"
       />
@@ -31,6 +31,15 @@ export default function HamasAdmitsIt(props) {
         "
         className="mb-2"
       />
+      <Fact
+        content="  In an interview with Russia Today's Arabic channel, when asked why Hamas
+      has dug over 500 kilometers of tunnels in Gaza but never built a single
+      shelter for civilians, Hamas official Moussa Abu Marzouk declared that
+      Hamas is not responsible for the safety of the citizens of Gaza; instead,
+      he pointed to Israel and the UN as being responsible for them."
+        className="mb-2"
+      />
+
       <H2 className="mt-6 mb-3">Videos</H2>
       <ResponsiveVideoGrid>
         <Video embedId="zSgBFPnQiho" />
@@ -42,6 +51,13 @@ export default function HamasAdmitsIt(props) {
         <Video embedId="mPWOvwG4_x4" />
         <Video embedId="LJ0mJo2ybkk" />
         <Video embedId="4xNuQP0U4bE" />
+        <Video embedId="aUesVWAOUbM" />
+        <Video embedId="ZoAR2BAdH5c" />
+        <Video embedId="GFVAOPSgwYo" />
+        <Video embedId="ufCJtScBmcY" />
+        <Video embedId="HnLq0DjErIA" />
+        <Video embedId="sEkBHSHezAY" />
+        <Video embedId="iutgaIhi2io" />
       </ResponsiveVideoGrid>
       <H2 className="mt-7 mb-3">Images</H2>
       <MyImage src="hamasCharter1.png" />

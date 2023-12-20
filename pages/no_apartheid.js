@@ -90,6 +90,16 @@ export default function NoApartheid(props) {
         href="https://www.timesofisrael.com/khaled-kabub-sworn-in-as-supreme-courts-first-muslim-justice/"
         source="The Times Of Israel"
       />
+      <Article
+        title="Survey shows almost half of Arab Israelis support IDF response to Hamas in Gaza"
+        href="https://www.i24news.tv/en/news/israel/society/1701708399-survey-shows-almost-half-of-arab-israelis-support-idf-response-to-hamas-in-gaza"
+        source="i24 News"
+      />
+      <Article
+        title="In war as in peace, Arab Israeli physicians' contribution to Israel is essential - opinion"
+        href="https://www.jpost.com/opinion/article-771253"
+        source="The Jerusalem Post"
+      />
     </Template>
   );
 }

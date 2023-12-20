@@ -9,6 +9,7 @@ import A from "@/components/typography/A";
 import { Tweet } from "react-twitter-widgets";
 import Video from "@/components/video/Video";
 import ResponsiveVideoGrid from "@/components/responsive_grids/ResponsiveVideoGrid";
+import Article from "@/components/article/Article";
 
 export default function HamasVSGaza(props) {
   return (
@@ -40,22 +41,23 @@ export default function HamasVSGaza(props) {
       />
       <H2 className="mt-6 mb-3">Videos</H2>
       <ResponsiveVideoGrid>
-        <Video embedId="Kvc2T5d40ag" className="mb-2" />
-        <Video embedId="nNCzb8w2LjM" className="mb-2" />
-        <Video embedId="kaK4muqkRBE" className="mb-2" />
-        <Video embedId="iHeb9weNAfs" className="mb-2" />
-        <Video embedId="v2gg00cmdU0" className="mb-2" />
-        <Video embedId="rRra0hvjAL0" className="mb-2" />
-        <Video embedId="PgAq-9_4Rzs" className="mb-2" />
-        <Video embedId="D1a0GoC107k" className="mb-2" />
-        <Video embedId="BkeKl2_-cBg" className="mb-2" />
-        <Video embedId="cx7aRObDIzE" className="mb-2" />
-        <Video embedId="lOFwqAMG4rc" className="mb-2" />
-        <Video embedId="qo36HKG7mt8" className="mb-2" />
-        <Video embedId="ot5Dx6qAHNw" className="mb-2" />
-        <Video embedId="BYAucy7yBSI" className="mb-2" />
-        <Video embedId="iRUSJx-OsRM" className="mb-2" />
-        <Video embedId="vKVNAB9eOdI" className="mb-2" />
+        <Video embedId="Kvc2T5d40ag" />
+        <Video embedId="nNCzb8w2LjM" />
+        <Video embedId="kaK4muqkRBE" />
+        <Video embedId="iHeb9weNAfs" />
+        <Video embedId="v2gg00cmdU0" />
+        <Video embedId="rRra0hvjAL0" />
+        <Video embedId="PgAq-9_4Rzs" />
+        <Video embedId="D1a0GoC107k" />
+        <Video embedId="BkeKl2_-cBg" />
+        <Video embedId="cx7aRObDIzE" />
+        <Video embedId="lOFwqAMG4rc" />
+        <Video embedId="qo36HKG7mt8" />
+        <Video embedId="ot5Dx6qAHNw" />
+        <Video embedId="BYAucy7yBSI" />
+        <Video embedId="iRUSJx-OsRM" />
+        <Video embedId="vKVNAB9eOdI" />
+        <Video embedId="ZoAR2BAdH5c" />
       </ResponsiveVideoGrid>
       <H2 className="mt-6 mb-3">Tweets</H2>
       <Tweet tweetId="1720425819305070821" />
@@ -81,6 +83,37 @@ export default function HamasVSGaza(props) {
       <Tweet tweetId="1733102642275004583" />
       <Tweet tweetId="1732087435683660147" />
       <Tweet tweetId="1733455624975901058" />
+      <H2 className="mt-6 mb-3">Articles</H2>
+      <Article
+        title="EU condemns Hamas for using 'hospitals as human shields', urges Israeli restraint"
+        href="https://www.reuters.com/world/middle-east/eu-condemns-hamas-using-hospitals-human-shields-urges-israeli-restraint-2023-11-12/"
+        source="Reuters"
+        className="mb-1"
+      />
+      <Article
+        title="UNRWA indicates Hamas stole supplies from its Gaza premises, then walks back claim"
+        href="https://www.timesofisrael.com/un-refugee-agency-says-hamas-stole-fuel-and-medications-from-its-gaza-premises/"
+        source="Times Of Israel"
+        className="mb-1"
+      />
+      <Article
+        title="Caught on camera: Hamas terrorists steal humanitarian aid, beat civilians"
+        href="https://www.i24news.tv/en/news/middle-east/palestinian-territories/1702285314-caught-on-camera-hamas-terrorists-steal-humanitarian-aid-beat-civilians"
+        source="i24 News"
+        className="mb-1"
+      />
+      <Article
+        title="UNRWA reports Hamas stole humanitarian aid: Hillel Neuer on i24 news"
+        href="https://unwatch.org/unrwa-reports-hamas-stole-humanitarian-aid-hillel-neuer-on-i24-news/"
+        source="UN Watch"
+        className="mb-1"
+      />
+      <Article
+        title="Hamas Official Mousa Abu Marzouk: The Tunnels In Gaza Were Built To Protect Hamas Fighters, Not Civilians; Protecting Gaza Civilians Is The Responsibility Of The U.N. And Israel"
+        href="https://www.memri.org/tv/hamas-official-mousa-abu-marzouk-tunnels-gaza-protect-fighters-%20not-civilians"
+        source="Memri TV"
+        className="mb-1"
+      />
     </Template>
   );
 }

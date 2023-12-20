@@ -135,7 +135,10 @@ export default function PalestineHistory(props) {
         </small>
         <MyImage src="/palestinianMap.png" className="mt-6" />
       </div>
-
+      <ResponsiveVideoGrid>
+        <Video embedId="awLQNraky7A" />
+        <Video embedId="P8bkqqvoGpc" />
+      </ResponsiveVideoGrid>
       <H2 className="mt-6 mb-3">Tweets</H2>
       <Tweet tweetId="1726501630357520738" />
       <Tweet tweetId="1732015747063255380" />
@@ -152,14 +155,15 @@ export default function PalestineHistory(props) {
         source="Wikipedia"
       />
       <Article
-        title="Azzan Pasha Quotation"
-        href="https://en.wikipedia.org/wiki/Azzam_Pasha_quotation"
-        source="Wikipedia"
-      />
-      <Article
         title="Actions and false promises are creating Palestinian refugees - opinion"
         href="https://www.jpost.com/opinion/article-743153"
         source="The Jerusalem Post"
+        className="mb-1"
+      />
+      <Article
+        title="Interactive Story Of The History Of The Land Of Israel"
+        href="https://byebyecolonizer.com/"
+        source="ByeByeColonizer.com"
         className="mb-1"
       />
       <Article

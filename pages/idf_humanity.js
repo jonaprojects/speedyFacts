@@ -1,6 +1,5 @@
 import React from "react";
 import H1 from "@/components/typography/H1";
-import P from "@/components/typography/P";
 import SubHeader from "@/components/typography/SubHeader";
 import Template from "@/components/Template/Template";
 import Fact from "@/components/fact/Fact";

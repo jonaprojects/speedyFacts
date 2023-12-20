@@ -1,10 +1,8 @@
 import React, { useState, useEffect, useCallback } from "react";
 import H1 from "@/components/typography/H1";
-import P from "@/components/typography/P";
 import SubHeader from "@/components/typography/SubHeader";
 import Template from "@/components/Template/Template";
 import Fact from "@/components/fact/Fact";
-import EmbedYoutube from "@/components/embed_youtube/EmbedYoutube";
 import { Tweet } from "react-twitter-widgets";
 import H2 from "@/components/typography/H2";
 import Article from "@/components/article/Article";
