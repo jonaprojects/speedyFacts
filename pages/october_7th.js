@@ -150,8 +150,8 @@ export default function PalestineHistory(props) {
         </li>
       </ul>
       <A href="https://oct7map.com/"> https://oct7map.com/ </A> <br />
-      <A href="https://www.october7.org/nova-festival-massacre">
-        https://www.october7.org/nova-festival-massacre
+      <A href="https://www.october7.org/nova-festival">
+        https://www.october7.org/nova-festival
       </A>
       <H2 className="mt-6 mb-3">Articles</H2>
       <ul>
