@@ -10,6 +10,7 @@ import { Tweet } from "react-twitter-widgets";
 import ArticleLink from "@/components/typography/ArticleLink";
 import Video from "@/components/video/Video";
 import ResponsiveVideoGrid from "@/components/responsive_grids/ResponsiveVideoGrid";
+import WarningModal from "@/components/modal/WarningModal";
 
 export default function IsraeliHeroes(props) {
   return (
@@ -28,6 +29,7 @@ export default function IsraeliHeroes(props) {
       </ResponsiveVideoGrid>
       <H2 className="mt-6 mb-3">Tweets</H2>
       <Tweet tweetId="1724434268376420549" />
+      <WarningModal />
     </Template>
   );
 }

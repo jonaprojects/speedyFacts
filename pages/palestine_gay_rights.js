@@ -40,6 +40,8 @@ export default function PalestineAndLGBT(props) {
         <Video embedId="wxNX0wSA87w" />
         <Video embedId="8u52vzoFpP0" />
       </ResponsiveVideoGrid>
+      <H2 className="mt-6 mb-3">Tweets</H2>
+      <Tweet tweetId="1578102951402696704" />
       <H2 className="mb-3 mt-6">Articles</H2>
       <Article
         title="Exclusive: Gay man who fled Gaza speaks about Hamas repression"

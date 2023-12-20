@@ -15,6 +15,7 @@ import Article from "@/components/article/Article";
 import MyImage from "@/components/image/MyImage";
 import SensitiveMedia from "@/components/sensitive_media/SensitiveMedia";
 import ResponsiveVideoGrid from "@/components/responsive_grids/ResponsiveVideoGrid";
+import WarningModal from "@/components/modal/WarningModal";
 
 export default function Kidnapped(props) {
   return (
@@ -209,7 +210,7 @@ export default function Kidnapped(props) {
           />
         </li>
       </ul>
-      <A href="https://kan.org.il/content/kan/kan-actual/p-11894/news-item/581493/"></A>
+      <WarningModal />
     </Template>
   );
 }
